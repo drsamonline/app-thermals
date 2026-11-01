@@ -3,258 +3,304 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Thermals — what each source says, in its own words</title>
-<meta name="description" content="Homoeopathic remedies by thermal reaction: what each classical source actually says, quoted in its own words with the source named — and where the sources do not say the same thing. Offline, no accounts.">
-<meta property="og:title" content="Thermals — what each source says, in its own words">
-<meta property="og:description" content="Quoted sentences from three sources, a summary computed from the quotes, and nothing inferred. Offline, no accounts.">
+<title>Thermals — what the source said, not what we decided</title>
+<meta name="description" content="Homoeopathic remedies by thermal reaction: every statement quoted in the source's own words, with the source named, and a summary computed from those quotes. Offline, no accounts.">
+<meta property="og:title" content="Thermals — what the source said, not what we decided">
+<meta property="og:description" content="164 quoted sentences from three sources. One row is one remedy, one source, one sentence. Nothing inferred.">
 <meta property="og:image" content="assets/app-desktop.png">
-<meta name="theme-color" content="#12100e">
+<meta name="theme-color" content="#08090b">
 <link rel="icon" href="play/icon.svg" type="image/svg+xml">
 <style>
   :root{
-    --ink:#14110e; --paper:#f7f2e9; --paper-2:#fffdf8; --muted:#6b6157;
-    --line:#e2d8c8; --cold:#2f6f8f; --warm:#b5432c; --deep:#0f1417;
-    --shadow:0 1px 2px rgba(20,17,14,.06), 0 18px 40px rgba(20,17,14,.10);
-    --serif:ui-serif,Georgia,"Iowan Old Style","Times New Roman",serif;
+    --void:#08090b; --ink:#0e1013; --panel:#12151a; --panel-2:#171b21;
+    --text:#f2eee7; --dim:#9aa1ab; --hair:rgba(242,238,231,.12);
+    --cold:#63b7e6; --warm:#ff7a52; --mint:#7fe0b0;
     --sans:ui-sans-serif,-apple-system,"Segoe UI",Inter,Roboto,system-ui,sans-serif;
+    --serif:ui-serif,Georgia,"Iowan Old Style",serif;
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
-  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.65;
-       -webkit-font-smoothing:antialiased}
+  body{margin:0;background:var(--void);color:var(--text);font-family:var(--sans);
+       font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   a{color:inherit}
-  .wrap{max-width:64rem;margin:0 auto;padding:0 1.4rem}
+  .shell{max-width:74rem;margin:0 auto;padding:0 1.5rem}
+  .grad{background:linear-gradient(92deg,var(--cold) 0%,#cfe3f2 38%,#ffd7c6 62%,var(--warm) 100%);
+        -webkit-background-clip:text;background-clip:text;color:transparent}
 
-  /* the thermal band: the one strong idea on this page */
-  .band{height:6px;background:linear-gradient(90deg,var(--cold) 0%,#7fb6d3 22%,#e8dcc7 48%,#e2a07f 72%,var(--warm) 100%)}
+  /* ── top rail ───────────────────────────────────────────── */
+  .rail{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);
+        background:rgba(8,9,11,.72);border-bottom:1px solid var(--hair)}
+  .rail .shell{display:flex;align-items:center;gap:1rem;height:3.6rem}
+  .mark{display:flex;align-items:center;gap:.55rem;font-weight:600;letter-spacing:-.01em}
+  .mark .dot{width:.7rem;height:.7rem;border-radius:50%;
+             background:linear-gradient(180deg,var(--warm),var(--cold))}
+  .rail nav{margin-left:auto;display:flex;gap:1.1rem;font-size:.9rem;color:var(--dim)}
+  .rail nav a{text-decoration:none}
+  .rail nav a:hover{color:var(--text)}
+  .rail .go{font-size:.9rem;text-decoration:none;padding:.45rem .85rem;border-radius:.5rem;
+            border:1px solid var(--hair);color:var(--text)}
+  @media (max-width:720px){ .rail nav{display:none} }
 
-  header.hero{position:relative;overflow:hidden;background:
-      radial-gradient(120% 90% at 12% 0%, rgba(47,111,143,.16), transparent 60%),
-      radial-gradient(110% 80% at 92% 10%, rgba(181,67,44,.16), transparent 62%),
-      var(--paper)}
-  .hero .wrap{padding:3.6rem 1.4rem 2.4rem}
-  .eyebrow{font-family:var(--sans);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 1rem}
-  h1{font-size:clamp(2.6rem,6vw,4.2rem);line-height:1.02;letter-spacing:-.025em;margin:0 0 1rem;font-weight:600}
-  h1 .thin{font-weight:400;font-style:italic;color:var(--muted)}
-  .lede{font-size:clamp(1.05rem,2.1vw,1.3rem);color:#2c2620;max-width:38rem;margin:0 0 1.6rem}
-  .cta{display:flex;gap:.7rem;flex-wrap:wrap;align-items:center;margin-bottom:1.4rem}
-  .btn{font-family:var(--sans);font-size:.98rem;text-decoration:none;padding:.75rem 1.15rem;border-radius:.6rem;
-       border:1px solid var(--line);background:var(--paper-2);box-shadow:var(--shadow);transition:transform .12s ease}
-  .btn:hover{transform:translateY(-1px)}
-  .btn.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-  .btn.ghost{background:transparent;box-shadow:none}
-  .badges{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}
-  .badges img{height:20px;display:block}
+  /* ── hero ───────────────────────────────────────────────── */
+  .hero{position:relative;padding:5rem 0 3rem;overflow:hidden}
+  .hero::before{content:"";position:absolute;inset:-30% -10% auto -10%;height:70%;
+    background:radial-gradient(45% 60% at 18% 20%,rgba(99,183,230,.22),transparent 70%),
+               radial-gradient(40% 55% at 82% 8%,rgba(255,122,82,.20),transparent 70%);
+    filter:blur(10px);pointer-events:none}
+  .hero .shell{position:relative;display:grid;gap:3rem;grid-template-columns:1.15fr .85fr;align-items:center}
+  @media (max-width:900px){ .hero .shell{grid-template-columns:1fr} }
+  .kicker{display:inline-flex;align-items:center;gap:.5rem;font-size:.76rem;letter-spacing:.18em;
+          text-transform:uppercase;color:var(--dim);margin:0 0 1.4rem}
+  .kicker i{display:block;width:2.2rem;height:1px;background:linear-gradient(90deg,var(--cold),var(--warm))}
+  h1{margin:0;font-size:clamp(2.8rem,6.4vw,5.2rem);line-height:.98;letter-spacing:-.035em;font-weight:700}
+  h1 em{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-.02em}
+  .lede{margin:1.5rem 0 0;font-size:clamp(1.05rem,1.6vw,1.22rem);color:#c9cdd4;max-width:34rem}
+  .actions{display:flex;gap:.7rem;flex-wrap:wrap;margin:2rem 0 0}
+  .btn{display:inline-flex;align-items:center;gap:.5rem;text-decoration:none;font-weight:600;
+       font-size:.98rem;padding:.85rem 1.25rem;border-radius:.65rem;border:1px solid var(--hair);
+       background:var(--panel);transition:transform .14s ease,border-color .14s ease}
+  .btn:hover{transform:translateY(-1px);border-color:rgba(242,238,231,.3)}
+  .btn.solid{background:linear-gradient(180deg,#f6f2ea,#e6e0d5);color:#0b0c0e;border-color:transparent}
+  .badges{display:flex;gap:.4rem;flex-wrap:wrap;margin:1.6rem 0 0}
+  .badges img{height:20px;display:block;opacity:.95}
 
-  figure.shot{margin:2.2rem 0 0;border-radius:.9rem;overflow:hidden;border:1px solid var(--line);
-              background:var(--paper-2);box-shadow:var(--shadow)}
-  figure.shot img{display:block;width:100%;height:auto}
-  figure.shot figcaption{font-family:var(--sans);font-size:.82rem;color:var(--muted);padding:.6rem .9rem;border-top:1px solid var(--line)}
+  /* the phone, floated on the gradient */
+  .device{position:relative;justify-self:center;width:min(320px,100%)}
+  .device .frame{border-radius:2rem;padding:.6rem;background:linear-gradient(180deg,#20252c,#0d1013);
+                 border:1px solid rgba(255,255,255,.08);
+                 box-shadow:0 40px 80px -30px rgba(0,0,0,.9),0 0 0 1px rgba(255,255,255,.03)}
+  .device img{display:block;width:100%;border-radius:1.6rem}
+  .device figcaption{margin-top:1rem;text-align:center;font-size:.8rem;color:var(--dim)}
 
-  section{padding:3.2rem 0}
-  section + section{border-top:1px solid var(--line)}
-  h2{font-size:clamp(1.5rem,3vw,2rem);letter-spacing:-.015em;margin:0 0 .6rem;font-weight:600}
-  .sub{color:var(--muted);margin:0 0 2rem;max-width:40rem}
+  /* ── full-bleed screenshot ──────────────────────────────── */
+  .bleed{border-top:1px solid var(--hair);border-bottom:1px solid var(--hair);
+         background:linear-gradient(180deg,#0b0d10,#08090b);padding:3.5rem 0}
+  .browser{border-radius:1rem;overflow:hidden;border:1px solid rgba(255,255,255,.09);
+           background:var(--panel);box-shadow:0 50px 90px -40px rgba(0,0,0,.95)}
+  .chrome{display:flex;align-items:center;gap:.45rem;padding:.7rem .9rem;border-bottom:1px solid var(--hair)}
+  .chrome span{width:.62rem;height:.62rem;border-radius:50%;background:#2b3037}
+  .chrome .url{margin-left:.8rem;font-size:.76rem;color:var(--dim);background:#0d0f13;
+               border:1px solid var(--hair);border-radius:.4rem;padding:.22rem .6rem;
+               font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  .browser img{display:block;width:100%}
+  .cap{margin:1rem 0 0;font-size:.86rem;color:var(--dim)}
 
-  .cards{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
-  .card{background:var(--paper-2);border:1px solid var(--line);border-radius:.8rem;padding:1.15rem 1.2rem;box-shadow:var(--shadow)}
-  .card h3{margin:.1rem 0 .45rem;font-size:1.05rem;font-family:var(--sans);letter-spacing:-.005em}
-  .card p{margin:0;font-size:.96rem;color:#2f2a24}
-  .card .n{font-family:var(--sans);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  /* ── sections ───────────────────────────────────────────── */
+  section{padding:5rem 0}
+  .label{font-size:.76rem;letter-spacing:.18em;text-transform:uppercase;color:var(--dim);
+         display:flex;align-items:center;gap:.7rem;margin:0 0 1.2rem}
+  .label b{color:var(--warm);font-weight:600}
+  h2{font-size:clamp(1.7rem,3.4vw,2.6rem);letter-spacing:-.025em;margin:0 0 1rem;line-height:1.1;font-weight:700}
+  .sub{color:var(--dim);max-width:44rem;margin:0 0 2.6rem;font-size:1.02rem}
 
-  .stats{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));margin-top:1.4rem}
-  .stat{background:var(--deep);color:#f4efe6;border-radius:.8rem;padding:1.1rem 1.2rem}
-  .stat b{display:block;font-size:1.9rem;line-height:1.1;letter-spacing:-.02em}
-  .stat span{font-family:var(--sans);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:#b9b0a3}
+  .trio{display:grid;gap:1px;background:var(--hair);border:1px solid var(--hair);border-radius:1rem;overflow:hidden}
+  .trio{grid-template-columns:repeat(3,1fr)}
+  @media (max-width:820px){ .trio{grid-template-columns:1fr} }
+  .cell{background:var(--panel);padding:1.6rem 1.5rem}
+  .cell .num{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.78rem;color:var(--cold);letter-spacing:.08em}
+  .cell h3{margin:.7rem 0 .5rem;font-size:1.08rem;letter-spacing:-.01em}
+  .cell p{margin:0;color:#b9bfc7;font-size:.95rem}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;
+       background:rgba(99,183,230,.12);color:#bfe3f7;padding:.1em .4em;border-radius:.3rem}
 
-  .refuse{background:var(--paper-2);border:1px solid var(--line);border-left:4px solid var(--warm);
-          border-radius:.5rem .8rem .8rem .5rem;padding:1.2rem 1.3rem}
-  .refuse ul{margin:.5rem 0 0;padding-left:1.1rem}
-  .refuse li{margin:.35rem 0}
+  /* stats */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin-top:3rem}
+  @media (max-width:760px){ .stats{grid-template-columns:repeat(2,1fr)} }
+  .stat b{display:block;font-size:clamp(2rem,4vw,2.9rem);line-height:1;letter-spacing:-.03em;font-weight:700}
+  .stat span{display:block;margin-top:.5rem;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--dim)}
 
-  .split{display:grid;gap:2rem;grid-template-columns:1.15fr .85fr;align-items:start}
-  @media (max-width:760px){ .split{grid-template-columns:1fr} }
-  .phone{max-width:300px;margin:0 auto;border-radius:1.4rem;overflow:hidden;border:1px solid var(--line);
-         box-shadow:var(--shadow);background:var(--paper-2)}
-  .phone img{display:block;width:100%}
+  /* refusals — the loudest thing on the page, on purpose */
+  .refuse{display:grid;gap:1rem;grid-template-columns:1fr 1fr}
+  @media (max-width:820px){ .refuse{grid-template-columns:1fr} }
+  .no{display:flex;gap:.9rem;padding:1.15rem 1.2rem;border-radius:.8rem;
+      background:linear-gradient(180deg,rgba(255,122,82,.09),rgba(255,122,82,.03));
+      border:1px solid rgba(255,122,82,.22)}
+  .no .x{color:var(--warm);font-weight:700;line-height:1.35}
+  .no p{margin:0;font-size:.97rem;color:#e7e2d9}
 
-  table{width:100%;border-collapse:collapse;font-size:.95rem}
-  th,td{text-align:left;padding:.6rem .5rem;border-bottom:1px solid var(--line);vertical-align:top}
-  th{font-family:var(--sans);font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88em;background:#efe7da;
-       padding:.08em .34em;border-radius:.3rem}
+  /* light interlude */
+  .paper{background:#f6f1e7;color:#16130f}
+  .paper .label{color:#7a6f61}
+  .paper .label b{color:#b5432c}
+  .paper h2{color:#16130f}
+  .paper .sub{color:#5d5548}
+  .paper table{width:100%;border-collapse:collapse;font-size:.96rem}
+  .paper th,.paper td{text-align:left;padding:.85rem .6rem;border-bottom:1px solid #ddd2bf;vertical-align:top}
+  .paper th{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:#7a6f61}
+  .paper strong{font-weight:600}
+  .paper .note{color:#6b6157;font-size:.9rem}
+  .paper code{background:#e8dfcd;color:#3a332b}
 
-  details{background:var(--paper-2);border:1px solid var(--line);border-radius:.7rem;padding:1rem 1.2rem}
-  details summary{cursor:pointer;font-family:var(--sans);font-weight:600}
-  details p,details ul{font-size:.95rem}
-
-  footer{padding:2.4rem 0 4rem;color:var(--muted);font-size:.9rem}
-  footer a{text-underline-offset:2px}
+  /* closing */
+  .close{padding:5rem 0 6rem;text-align:center}
+  .close h2{margin-bottom:1.4rem}
+  .close .actions{justify-content:center}
+  footer{border-top:1px solid var(--hair);padding:2.2rem 0 3.4rem;color:var(--dim);font-size:.86rem}
+  footer .shell{display:flex;gap:1rem;flex-wrap:wrap;justify-content:space-between}
 </style>
 </head>
 <body>
-<div class="band" role="presentation"></div>
 
-<header class="hero">
-  <div class="wrap">
-    <p class="eyebrow">An offline-first Forge app</p>
-    <h1>Thermals<br><span class="thin">what the source said, not what we decided</span></h1>
+<div class="rail"><div class="shell">
+  <span class="mark"><span class="dot"></span>Thermals</span>
+  <nav>
+    <a href="#what">What it does</a>
+    <a href="#refuses">What it refuses</a>
+    <a href="#sources">Sources</a>
+    <a href="#run">Run it</a>
+  </nav>
+  <a class="go" href="play/">Open the app →</a>
+</div></div>
+
+<header class="hero"><div class="shell">
+  <div>
+    <p class="kicker"><i></i>An offline-first Forge app</p>
+    <h1>What the source said.<br><em class="grad">Not what we decided.</em></h1>
     <p class="lede">Homoeopathic remedies by thermal reaction — every statement quoted in the
     source's own words, with the source named, and a summary computed from those quotes.
-    One row is one remedy, one source, one sentence. Nothing is inferred.</p>
-
-    <div class="cta">
-      <a class="btn primary" href="play/">Open the app →</a>
+    One row is one remedy, one source, one sentence.</p>
+    <div class="actions">
+      <a class="btn solid" href="play/">Open the app →</a>
       <a class="btn" href="https://github.com/drsamonline/app-thermals">Read the source</a>
-      <a class="btn ghost" href="#how">How it decides</a>
     </div>
-
     <div class="badges">
       <a href="play/"><img alt="live: online" src="assets/badge-live.svg"></a>
       <a href="https://github.com/drsamonline/app-thermals/actions/workflows/test.yml"><img alt="tests: 567 passing" src="assets/badge-tests.svg"></a>
       <a href="https://github.com/drsamonline/app-thermals/actions/workflows/build-apps.yml"><img alt="build: green" src="assets/badge-build.svg"></a>
-      <a href="https://github.com/drsamonline/app-thermals/blob/main/LICENSE"><img alt="licence: PolyForm NC 1.0.0" src="assets/badge-licence.svg"></a>
+      <a href="https://github.com/drsamonline/app-thermals/blob/main/LICENSE"><img alt="licence" src="assets/badge-licence.svg"></a>
       <img alt="offline: no network" src="assets/badge-offline.svg">
       <img alt="deps: 0 runtime" src="assets/badge-deps.svg">
     </div>
-
-    <figure class="shot">
-      <img src="assets/app-desktop.png" alt="The Thermals app showing the full remedy list, a search box and the example queries">
-      <figcaption>The app itself — no server, no account, no network. It opens on the whole
-      remedy list and every entry says which sources speak for it.</figcaption>
-    </figure>
   </div>
-</header>
+
+  <figure class="device">
+    <div class="frame"><img src="assets/app-mobile.png" alt="The app on a phone: the remedy list, each entry showing the sources that speak for it"></div>
+    <figcaption>No server, no account, no network — it opens on the whole remedy list.</figcaption>
+  </figure>
+</div></header>
+
+<div class="bleed"><div class="shell">
+  <div class="browser">
+    <div class="chrome"><span></span><span></span><span></span>
+      <span class="url">drsamonline.github.io/app-thermals/play</span></div>
+    <img src="assets/app-desktop.png" alt="The app at desktop width: a search box, example queries and the full remedy grid">
+  </div>
+  <p class="cap">The app itself, rendered from the committed files — one page, four vendored kits, no build step.</p>
+</div></div>
 
 <main>
-<section id="what">
-  <div class="wrap">
-    <h2>What it does</h2>
-    <p class="sub">Look up a remedy and read what each bundled source says about its thermal
-    reaction. Above the quotes sits a summary that is computed from them — never written by us.</p>
-    <div class="cards">
-      <div class="card">
-        <p class="n">01 · the quote</p>
-        <h3>Every statement carries its source</h3>
-        <p>A row is one remedy, one source, one verbatim sentence, with the book, author and year —
-        or the collection and page — named against it. A quote can never appear without its source.</p>
-      </div>
-      <div class="card">
-        <p class="n">02 · the summary</p>
-        <h3>Computed from the sentences</h3>
-        <p><code>sources agree (n)</code>, <code>sources disagree</code>, or
-        <code>one source only</code>. The last is the common case and is never rendered as
-        agreement — one voice is not a consensus.</p>
-      </div>
-      <div class="card">
-        <p class="n">03 · the note</p>
-        <h3>A dated shift, with an end date</h3>
-        <p>An acute fever, a pregnancy, a proving: a temporary shift expires on its date and stays
-        visible as expired. It never rewrites the constitutional statement.</p>
-      </div>
+<section id="what"><div class="shell">
+  <p class="label"><b>01</b> What it does</p>
+  <h2>Three things, and nothing else</h2>
+  <p class="sub">Look up a remedy and read what each bundled source says about its thermal
+  reaction. Above the quotes sits a summary computed from them — never written by us.</p>
+  <div class="trio">
+    <div class="cell">
+      <p class="num">01 / THE QUOTE</p>
+      <h3>Every statement carries its source</h3>
+      <p>One remedy, one source, one verbatim sentence — with the book, author and year, or the
+      collection and page, named against it. A quote can never appear without its source.</p>
     </div>
-
-    <div class="stats">
-      <div class="stat"><b>164</b><span>quoted sentences</span></div>
-      <div class="stat"><b>366</b><span>remedies indexed</span></div>
-      <div class="stat"><b>12</b><span>carried by two sources</span></div>
-      <div class="stat"><b>0</b><span>names unresolved</span></div>
+    <div class="cell">
+      <p class="num">02 / THE SUMMARY</p>
+      <h3>Computed from the sentences</h3>
+      <p><code>sources agree (n)</code>, <code>sources disagree</code>, or
+      <code>one source only</code>. The last is the common case and is never rendered as
+      agreement — one voice is not a consensus.</p>
+    </div>
+    <div class="cell">
+      <p class="num">03 / THE NOTE</p>
+      <h3>A dated shift, with an end date</h3>
+      <p>An acute fever, a pregnancy, a proving: a temporary shift expires on its date and stays
+      visible as expired. It never rewrites the constitutional statement.</p>
     </div>
   </div>
-</section>
 
-<section id="how">
-  <div class="wrap split">
-    <div>
-      <h2>What it refuses to do</h2>
-      <p class="sub">The restraint is the product. An app that guessed would be worse than no app.</p>
-      <div class="refuse">
-        <ul>
-          <li>It never assigns, derives, averages or infers a thermal state — it quotes and compares.</li>
-          <li>It never derives a classification from rubric counts or grades.</li>
-          <li>It never selects or prescribes a remedy, and never decides a patient's thermal state.</li>
-          <li>A remedy no source speaks about is <strong>unclassified</strong>: no quote, no summary.</li>
-          <li><em>Ambithermal</em> is not a state it looks for — no bundled source uses the word.</li>
-        </ul>
-      </div>
-      <details style="margin-top:1rem">
-        <summary>The extraction rule (it ships with the data)</summary>
-        <p>A thermal statement is a sentence in a source's own words containing one of:
-        <code>chilly</code>, <code>chilliness</code>, <code>always cold</code>, <code>feels cold</code>,
-        <code>feels hot</code>, <code>cold feeling</code>, <code>cold-blooded</code>,
-        <code>warm-blooded</code>, <code>always warm</code>, <code>cold/hot/warm constitution</code>,
-        <code>cold/hot patient</code>. Modality lines and modality sections are excluded, as are
-        fragments under 12 characters. The sentence is kept verbatim.</p>
-        <p>The set is narrow on purpose: in this corpus a bare <em>cold</em> is usually water, a room,
-        a modality or a fever — quoting it as a thermal reaction would be putting a meaning into the
-        source's mouth.</p>
-      </details>
-    </div>
-    <div>
-      <div class="phone">
-        <img src="assets/app-mobile.png" alt="The same app at phone width: the remedy grid in a single column">
-      </div>
-      <p class="sub" style="text-align:center;margin-top:.9rem">The same page at phone width.
-      Works from <code>file://</code> with no server at all.</p>
-    </div>
+  <div class="stats">
+    <div class="stat"><b class="grad">164</b><span>quoted sentences</span></div>
+    <div class="stat"><b class="grad">366</b><span>remedies indexed</span></div>
+    <div class="stat"><b class="grad">12</b><span>two sources</span></div>
+    <div class="stat"><b class="grad">0</b><span>names unresolved</span></div>
   </div>
-</section>
+</div></section>
 
-<section id="sources">
-  <div class="wrap">
-    <h2>The three sources</h2>
-    <p class="sub">Public domain wherever it can be, named exactly, and never silently corrected —
-    a reading is changed only where an authority confirms it, and the page shows the name the
-    transcription printed beside the correction.</p>
-    <table>
-      <thead><tr><th>Source</th><th>What it gives</th><th>Notes</th></tr></thead>
-      <tbody>
-        <tr>
-          <td><strong>Open Materia Medica</strong><br><span class="sub">© Dr. Sohil Momin, BHMS, 2026</span></td>
-          <td>109 quoted sentences across 82 remedy pages</td>
-          <td>The estate's own plain-language materia medica; quoted with the copyright holder's permission.</td>
-        </tr>
-        <tr>
-          <td><strong>Manual of Homoeopathic Medicine</strong><br><span class="sub">G. H. G. Jahr, trans. P. F. Curie, 1847</span></td>
-          <td>Materia medica text, public domain</td>
-          <td>Transcribed in <code>homoeopathic-materia-medica-repertory-json</code>; names repaired where a second scan confirms the reading.</td>
-        </tr>
-        <tr>
-          <td><strong>Homoeopathic Therapeutics of Diarrhoea</strong><br><span class="sub">James B. Bell, 7th ed., 1906</span></td>
-          <td>Materia medica text, public domain</td>
-          <td>Checked against a <a href="https://archive.org/details/in.ernet.dli.2015.94901">second scan of the same edition</a>; six quotes transcribed from the page images themselves.</td>
-        </tr>
-      </tbody>
-    </table>
+<section id="refuses"><div class="shell">
+  <p class="label"><b>02</b> What it refuses to do</p>
+  <h2>The restraint is the product</h2>
+  <p class="sub">An app that guessed would be worse than no app. These are rules in the code,
+  not aspirations in a readme.</p>
+  <div class="refuse">
+    <div class="no"><span class="x">✕</span><p>It never assigns, derives, averages or infers a
+      thermal state — it quotes and compares.</p></div>
+    <div class="no"><span class="x">✕</span><p>It never derives a classification from rubric
+      counts or grades.</p></div>
+    <div class="no"><span class="x">✕</span><p>It never selects or prescribes a remedy, and never
+      decides a patient's thermal state.</p></div>
+    <div class="no"><span class="x">✕</span><p>A remedy no source speaks about is
+      <strong>unclassified</strong>: no quote, no summary.</p></div>
+    <div class="no"><span class="x">✕</span><p><em>Ambithermal</em> is not a state it looks for —
+      no bundled source uses the word.</p></div>
+    <div class="no"><span class="x">✕</span><p>No name is guessed: 26 corrections are the owner's
+      own readings, and each shows the name the transcription printed.</p></div>
   </div>
-</section>
+</div></section>
 
-<section id="install">
-  <div class="wrap">
-    <h2>Run it, or check it</h2>
-    <p class="sub">No build step, no dependencies, no install. The whole app is one page and four
-    vendored kit files.</p>
-    <table>
-      <tbody>
-        <tr><td><code>node test-node.js</code></td><td>567 assertions over the data, the summary rules and the rendered output</td></tr>
-        <tr><td><code>python3 -m http.server -d docs</code></td><td>serve the landing page and the app locally</td></tr>
-        <tr><td><code>python3 tools/names.py</code></td><td>re-apply the name corrections, each with its evidence</td></tr>
-        <tr><td><code>python3 tools/text-repair.py</code></td><td>repair damaged quotes from the scan's own page text</td></tr>
-      </tbody>
-    </table>
+<section id="sources" class="paper"><div class="shell">
+  <p class="label"><b>03</b> The three sources</p>
+  <h2>Named exactly, corrected only on evidence</h2>
+  <p class="sub">Public domain wherever it can be. A reading is changed only where an authority
+  confirms it, and the page always shows what the transcription printed.</p>
+  <table>
+    <thead><tr><th>Source</th><th>Gives</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Open Materia Medica</strong><br><span class="note">© Dr. Sohil Momin, BHMS, 2026</span></td>
+        <td>109 quoted sentences across 82 remedy pages</td>
+        <td class="note">The estate's own plain-language materia medica, quoted with the copyright holder's permission.</td>
+      </tr>
+      <tr>
+        <td><strong>Manual of Homoeopathic Medicine</strong><br><span class="note">G. H. G. Jahr, trans. P. F. Curie, 1847</span></td>
+        <td>materia medica text</td>
+        <td class="note">Public domain, via <code>homoeopathic-materia-medica-repertory-json</code>; names repaired only where a second scan confirms the reading.</td>
+      </tr>
+      <tr>
+        <td><strong>Homoeopathic Therapeutics of Diarrhoea</strong><br><span class="note">James B. Bell, 7th ed., 1906</span></td>
+        <td>materia medica text</td>
+        <td class="note">Public domain. Checked against a <a href="https://archive.org/details/in.ernet.dli.2015.94901">second scan of the same edition</a>; six quotes are transcribed from the page images themselves.</td>
+      </tr>
+    </tbody>
+  </table>
+</div></section>
+
+<section id="run"><div class="shell">
+  <p class="label"><b>04</b> Run it, or check it</p>
+  <h2>No build step, no dependencies, no install</h2>
+  <p class="sub">The whole app is one page and four vendored kit files. Everything below runs from
+  a clean clone.</p>
+  <div class="trio">
+    <div class="cell"><p class="num">TEST</p><h3><code>node test-node.js</code></h3>
+      <p>567 assertions over the data, the summary rules and the rendered output.</p></div>
+    <div class="cell"><p class="num">SERVE</p><h3><code>python3 -m http.server -d docs</code></h3>
+      <p>The landing page and the app, locally — or open <code>docs/index.html</code> directly.</p></div>
+    <div class="cell"><p class="num">REBUILD</p><h3><code>tools/names.py</code>, <code>tools/text-repair.py</code></h3>
+      <p>Re-apply the name corrections and the page-witnessed text repairs, each with its evidence.</p></div>
   </div>
-</section>
+</div></section>
+
+<section class="close"><div class="shell">
+  <h2>Read it and decide for yourself.</h2>
+  <div class="actions">
+    <a class="btn solid" href="play/">Open the app →</a>
+    <a class="btn" href="https://github.com/drsamonline/app-thermals">Source on GitHub</a>
+  </div>
+</div></section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <p><strong>Thermals</strong> — part of the <a href="https://drsamonline.github.io/">drsamonline</a>
-    estate. Built with <code>web-kit</code>, <code>search-kit</code>, <code>case-kit</code> and
-    <code>export-kit</code>. PolyForm Noncommercial 1.0.0; the public-domain materia medica inside
-    stays public domain.</p>
-    <p><a href="play/">Open the app</a> · <a href="https://github.com/drsamonline/app-thermals">Source</a> ·
-    <a href="https://github.com/drsamonline/app-thermals/blob/main/README.md">README</a></p>
-  </div>
-</footer>
+<footer><div class="shell">
+  <span><strong>Thermals</strong> — part of the <a href="https://drsamonline.github.io/">drsamonline</a> estate.
+  Built on web-kit, search-kit, case-kit and export-kit. PolyForm Noncommercial 1.0.0.</span>
+  <span><a href="play/">App</a> · <a href="https://github.com/drsamonline/app-thermals/blob/main/README.md">README</a> ·
+  <a href="https://github.com/drsamonline/app-thermals/blob/main/data/name-overrides.json">Name evidence</a></span>
+</div></footer>
 </body>
 </html>
