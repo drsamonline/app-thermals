@@ -1,5 +1,11 @@
 # Thermals
 
+<!-- shot:start -->
+
+![Screenshot](docs/shot.png)
+
+<!-- shot:end -->
+
 **What each classical source actually says about a remedy's thermal reaction — in its own words, with the source named — and where those sources do not say the same thing.**
 
 Live: https://drsamonline.github.io/app-thermals/
