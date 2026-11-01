@@ -83,6 +83,18 @@
                border:1px solid var(--hair);border-radius:.4rem;padding:.22rem .6rem;
                font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
   .browser img{display:block;width:100%}
+  .demo-wrap{position:relative}
+  .stage{position:relative;height:min(72vh,640px);background:#faf6ef;overflow:hidden}
+  .stage .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top center}
+  .stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#faf6ef;
+                opacity:0;transition:opacity .35s ease}
+  .stage iframe.live{opacity:1}
+  .guided{display:flex;gap:.5rem;flex-wrap:wrap;margin:1.1rem 0 0}
+  .gbtn{font:inherit;font-size:.9rem;cursor:pointer;color:var(--text);
+        background:var(--panel);border:1px solid var(--hair);border-radius:.6rem;padding:.55rem .85rem}
+  .gbtn:hover{border-color:rgba(242,238,231,.3)}
+  .gbtn em{display:block;font-style:normal;font-size:.74rem;letter-spacing:.06em;
+           text-transform:uppercase;color:var(--dim);margin-top:.15rem}
   .cap{margin:1rem 0 0;font-size:.86rem;color:var(--dim)}
 
   /* ── sections ───────────────────────────────────────────── */
@@ -179,13 +191,32 @@
   </figure>
 </div></header>
 
-<div class="bleed"><div class="shell">
-  <div class="browser">
-    <div class="chrome"><span></span><span></span><span></span>
-      <span class="url">drsamonline.github.io/app-thermals/play</span></div>
-    <img src="assets/app-desktop.png" alt="The app at desktop width: a search box, example queries and the full remedy grid">
+<div class="bleed" id="demo"><div class="shell">
+  <p class="label"><b>LIVE</b> The demo, running — not a picture of it</p>
+  <h2 style="margin-bottom:.6rem">Try it without leaving this page</h2>
+  <p class="sub">This frame is the app itself, loaded from <code>play/</code>. Nothing is mocked:
+  the buttons below move it to a real remedy, and the search box is live.</p>
+
+  <div class="demo-wrap">
+    <div class="browser">
+      <div class="chrome"><span></span><span></span><span></span>
+        <span class="url" id="demo-url">drsamonline.github.io/app-thermals/play</span></div>
+      <div class="stage">
+        <img class="poster" src="assets/app-desktop.png" alt="The app at desktop width: search box, example queries and the remedy grid">
+        <iframe id="demo-frame" src="play/" title="The Thermals app, live" loading="lazy"></iframe>
+      </div>
+    </div>
   </div>
-  <p class="cap">The app itself, rendered from the committed files — one page, four vendored kits, no build step.</p>
+
+  <div class="guided">
+    <button class="gbtn" data-go="play/">The whole index</button>
+    <button class="gbtn" data-go="play/#/remedy/cistus-canadensis">Cistus canadensis <em>two sources agree</em></button>
+    <button class="gbtn" data-go="play/#/remedy/abrotanum">Abrotanum <em>unclassified</em></button>
+    <button class="gbtn" data-go="play/#/remedy/silicea-terra">Silicea <em>a repaired quote</em></button>
+  </div>
+  <p class="cap">On a phone the frame collapses to the app's own layout. Opened from
+  <code>file://</code> the frame stays empty and the screenshot behind it shows instead — the demo
+  needs the published site.</p>
 </div></div>
 
 <main>
@@ -302,5 +333,29 @@
   <span><a href="play/">App</a> · <a href="https://github.com/drsamonline/app-thermals/blob/main/README.md">README</a> ·
   <a href="https://github.com/drsamonline/app-thermals/blob/main/data/name-overrides.json">Name evidence</a></span>
 </div></footer>
+<script>
+  (function () {
+    var frame = document.getElementById("demo-frame");
+    var url = document.getElementById("demo-url");
+    if (!frame) return;
+    // The frame only takes over once the app has actually loaded. From file:// it never
+    // does, and the screenshot behind it stays — a demo that cannot load should not look broken.
+    if (location.protocol === "http:" || location.protocol === "https:") {
+      frame.addEventListener("load", function () { frame.classList.add("live"); });
+      if (frame.contentDocument && frame.contentDocument.readyState === "complete") {
+        frame.classList.add("live");
+      }
+    }
+
+    Array.prototype.forEach.call(document.querySelectorAll(".gbtn"), function (b) {
+      b.addEventListener("click", function () {
+        var go = b.getAttribute("data-go");
+        frame.src = go;
+        url.textContent = "drsamonline.github.io/app-thermals/" + go;
+        frame.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+    });
+  })();
+</script>
 </body>
 </html>
