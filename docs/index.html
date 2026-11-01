@@ -59,6 +59,7 @@
   .row{margin:1rem 0;padding:0}
   .row figcaption{color:var(--muted);font-size:.84rem;margin-top:.35rem}
   .chapter{font-style:italic}
+  .name-note{display:block;margin-top:.2rem;font-size:.8rem;color:var(--muted)}
   .none{color:var(--muted);font-style:italic}
   .notes{list-style:none;padding:0;margin:.4rem 0 1rem}
   .notes li{padding:.4rem .7rem;border-radius:.4rem;background:var(--card);margin:.3rem 0;font-size:.95rem}
@@ -119,6 +120,7 @@
     </ul>
   </div>
   <p id="counts"></p>
+  <p id="names"></p>
   <p>Offline. No accounts, no server, no network at any point. Text quoted from
   <em>Open Materia Medica</em> (© Dr. Sohil Momin, BHMS) and from the public-domain
   materia medicas in <em>homoeopathic-materia-medica-repertory-json</em>.</p>
@@ -154,6 +156,15 @@
     " unclassified) · " + DATA.meta.sources + " sources";
 
   document.getElementById("rule-line").textContent = DATA.meta.rule;
+
+  if (DATA.meta.names) {
+    var n = DATA.meta.names;
+    document.getElementById("names").textContent =
+      "Remedy names: " + n.confirmed + " confirmed against a named authority, " + n.corrected +
+      " corrected from one (each shows the name the transcription printed), " + n.as_printed +
+      " readable and kept as printed, " + n.unresolved + " unreadable and still kept as printed, and " +
+      n.merged_not_bundled + " entries not bundled because the transcription ran two remedies together.";
+  }
 
   function showRemedy(slug) {
     var r = T.remedyFor(DATA.remedies, slug);

@@ -210,14 +210,34 @@
       '<strong>' + esc(s.label) + "</strong> " + esc(s.detail) + "</p>";
   };
 
+  // The transcription is OCR. Where a name was corrected, the page says which
+  // name the transcription printed and why it was corrected, so the reader can
+  // check the correction rather than take it on trust.
+  T.NAME_NOTE = {
+    corrected: "printed as",
+    "corrected-scanned": "printed as",
+    "corrected-slot": "printed as",
+    merged: "the transcription ran this entry together with another remedy",
+    unresolved: "the transcription's spelling could not be confirmed; kept as printed",
+    "ok-as-printed": ""
+  };
+
   T.renderRows = function (rows) {
     if (!rows || !rows.length) return "";
     return rows.map(function (r) {
+      var note = "";
+      if (r.name_status === "unresolved") {
+        note = ' <span class="name-note">spelling unconfirmed — this is the transcription\'s own text</span>';
+      } else if (r.name_status && r.name_status !== "ok" && r.name_status !== "ok-as-printed" &&
+          r.name_printed && r.name_printed !== r.remedy) {
+        note = ' <span class="name-note">' + esc(T.NAME_NOTE[r.name_status] || "printed as") +
+          " “" + esc(r.name_printed) + "”</span>";
+      }
       return '<figure class="row" data-source="' + esc(r.source_short) + '">' +
         "<blockquote>" + esc(r.sentence) + "</blockquote>" +
         '<figcaption><span class="src">' + esc(r.source) + "</span>" +
         (r.chapter ? ' <span class="chapter">· ' + esc(r.chapter) + "</span>" : "") +
-        "</figcaption></figure>";
+        note + "</figcaption></figure>";
     }).join("");
   };
 

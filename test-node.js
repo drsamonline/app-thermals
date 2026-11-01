@@ -205,5 +205,55 @@ test("export carries the rows, the notes and the rule", function () {
   ok(p.rule && p.rule.length > 40, "the rule travels with the data");
 });
 
+
+test("OCR-damaged names are corrected only where an authority confirms them", function () {
+  var map = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "name-map.json"), "utf8"));
+  var corrected = map.entries.filter(function (e) { return e.status === "corrected"; });
+  ok(corrected.length > 0, "some names were corrected");
+  corrected.forEach(function (e) {
+    ok(!!e.printed && !!e.corrected, "a correction carries both the printed and the corrected name");
+    ok(e.printed !== e.corrected, "the printed name differs from the correction");
+    ok(/^[A-Za-z][A-Za-z .'-]+$/.test(e.corrected), "the correction is a readable remedy name: " + e.corrected);
+    ok(!!e.evidence && e.evidence.length > 10, "and it carries the evidence that confirmed it");
+  });
+  // a correction may only cite an authority, never a hunch
+  var vague = corrected.filter(function (e) { return /closest|guess|probably/i.test(e.evidence) &&
+    !/closest curated name at >=85%/.test(e.evidence); });
+  eq(vague.length, 0, "no correction is justified by a guess");
+});
+
+test("a name no authority could confirm is kept exactly as printed and says so", function () {
+  var un = ROWS.filter(function (r) { return r.name_status === "unresolved"; });
+  ok(un.length > 0, "unresolved names exist and were not guessed at");
+  un.forEach(function (r) {
+    eq(r.remedy, r.name_printed, "an unresolved row keeps its printed name");
+  });
+  var html = T.renderRemedy(T.remedyFor(REMEDIES, un[0].remedy_slug),
+                            T.rowsFor(ROWS, un[0].remedy_slug), [], "2026-11-01");
+  ok(/spelling unconfirmed/.test(html), "the page says the spelling is unconfirmed");
+});
+
+test("no bundled row comes from an entry that ran two remedies together", function () {
+  var merged = ROWS.filter(function (r) { return r.name_status === "merged"; });
+  eq(merged.length, 0, "merged entries are not bundled - they cannot be attributed to a remedy");
+  ok(META.names.merged_not_bundled > 0, "and the count of what was withheld is stated");
+});
+
+test("no remedy appears twice under two spellings", function () {
+  var byLetters = {};
+  REMEDIES.forEach(function (r) {
+    var k = r.name.toLowerCase().replace(/[^a-z]/g, "");
+    ok(!byLetters[k], "one entry per spelling: " + r.name);
+    byLetters[k] = 1;
+  });
+});
+
+test("the name counts add up to what the reader is told", function () {
+  var n = META.names;
+  eq(n.confirmed + n.corrected + n.as_printed + n.unresolved + n.merged_not_bundled, 302,
+     "every entry in the two transcribed books is accounted for");
+  ok(n.unresolved >= 0 && n.corrected >= 0, "the counts are real numbers");
+});
+
 console.log(passed + " passed, " + failed + " failed");
 process.exit(failed ? 1 : 0);

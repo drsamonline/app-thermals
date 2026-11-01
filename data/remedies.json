@@ -514,15 +514,6 @@
 },
 {
 "classified": true,
-"name": "Bovista. Bruce A Anti-Dyssenterica",
-"rows": 2,
-"slug": "bovista-bruce-a-anti-dyssenterica",
-"sources": [
-"Manual of Homoeopathic Medicine, Part I: Materia Medica"
-]
-},
-{
-"classified": true,
 "name": "bromium",
 "rows": 1,
 "slug": "bromium",
@@ -1351,15 +1342,6 @@
 "slug": "hepar-sulphuris",
 "sources": [
 "Open Materia Medica"
-]
-},
-{
-"classified": true,
-"name": "Hepar Sulphuris. Haracleum Spondilium",
-"rows": 2,
-"slug": "hepar-sulphuris-haracleum-spondilium",
-"sources": [
-"Manual of Homoeopathic Medicine, Part I: Materia Medica"
 ]
 },
 {

@@ -158,8 +158,20 @@ def extract_omm(root):
 
 
 # ---------------------------------------------------------------- JSON books
-def extract_books(root):
+def load_name_map(path="data/name-map.json"):
+    """The corrections proven by tools/names.py, keyed by (book file, remedy id)."""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            data = json.load(fh)
+    except FileNotFoundError:
+        return {}
+    return {(e["book"], e["id"]): e for e in data.get("entries", [])}
+
+
+def extract_books(root, name_map=None):
+    name_map = name_map or {}
     rows, books, names = [], [], {}
+    stats = {}
     md = os.path.join(root, "materia_medica")
     for fn in sorted(os.listdir(md)):
         if not fn.endswith(".json"):
@@ -174,10 +186,24 @@ def extract_books(root):
         books.append({"file": fn, "title": title, "author": author, "year": year,
                       "remedies": len(book.get("remedies", []))})
         for rem in book.get("remedies", []):
-            rname = rem.get("name") or rem.get("id") or ""
+            printed = rem.get("name") or rem.get("id") or ""
+            fix = name_map.get((fn, rem.get("id")))
+            if fix and fix.get("corrected"):
+                rname = fix["corrected"]
+                name_status = fix["status"]
+            else:
+                rname = printed
+                name_status = (fix or {}).get("status", "unverified")
             slug = re.sub(r"[^a-z0-9]+", "-", rname.lower()).strip("-")
+            if name_status == "merged":
+                # An entry the transcription ran together with the next remedy
+                # cannot be attributed to either, so its sentences are not
+                # bundled: one row must be one remedy, one source, one sentence.
+                stats["merged_not_bundled"] = stats.get("merged_not_bundled", 0) + 1
+                continue
             if slug:
                 names[slug] = rname
+            stats[name_status] = stats.get(name_status, 0) + 1
             for sym in rem.get("symptoms") or []:
                 chapter = sym.get("chapter") or ""
                 for s in sentences(clean(sym.get("text") or "")):
@@ -191,8 +217,10 @@ def extract_books(root):
                             "chapter": chapter,
                             "sentence": s,
                             "side": side(s),
+                            "name_status": name_status,
+                            "name_printed": printed,
                         })
-    return rows, books, names
+    return rows, books, names, stats
 
 
 def main():
@@ -201,8 +229,16 @@ def main():
     out_dir = sys.argv[3] if len(sys.argv) > 3 else "data"
 
     omm_rows, omm_pages = extract_omm(omm_root)
-    book_rows, books, book_names = extract_books(book_root)
+    book_rows, books, book_names, name_stats = extract_books(book_root, load_name_map())
     rows = omm_rows + book_rows
+    seen, deduped = set(), []
+    for r in rows:
+        k = (r["remedy_slug"], r["source_short"], r["sentence"])
+        if k in seen:
+            continue
+        seen.add(k)
+        deduped.append(r)
+    rows = deduped
 
     index = {}
     for slug in omm_pages:
@@ -239,6 +275,7 @@ def main():
         "remedies_unclassified": sum(1 for e in index.values() if not e["classified"]),
         "remedies_with_two_sources": len(multi),
         "two_source_names": sorted(e["name"] for e in multi),
+        "book_name_status": name_stats,
     }, indent=1, ensure_ascii=False))
 
 

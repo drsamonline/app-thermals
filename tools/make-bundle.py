@@ -25,6 +25,11 @@ def main():
         rows = json.load(fh)
     with open(os.path.join(DATA, "remedies.json"), encoding="utf-8") as fh:
         remedies = json.load(fh)
+    try:
+        with open(os.path.join(DATA, "name-map.json"), encoding="utf-8") as fh:
+            name_map = json.load(fh)
+    except FileNotFoundError:
+        name_map = {"entries": []}
 
     sources = sorted({r["source_short"] for r in rows})
     classified = [r for r in remedies if r.get("classified")]
@@ -37,6 +42,14 @@ def main():
         "source_names": sources,
         "two_source": sum(1 for r in remedies if len(r.get("sources") or []) > 1),
         "rule": RULE,
+        "names": {
+            "corrected": sum(1 for e in name_map["entries"] if e["status"] == "corrected"),
+            "merged_not_bundled": sum(1 for e in name_map["entries"] if e["status"] == "merged"),
+            "as_printed": sum(1 for e in name_map["entries"] if e["status"] == "ok-as-printed"),
+            "unresolved": sum(1 for e in name_map["entries"] if e["status"] == "unresolved"),
+            "confirmed": sum(1 for e in name_map["entries"] if e["status"] == "ok"),
+            "authority": "Open Materia Medica names, the repertory index, and the archive.org scan of Jahr 1847",
+        },
         "built": os.environ.get("THERMALS_BUILT", ""),
     }
 

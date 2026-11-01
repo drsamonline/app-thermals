@@ -1091,6 +1091,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "JETIICSA CYlTAPIITJtt",
+"name_status": "unresolved",
 "remedy": "JETIICSA CYlTAPIITJtt",
 "remedy_slug": "jetiicsa-cyltapiitjtt",
 "sentence": "Drowsiness with chilliness.",
@@ -1101,6 +1103,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "AliOE",
+"name_status": "unresolved",
 "remedy": "AliOE",
 "remedy_slug": "alioe",
 "sentence": "Chilliness when leaving the fire.",
@@ -1111,6 +1115,8 @@
 },
 {
 "chapter": "Aggravation",
+"name_printed": "A8ARUM EIIROPEIJII",
+"name_status": "unresolved",
 "remedy": "A8ARUM EIIROPEIJII",
 "remedy_slug": "a8arum-eiiropeijii",
 "sentence": "In chilly, nervous individuals",
@@ -1121,6 +1127,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "A8ARUM EIIROPEIJII",
+"name_status": "unresolved",
 "remedy": "A8ARUM EIIROPEIJII",
 "remedy_slug": "a8arum-eiiropeijii",
 "sentence": "Constantly chilly.",
@@ -1131,6 +1139,8 @@
 },
 {
 "chapter": "Before Stool",
+"name_printed": "ItlRYTA CiRBOlVICA",
+"name_status": "unresolved",
 "remedy": "ItlRYTA CiRBOlVICA",
 "remedy_slug": "itlryta-cirbolvica",
 "sentence": "Chilliness over the head and legs",
@@ -1141,6 +1151,8 @@
 },
 {
 "chapter": "During Stool",
+"name_printed": "BOliETUlS",
+"name_status": "unresolved",
 "remedy": "BOliETUlS",
 "remedy_slug": "bolietuls",
 "sentence": "Chilliness along the spine, followed by hot flashes and sweat.",
@@ -1151,6 +1163,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "CAHPHOH",
+"name_status": "ok-as-printed",
 "remedy": "CAHPHOH",
 "remedy_slug": "cahphoh",
 "sentence": "Icy coldness of the whole body, with chilliness and shaking, or cold, clammy, debilitating perspira tion",
@@ -1161,6 +1175,8 @@
 },
 {
 "chapter": "After Stool",
+"name_printed": "CAHPHOH",
+"name_status": "ok-as-printed",
 "remedy": "CAHPHOH",
 "remedy_slug": "cahphoh",
 "sentence": "Violent chilliness as though water were poured over one, with in ternal warmth",
@@ -1171,6 +1187,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "CARBOIilC ACID",
+"name_status": "unresolved",
 "remedy": "CARBOIilC ACID",
 "remedy_slug": "carboiilc-acid",
 "sentence": "In voluntary emission of urine which feels hot.",
@@ -1181,6 +1199,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "CORNUA CIRCINATA",
+"name_status": "ok-as-printed",
 "remedy": "CORNUA CIRCINATA",
 "remedy_slug": "cornua-circinata",
 "sentence": "Chilliness, followed by flashes of heat and sweat.",
@@ -1191,6 +1211,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "BIGITAUN",
+"name_status": "ok-as-printed",
 "remedy": "BIGITAUN",
 "remedy_slug": "bigitaun",
 "sentence": "Vomiting is sometimes accompanied by external heat, mingled with chills, and followed by perspiration with chilliness.",
@@ -1201,6 +1223,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "FJ.ATERIIIM",
+"name_status": "unresolved",
 "remedy": "FJ.ATERIIIM",
 "remedy_slug": "fj-ateriiim",
 "sentence": "Chilliness, with continued THEIR INDICATIONS, IO3 yawning.",
@@ -1211,6 +1235,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "GAHIBOGIA",
+"name_status": "ok-as-printed",
 "remedy": "GAHIBOGIA",
 "remedy_slug": "gahibogia",
 "sentence": "Chilliness in the back.",
@@ -1221,6 +1247,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "GifTAPHITEN",
+"name_status": "unresolved",
 "remedy": "GifTAPHITEN",
 "remedy_slug": "giftaphiten",
 "sentence": "It is especially adapted to fat, flabby persons, who suffer from constant chilliness, and are subject to eczematous and herpetic eruptions, which crack and ooze a glutinous fluid.",
@@ -1231,6 +1259,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "GifTAPHITEN",
+"name_status": "unresolved",
 "remedy": "GifTAPHITEN",
 "remedy_slug": "giftaphiten",
 "sentence": "Cold feeling of the stomach, as if full of water.",
@@ -1241,6 +1271,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "GifTAPHITEN",
+"name_status": "unresolved",
 "remedy": "GifTAPHITEN",
 "remedy_slug": "giftaphiten",
 "sentence": "1 1 1 Cold feeling in the abdomen.",
@@ -1251,6 +1283,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "KAI4I BROMICUM",
+"name_status": "unresolved",
 "remedy": "KAI4I BROMICUM",
 "remedy_slug": "kai4i-bromicum",
 "sentence": "Great chilliness, even in a hot room.",
@@ -1261,6 +1295,8 @@
 },
 {
 "chapter": "Before Stool",
+"name_printed": "I^YCOPODICIW",
+"name_status": "unresolved",
 "remedy": "I^YCOPODICIW",
 "remedy_slug": "i-ycopodiciw",
 "sentence": "Chilliness in the rectum",
@@ -1271,6 +1307,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "I^YCOPODICIW",
+"name_status": "unresolved",
 "remedy": "I^YCOPODICIW",
 "remedy_slug": "i-ycopodiciw",
 "sentence": "The '' chilliness in the rectum,\" before stool, is a singular but genuine symptom, which further ob servation may prove to be characteristic.",
@@ -1281,6 +1319,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "PETR01.£1Jli",
+"name_status": "unresolved",
 "remedy": "PETR01.£1Jli",
 "remedy_slug": "petr01-1jli",
 "sentence": "Cold feeling in the abdomen.",
@@ -1291,6 +1331,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "PETR01.£1Jli",
+"name_status": "unresolved",
 "remedy": "PETR01.£1Jli",
 "remedy_slug": "petr01-1jli",
 "sentence": "Aversion to the open air, which causes chilliness.",
@@ -1301,6 +1343,8 @@
 },
 {
 "chapter": "Before Stool",
+"name_printed": "PHO.SPHOBU8",
+"name_status": "unresolved",
 "remedy": "PHO.SPHOBU8",
 "remedy_slug": "pho-sphobu8",
 "sentence": "Heat or chilliness",
@@ -1311,6 +1355,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "PICRIC ACID",
+"name_status": "ok-as-printed",
 "remedy": "PICRIC ACID",
 "remedy_slug": "picric-acid",
 "sentence": "Chilliness followed by clammy sweat.",
@@ -1321,6 +1367,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "SABABUUt",
+"name_status": "unresolved",
 "remedy": "SABABUUt",
 "remedy_slug": "sababuut",
 "sentence": "Chilliness and sen sitiveness to cold.",
@@ -1331,6 +1379,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "SAMBIJCIJSI KTIGER",
+"name_status": "ok-as-printed",
 "remedy": "SAMBIJCIJSI KTIGER",
 "remedy_slug": "sambijcijsi-ktiger",
 "sentence": "Burning or cold feeling in the abdomen, with sensation of emptiness.",
@@ -1341,6 +1391,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "SAMBIJCIJSI KTIGER",
+"name_status": "ok-as-printed",
 "remedy": "SAMBIJCIJSI KTIGER",
 "remedy_slug": "sambijcijsi-ktiger",
 "sentence": "Predominant chilliness.",
@@ -1351,6 +1403,8 @@
 },
 {
 "chapter": "During Stool",
+"name_printed": "N1U€£A",
+"name_status": "unresolved",
 "remedy": "N1U€£A",
 "remedy_slug": "n1u-a",
 "sentence": "Chilliness, and nausea in the throat",
@@ -1361,6 +1415,8 @@
 },
 {
 "chapter": "After Stool",
+"name_printed": "N1U€£A",
+"name_status": "unresolved",
 "remedy": "N1U€£A",
 "remedy_slug": "n1u-a",
 "sentence": "Want of animal heat, alw'ays chilly, even when exercising.",
@@ -1371,7 +1427,9 @@
 },
 {
 "chapter": "Accompaniments",
-"remedy": "SULPHUR",
+"name_printed": "SULPHUR",
+"name_status": "ok",
+"remedy": "sulphur",
 "remedy_slug": "sulphur",
 "sentence": "Continued dry heat, or coldness and cold sweat Chilliness about the lower part of the body .",
 "side": "cold",
@@ -1381,6 +1439,8 @@
 },
 {
 "chapter": "During Stool",
+"name_printed": "TEREBIMTHIMA",
+"name_status": "ok-as-printed",
 "remedy": "TEREBIMTHIMA",
 "remedy_slug": "terebimthima",
 "sentence": "Chilliness and shuddering",
@@ -1391,6 +1451,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "XlNOIB£R",
+"name_status": "unresolved",
 "remedy": "XlNOIB£R",
 "remedy_slug": "xlnoib-r",
 "sentence": "Sulph* Chilly persons, in",
@@ -1401,6 +1463,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "XlNOIB£R",
+"name_status": "unresolved",
 "remedy": "XlNOIB£R",
 "remedy_slug": "xlnoib-r",
 "sentence": "- , chilliness in",
@@ -1411,6 +1475,8 @@
 },
 {
 "chapter": "Accompaniments",
+"name_printed": "XlNOIB£R",
+"name_status": "unresolved",
 "remedy": "XlNOIB£R",
 "remedy_slug": "xlnoib-r",
 "sentence": "- , small of, chilliness",
@@ -1421,6 +1487,8 @@
 },
 {
 "chapter": "General",
+"name_printed": "Fever",
+"name_status": "ok-as-printed",
 "remedy": "Fever",
 "remedy_slug": "fever",
 "sentence": "Sulph Chilliness even when exercising",
@@ -1431,6 +1499,8 @@
 },
 {
 "chapter": "General",
+"name_printed": "Fever",
+"name_status": "ok-as-printed",
 "remedy": "Fever",
 "remedy_slug": "fever",
 "sentence": "Alum, Graph, ■ - , chilliness, with",
@@ -1441,7 +1511,9 @@
 },
 {
 "chapter": "General",
-"remedy": "Kali Carbonicum",
+"name_printed": "Kali Carbonicum",
+"name_status": "ok",
+"remedy": "kali carbonicum",
 "remedy_slug": "kali-carbonicum",
 "sentence": "Great chilliness, constant shivering and shuddering, sometimes with stiffness of the hand.",
 "side": "cold",
@@ -1451,6 +1523,8 @@
 },
 {
 "chapter": "General",
+"name_printed": "Lamitjm Album. Laurocerasus",
+"name_status": "ok-as-printed",
 "remedy": "Lamitjm Album. Laurocerasus",
 "remedy_slug": "lamitjm-album-laurocerasus",
 "sentence": "Chilliness and febrile shivering, which are removed neither by the heat of the fire, nor by that of the bed.",
@@ -1461,6 +1535,8 @@
 },
 {
 "chapter": "Extremities",
+"name_printed": "Mercurius",
+"name_status": "ok-as-printed",
 "remedy": "Mercurius",
 "remedy_slug": "mercurius",
 "sentence": "Chilliness, shiverings and coldness of the whole body, especially in the hands and feet, with violent thirst, and sometimes without a desire for warmth.",
@@ -1471,7 +1547,9 @@
 },
 {
 "chapter": "General Symptoms",
-"remedy": "Nux Moschata",
+"name_printed": "Nux Moschata",
+"name_status": "ok",
+"remedy": "nux moschata",
 "remedy_slug": "nux-moschata",
 "sentence": "State of chilliness, as when suddenly cooled after perspiring, with pain in the nape of the neck, and in all the bones.",
 "side": "cold",
@@ -1481,7 +1559,9 @@
 },
 {
 "chapter": "General",
-"remedy": "Nux Vomica",
+"name_printed": "Nux Vomica",
+"name_status": "ok",
+"remedy": "nux vomica",
 "remedy_slug": "nux-vomica",
 "sentence": "The hands are cold and chilly.",
 "side": "cold",
@@ -1491,7 +1571,9 @@
 },
 {
 "chapter": "General",
-"remedy": "Ranunculus Bulbosus",
+"name_printed": "Ranunculus Bulbosus",
+"name_status": "ok",
+"remedy": "ranunculus bulbosus",
 "remedy_slug": "ranunculus-bulbosus",
 "sentence": "Attacks of fever after a meal or in the evening, characterised principally by chilliness, with pains in the abdomen, and other distressing symptoms.",
 "side": "cold",
@@ -1501,6 +1583,8 @@
 },
 {
 "chapter": "General",
+"name_printed": "Ruta Graveolens. Sabadilla",
+"name_status": "ok-as-printed",
 "remedy": "Ruta Graveolens. Sabadilla",
 "remedy_slug": "ruta-graveolens-sabadilla",
 "sentence": "Fever without thirst, manifested only by chilliness, with intermittent heat, which is more perceptible in the face and hands than in the other parts of the body.",
@@ -1511,6 +1595,8 @@
 },
 {
 "chapter": "General",
+"name_printed": "Senna. Sepia",
+"name_status": "ok-as-printed",
 "remedy": "Senna. Sepia",
 "remedy_slug": "senna-sepia",
 "sentence": "Rheumatic pains, with swelling of the parts affected, perspiration easily excited, chilliness or shivering, alternately with heat.",
@@ -1521,6 +1607,8 @@
 },
 {
 "chapter": "General",
+"name_printed": "Senna. Sepia",
+"name_status": "ok-as-printed",
 "remedy": "Senna. Sepia",
 "remedy_slug": "senna-sepia",
 "sentence": "Excessively chilly disposition, and shuddering, with frequent shiverings, also on the least movement.",
@@ -1531,6 +1619,8 @@
 },
 {
 "chapter": "General",
+"name_printed": "Stannum. Staphysagria",
+"name_status": "ok-as-printed",
 "remedy": "Stannum. Staphysagria",
 "remedy_slug": "stannum-staphysagria",
 "sentence": "- °Fever in the evening, manifesting itself only by chilliness.",
@@ -1541,6 +1631,8 @@
 },
 {
 "chapter": "Genital Organs",
+"name_printed": "Stramonium. Stronti Ana",
+"name_status": "ok-as-printed",
 "remedy": "Stramonium. Stronti Ana",
 "remedy_slug": "stramonium-stronti-ana",
 "sentence": "Chilliness, \"coldness, shivering, and shuddering, principally in the evening, or at night, in bed, as well as in the after- noon, and when walking in the open air.",
@@ -1551,6 +1643,8 @@
 },
 {
 "chapter": "Teeth",
+"name_printed": "Sulphuris Acidum",
+"name_status": "ok-as-printed",
 "remedy": "Sulphuris Acidum",
 "remedy_slug": "sulphuris-acidum",
 "sentence": "Great chilliness after drinking, or eating.",
@@ -1561,7 +1655,9 @@
 },
 {
 "chapter": "General",
-"remedy": "Viola Tricolor",
+"name_printed": "Viola Tricolor",
+"name_status": "ok",
+"remedy": "viola tricolor",
 "remedy_slug": "viola-tricolor",
 "sentence": "Chilliness and coldness in the open air.",
 "side": "cold",
@@ -1571,7 +1667,9 @@
 },
 {
 "chapter": "Clinical Remarks",
-"remedy": "Agaricus Muscarius",
+"name_printed": "Agaricus Muscarius",
+"name_status": "ok",
+"remedy": "agaricus muscarius",
 "remedy_slug": "agaricus-muscarius",
 "sentence": "Disposition exceedingly chilly, and shiverings in the open air, or on raising the bed-clothes, although the limbs may be warm.",
 "side": "cold",
@@ -1581,6 +1679,8 @@
 },
 {
 "chapter": "General Symptoms",
+"name_printed": "Alum Sna",
+"name_status": "ok-as-printed",
 "remedy": "Alum Sna",
 "remedy_slug": "alum-sna",
 "sentence": "Fever toivards the evening, with predominant chilliness.",
@@ -1591,7 +1691,9 @@
 },
 {
 "chapter": "General",
-"remedy": "Anacardium Orientale",
+"name_printed": "Anacardium Orientale",
+"name_status": "ok",
+"remedy": "anacardium orientale",
 "remedy_slug": "anacardium-orientale",
 "sentence": "Strony disposition to chilliness, and great sensibility to cold and currents of air.",
 "side": "cold",
@@ -1601,7 +1703,9 @@
 },
 {
 "chapter": "General",
-"remedy": "Baryta Carbonica",
+"name_printed": "Baryta Carbonica",
+"name_status": "ok",
+"remedy": "baryta carbonica",
 "remedy_slug": "baryta-carbonica",
 "sentence": "Strong disposition to chilliness.",
 "side": "cold",
@@ -1611,6 +1715,8 @@
 },
 {
 "chapter": "General",
+"name_printed": "Borax Yen Eta. Bovista",
+"name_status": "unresolved",
 "remedy": "Borax Yen Eta. Bovista",
 "remedy_slug": "borax-yen-eta-bovista",
 "sentence": "Nausea, with chilly disposition from morning till noon.",
@@ -1620,28 +1726,10 @@
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica"
 },
 {
-"chapter": "General",
-"remedy": "Bovista. Bruce A Anti-Dyssenterica",
-"remedy_slug": "bovista-bruce-a-anti-dyssenterica",
-"sentence": "Chilly disposition and aversion to the open air.",
-"side": "cold",
-"source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
-"source_kind": "book",
-"source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica"
-},
-{
-"chapter": "General",
-"remedy": "Bovista. Bruce A Anti-Dyssenterica",
-"remedy_slug": "bovista-bruce-a-anti-dyssenterica",
-"sentence": "Oppression of the chest, with chilly disposition and great sensibility in the open air.",
-"side": "cold",
-"source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
-"source_kind": "book",
-"source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica"
-},
-{
 "chapter": "Clinical Remarks",
-"remedy": "Cistus Canadensis",
+"name_printed": "Cistus Canadensis",
+"name_status": "ok",
+"remedy": "cistus canadensis",
 "remedy_slug": "cistus-canadensis",
 "sentence": "Chilly disposition.",
 "side": "cold",
@@ -1651,6 +1739,8 @@
 },
 {
 "chapter": "General",
+"name_printed": "Coccinella. Cocculus",
+"name_status": "ok-as-printed",
 "remedy": "Coccinella. Cocculus",
 "remedy_slug": "coccinella-cocculus",
 "sentence": "Fever, with tendency to become chilly, though the skin is hot to the touch.",
@@ -1661,7 +1751,9 @@
 },
 {
 "chapter": "General",
-"remedy": "Croton Tiglium",
+"name_printed": "Croton Tiglium",
+"name_status": "ok",
+"remedy": "croton tiglium",
 "remedy_slug": "croton-tiglium",
 "sentence": "Chilliness, with shuddering.",
 "side": "cold",
@@ -1671,6 +1763,8 @@
 },
 {
 "chapter": "General",
+"name_printed": "Graphites. Gratiola Officinalis",
+"name_status": "ok-as-printed",
 "remedy": "Graphites. Gratiola Officinalis",
 "remedy_slug": "graphites-gratiola-officinalis",
 "sentence": "Great tendency to chilliness.",
@@ -1681,6 +1775,8 @@
 },
 {
 "chapter": "General",
+"name_printed": "Gratiola Officinalis",
+"name_status": "ok-as-printed",
 "remedy": "Gratiola Officinalis",
 "remedy_slug": "gratiola-officinalis",
 "sentence": "Shivering, chilliness, and shuddering, even near a fire.",
@@ -1691,26 +1787,8 @@
 },
 {
 "chapter": "General",
-"remedy": "Hepar Sulphuris. Haracleum Spondilium",
-"remedy_slug": "hepar-sulphuris-haracleum-spondilium",
-"sentence": "Chilliness, with frequent yawning, and inclination to sleep in the after- noon.",
-"side": "cold",
-"source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
-"source_kind": "book",
-"source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica"
-},
-{
-"chapter": "General",
-"remedy": "Hepar Sulphuris. Haracleum Spondilium",
-"remedy_slug": "hepar-sulphuris-haracleum-spondilium",
-"sentence": "Frequent sneezing, with lancination in the region of the spleen ; dry coughing, with feeling of soreness in the chest and shooting pains ; oppression of the chest, with chilliness, else with",
-"side": "cold",
-"source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
-"source_kind": "book",
-"source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica"
-},
-{
-"chapter": "General",
+"name_printed": "Hydrociani Acidum",
+"name_status": "ok-as-printed",
 "remedy": "Hydrociani Acidum",
 "remedy_slug": "hydrociani-acidum",
 "sentence": "Chilliness ; frequent shudderings, especially after midnight or in the morning P shivering, with yawning or with thirst.",

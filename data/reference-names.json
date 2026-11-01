@@ -1,0 +1,3713 @@
+{
+ "built": "2026-11-01",
+ "sources": [
+  {
+   "what": "Open Materia Medica remedy names",
+   "where": "drsamonline/open-materia-medica",
+   "count": 344
+  },
+  {
+   "what": "repertory remedy index",
+   "where": "drsamonline/homoeopathic-materia-medica-repertory-json",
+   "count": null
+  },
+  {
+   "what": "Jahr, Manual of Homoeopathic Medicine (1847), numbered remedy index",
+   "where": "https://archive.org/details/manualhomopathi01jahrgoog",
+   "count": 160
+  }
+ ],
+ "jahr_index": {
+  "2": "iEthusa synapium",
+  "3": "Actaea spicata",
+  "4": "Agaricus muscarius",
+  "5": "Agiius castus",
+  "6": "Aloes",
+  "7": "Alumina",
+  "8": "Ambra Grisea",
+  "9": "Ammoniacum",
+  "10": "c, — Ammonium car bo",
+  "12": "m, — Ammonium muria",
+  "14": "Angustura vera",
+  "15": "sp. — Angustura spuria",
+  "17": "Anthrokokali",
+  "18": "Anlimonium crudum",
+  "19": "Argent um",
+  "20": "n. — Argentum nitricum",
+  "22": "Arsenicum album",
+  "24": "Artemisia vulgaris",
+  "25": "Arum uiaculatum",
+  "26": "Asa fcetida",
+  "27": "Asarum europseum",
+  "28": "Asparagus",
+  "29": "Aihamantha",
+  "30": "Aurum",
+  "32": "m. — Aurum muriati",
+  "33": "c. — Baryta carbonica",
+  "34": "m. — Baryta muriatica",
+  "35": "Belladonna*",
+  "36": "Berberis vulgaris",
+  "37": "Bismuthum",
+  "38": "Borax veneta",
+  "39": "Bovista",
+  "40": "Brucea anti-dyssen",
+  "42": "Caladium seguiiium",
+  "43": "Calcarea carbonica",
+  "45": "C amphora",
+  "46": "Cannabis sativa",
+  "47": "Cantharis",
+  "48": "Capsicum annuum",
+  "49": "an, — Carbo animalis",
+  "51": "Cascarilla, Croton",
+  "52": "Castoreum",
+  "53": "Canslicum",
+  "54": "Chamomilla vul",
+  "56": "Chsnopodium",
+  "57": "China officinalis",
+  "58": "Chininum sulphu",
+  "60": "Cina",
+  "61": "Cinnabaris",
+  "62": "Cinnamomum",
+  "63": "Cistus canadensis",
+  "64": "Citri acidum",
+  "65": "Clematis erecta",
+  "66": "Coccinella septem",
+  "67": "Cocculus",
+  "68": "Cochlearea armo",
+  "69": "Coffea cruda",
+  "70": "Colchicum autum",
+  "109": "Conium macnlatum",
+  "111": "Hyoscyamusniyer",
+  "117": "Ipecacuanha",
+  "118": "Kali carbonicum",
+  "119": "ch. — Kali chloricum",
+  "121": "Kreosotum",
+  "123": "Lactuca virosa",
+  "124": "Ijunium album",
+  "126": "Ledum pidnstre",
+  "128": "Lycofodiufn clava",
+  "129": "Magriesia Car",
+  "131": "s. — Magnesia Sul",
+  "132": "Manyanttm",
+  "133": "Menyanthes trifo",
+  "134": "Mephitis puto",
+  "135": "Mercurius",
+  "136": "Mercurius ace",
+  "137": "Mercurius cor",
+  "138": "dulc, — Mercurius",
+  "139": "Mezereum",
+  "140": "Millefolium",
+  "141": "Moschus",
+  "142": "Murex purpureus",
+  "143": "Muriatis ad",
+  "145": "Natrum muria\"",
+  "147": "Mitrum sulphu",
+  "148": "Niccolum carboni",
+  "150": "J^tri acidum",
+  "151": "sp, — Nitri spiritus",
+  "153": "wwi. — Nux vomica",
+  "154": "Oleander",
+  "155": "an. — Oleum animale",
+  "156": "j ec, — Oleum jecoris mor",
+  "157": "Oniscus asellus",
+  "158": "Opium",
+  "159": "PsBouia",
+  "160": "Paris quadrifolia",
+  "161": "Petroleum",
+  "162": "Petroselinum",
+  "163": "Pfaellandrium aqua",
+  "164": "Phosphorus",
+  "165": "ac. — Pnosphori ad\"",
+  "166": "Pinus sikestris",
+  "167": "PlaUna",
+  "168": "Plumbum",
+  "169": "Pothos fotida",
+  "170": "Prunus spinosa",
+  "171": "Pulsatilla nigri",
+  "172": "acr. — Ranunculus acris",
+  "173": "Ranunculus bulbo",
+  "174": "flam. — Ranunculus",
+  "175": "rep. — Ranunculus re",
+  "176": "sc. — Ranunculus scele",
+  "177": "RapbaDus sativus",
+  "179": "Rheum. Rhabarba",
+  "180": "Rbododendron",
+  "181": "Rhus toxicodeu'",
+  "182": "v. — Rhus vemix",
+  "183": "Ruta graveolens",
+  "184": "Sabadilla",
+  "185": "Sabina",
+  "186": "Sambucus nigra",
+  "187": "Sanguinaria cana",
+  "188": "Sapo domesticus",
+  "189": "Sassaparilla",
+  "190": "Scropbularia no",
+  "191": "Secale ccrnulum",
+  "192": "Selenium",
+  "193": "Senega",
+  "194": "Senna",
+  "196": "Silicia",
+  "198": "mam. — Solanummam",
+  "199": "n. — Solanum nigrum",
+  "200": "Spigelia",
+  "201": "Spongia tosta",
+  "202": "Squilla maritima",
+  "203": "Stannum",
+  "204": "Staphysagria",
+  "206": "Strontiana",
+  "208": "Sulphuris ad",
+  "209": "Tabacum",
+  "210": "Tanacetum vulgare",
+  "211": "Taraxacum",
+  "212": "Tartarus emeti",
+  "213": "ac. — Tartari acidum",
+  "214": "Taxus baccata",
+  "215": "Terebintbina",
+  "216": "Teucrium marum",
+  "217": "Thea csesarea",
+  "218": "Theridion curassa",
+  "219": "Thuja occiden",
+  "221": "Urtica urens",
+  "222": "Uva ursi",
+  "223": "Valeriana officina",
+  "225": "Verbascum thap",
+  "226": "Vinca minor",
+  "227": "od.— Viola odorata",
+  "228": "tr.— Viola tricolor",
+  "229": "Zincum",
+  "231": "s. — Zincum sulphu",
+  "232": "Zingiber",
+  "233": "Magnes artificialis"
+ },
+ "names": [
+  {
+   "name": "abies canadensis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "abies nigra",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "abrotanum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "absinthium",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "ac. — Pnosphori ad\"",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "ac. — Tartari acidum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "acalypha indica",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "acidum fluoricum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "acidum sulphuricum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "aconitum napellus",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "acr. — Ranunculus acris",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "actaea spicata",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "adonis vernalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "adrenalinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "aesculus glabra",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "aesculus hippocastanum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "aethusa cynapium",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "agaricus muscarius",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Agiius castus",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "agnus castus",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879"
+   ]
+  },
+  {
+   "name": "Aihamantha",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "ailanthus glandulosa",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "aletris farinosa",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "allium cepa",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "alnus rubra",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "aloe socotrina",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "Aloes",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "alumina",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "ambra grisea",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Ammoniacum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "ammonium carbonicum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847"
+   ]
+  },
+  {
+   "name": "Ammonium muriaticum",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847"
+   ]
+  },
+  {
+   "name": "amyl nitrosum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "an, — Carbo animalis",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "an. — Oleum animale",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "anacardium orientale",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "angustura vera",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Anlimonium crudum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Anthrokokali",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "antimonium crudum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "antimonium tartaricum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "apis mellifica",
+   "origins": [
+    "open-materia-medica",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "apocynum androsaemifolium",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "apocynum cannabinum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "aralia racemosa",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "aranea diadema",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "arctium lappa",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Argent um",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "argento nitricum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Argentum metallicum",
+   "origins": [
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "Argentum nitricum",
+   "origins": [
+    "repertory:hering-repertory-1889",
+    "repertory:lippe-repertory-1879"
+   ]
+  },
+  {
+   "name": "arnica montana",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "arsenicum album",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "arsenicum bromatum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "arsenicum iodatum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "arsenicum metallicum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "Artemisia vulgaris",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Arum uiaculatum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Asa fcetida",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "asafetida",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Asafoetida",
+   "origins": [
+    "repertory:lippe-repertory-1879",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "asarum europaeum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Asarum europseum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "asclepias tuberosa",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Asparagus",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "asterias rubens",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Aurum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "aurum metallicum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "avena sativa",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "bacillinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "balsamum peruvianum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "baptisia tinctoria",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "baryta carbonica",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "belladonna",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "bellis perennis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "benzoicum acidum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "berberis aquifolium",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "berberis vulgaris",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Bismuthum",
+   "origins": [
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "bismuthum subsalicylas",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "blatta orientalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "borax",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Borax veneta",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "bothrops lanceolatus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "bovista",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "bromium",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "Brucea anti-dyssen",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "bryonia alba",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "bufo rana",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "c, — Ammonium car bo",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "c. — Baryta carbonica",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "cactus grandiflorus",
+   "origins": [
+    "open-materia-medica",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "cadmium sulphuratum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Caladium seguiiium",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "caladium seguinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "calcarea carbonica",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "calcarea fluorica",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "calcarea phosphorica",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "Calcarea sulphurica",
+   "origins": [
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "calendula officinalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Camphora",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "camphora officinarum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "cannabis indica",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "cannabis sativa",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Canslicum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Cantharis",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "cantharis vesicatoria",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "capsicum annuum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "carbo animalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "carbo vegetabilis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "carbolicum acidum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Carboneum animalis",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898"
+   ]
+  },
+  {
+   "name": "Carboneum vegetabile",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847"
+   ]
+  },
+  {
+   "name": "carcinosin",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "carduus marianus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "cascara sagrada",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Cascarilla, Croton",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Castoreum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "caulophyllum thalictroides",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Causticum",
+   "origins": [
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "causticum hahnemanni",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "ceanothus americanus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "cedron",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "cerium oxalicum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "ch. — Kali chloricum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Chamomilla",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "Chamomilla vul",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "chamomilla vulgaris",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "chelidonium majus",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "chimaphila umbellata",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "china officinalis",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "chininum arsenicosum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Chininum sulphu",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "chininum sulphuricum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "chionanthus virginica",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "chrysarobinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Chsnopodium",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "cicuta virosa",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "cimex lectularius",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "cimicifuga racemosa",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Cina",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "cina maritima",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "cinnabaris",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Cinnamomum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "cistus canadensis",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Citri acidum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Clematis erecta",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "clematis recta",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "cobaltum metallicum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Coccinella septem",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Cocculus",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "cocculus indicus",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "coccus cacti",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Cochlearea armo",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "cochlearia officinalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "coffea cruda",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Colchicum autum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "colchicum autumnale",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "collinsonia canadensis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "colocynthis",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "condurango",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Conium macnlatum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "conium maculatum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "convallaria majalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "copaiva officinalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "corallium rubrum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "crataegus oxyacantha",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "crocus sativus",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "crotalus horridus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "croton tiglium",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "cubeba officinalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "cuprum metallicum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879"
+   ]
+  },
+  {
+   "name": "curare",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "cyclamen europaeum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "cypripedium pubescens",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "digitalis purpurea",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "dioscorea villosa",
+   "origins": [
+    "open-materia-medica",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "diospyros virginiana",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "dolichos pruriens",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "drosera rotundifolia",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "dulc, — Mercurius",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "dulcamara",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "echinacea angustifolia",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "elaps corallinus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "electricitas",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "equisetum hyemale",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "erigeron canadense",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "eupatorium perfoliatum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "euphrasia officinalis",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "fagopyrum esculentum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "fel tauri",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "ferrum metallicum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:humphreys-sexual-1860",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "ferrum phosphoricum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "ferula glauca",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "flam. — Ranunculus",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "formica rufa",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "fraxinus americana",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "galium aparine",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "gambogia",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "gelsemium sempervirens",
+   "origins": [
+    "open-materia-medica",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "ginseng",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "glonoinum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "gnaphalium",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "graphites",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "grindelia robusta",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "guaiacum officinale",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "hamamelis virginiana",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "hecla lava",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "hedera helix",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "helleborus niger",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "heloderma horridum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "helonias dioica",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "hepar sulphuris",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Hepar sulphuris calcareum",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "hippozaenium",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "hydrangea arborescens",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "hydrastis canadensis",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "hydrocotyle asiatica",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "hydrocyanicum acidum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "hyoscyamus niger",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "Hyoscyamusniyer",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "hypericum perforatum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "iberis amara",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "iEthusa synapium",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "ignatia amara",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "Ijunium album",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Iodium",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "iodum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "ipecacuanha",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "iris versicolor",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "j ec, — Oleum jecoris mor",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "J^tri acidum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "jaborandi",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "jacaranda caroba",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "juglans cinerea",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "justicia adhatoda",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "kali bichromicum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "kali bromatum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "kali carbonicum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889",
+    "repertory:humphreys-sexual-1860",
+    "repertory:lippe-repertory-1879",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "kali iodatum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "kali muriaticum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "kali nitricum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "kali phosphoricum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "kali sulphuricum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "kalmia latifolia",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "kreosotum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "lac caninum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "lac defloratum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "lachesis muta",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "lacticum acidum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Lactuca virosa",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "lapis albus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "laurocerasus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "ledum palustre",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "Ledum pidnstre",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "leptandra virginica",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "lilium tigrinum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "lobelia inflata",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "luna",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "lupulinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Lycofodiufn clava",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "lycopodium clavatum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "lyssin",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "m, — Ammonium muria",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "m. — Aurum muriati",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "m. — Baryta muriatica",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Magnes artificialis",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "magnesia carbonica",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "magnesia muriatica",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "magnesia phosphorica",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "magnetis poli ambo",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "magnetis polus arcticus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "magnetis polus australis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Magriesia Car",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "mam. — Solanummam",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "mancinella",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "mandragora officinarum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "manganum metallicum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Manyanttm",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "medorrhinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "melilotus officinalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "menispermum canadense",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Menyanthes trifo",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Mephitis puto",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "mephitis putorius",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Mercurius",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Mercurius ace",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Mercurius cor",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Mercurius corrosivus",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:jahr-repertory-1847"
+   ]
+  },
+  {
+   "name": "mercurius dulcis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "mercurius iodatus flavus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "mercurius iodatus ruber",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "mercurius solubilis",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "mezereum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Millefolium",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "millifolium",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Mitrum sulphu",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "morphinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Moschus",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "murex purpurea",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Murex purpureus",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "muriaticum acidum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Muriatis ad",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "n. — Argentum nitricum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "n. — Solanum nigrum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "naja tripudians",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Natrum arsenicosum",
+   "origins": [
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "natrum carbonicum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "Natrum muria\"",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "natrum muriaticum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "natrum phosphoricum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "natrum salicylicum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "natrum sulphuricum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "Niccolum carboni",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "nitricum acidum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847"
+   ]
+  },
+  {
+   "name": "nux moschata",
+   "origins": [
+    "open-materia-medica",
+    "repertory:lippe-repertory-1879"
+   ]
+  },
+  {
+   "name": "nux vomica",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900"
+   ]
+  },
+  {
+   "name": "ocimum canum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "od.— Viola odorata",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "oleander",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Oniscus asellus",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "opium",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:lippe-repertory-1879",
+    "repertory:sensation-as-if-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "osmium metallicum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "paeonia officinalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "paraffinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "pareira brava",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Paris quadrifolia",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "passiflora incarnata",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "pepsinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "petroleum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "petroselinum",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Pfaellandrium aqua",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "phosphoricum acidum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879"
+   ]
+  },
+  {
+   "name": "phosphorus",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "phytolacca decandra",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Pinus sikestris",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "pinus sylvestris",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "piper methysticum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "pix liquida",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "plantago major",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "platinum metallicum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "PlaUna",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Plumbum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "plumbum metallicum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:lippe-repertory-1879",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "podophyllum peltatum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:humphreys-sexual-1860",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "polygonum punctatum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "populus tremuloides",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Pothos fotida",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "prunus spinosa",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "PsBouia",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "psorinum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "ptelea trifoliata",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "Pulsatilla nigri",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "pulsatilla nigricans",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Pulsatilla pratensis",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "pyrogenium",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "quassia amara",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "radium bromatum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Ranunculus bulbo",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "ranunculus bulbosus",
+   "origins": [
+    "open-materia-medica",
+    "repertory:lippe-repertory-1879"
+   ]
+  },
+  {
+   "name": "ranunculus sceleratus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "RapbaDus sativus",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "raphanus sativus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "ratanhia",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "rauwolfia serpentina",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Rbododendron",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "rep. — Ranunculus re",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "rhamnus frangula",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "rheum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Rheum. Rhabarba",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "rhododendron chrysanthum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "rhus glabra",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "rhus radicans",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "rhus toxicodendron",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "Rhus toxicodeu'",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "rhus venenata",
+   "origins": [
+    "open-materia-medica",
+    "repertory:hering-repertory-1889"
+   ]
+  },
+  {
+   "name": "robinia pseudacacia",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "rumex crispus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "ruta graveolens",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:hering-repertory-1889",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "s. — Magnesia Sul",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "s. — Zincum sulphu",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Sabadilla",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "sabadilla officinalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "sabal serrulata",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Sabina",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "sabina officinalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "salicylicum acidum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "sambucus nigra",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Sanguinaria cana",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "sanguinaria canadensis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "sanicula aquatica",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Sapo domesticus",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "saponaria officinalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "sarothamnus scoparius",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "sarracenia purpurea",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Sarsaparilla",
+   "origins": [
+    "repertory:clarke-clinical-1900",
+    "repertory:lippe-repertory-1879",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "sarsaparilla officinalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Sassaparilla",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "sc. — Ranunculus scele",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "scilla",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Scropbularia no",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "scrophularia nodosa",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Secale ccrnulum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "secale cornutum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:lippe-repertory-1879"
+   ]
+  },
+  {
+   "name": "Selenium",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "selenium metallicum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "senecio aureus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Senega",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "senega officinalis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Senna",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "sepia officinalis",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "silicea terra",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "Silicia",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "sinapis nigra",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "sol",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "solanum carolinense",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "solidago virgaurea",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "sp, — Nitri spiritus",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "sp. — Angustura spuria",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Spigelia",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "spigelia anthelmia",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "spongia tosta",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Squilla maritima",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Stannum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "stannum metallicum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "Staphisagria",
+   "origins": [
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "staphysagria",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "sticta pulmonaria",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "stigmata maydis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "stramonium",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "Strontiana",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "sulphur",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "sulphur iodatum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Sulphuris ad",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "symphytum officinale",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "syphilinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "tabacum",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "tanacetum vulgare",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "tarantula cubensis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Taraxacum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "taraxacum officinale",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "tarentula hispana",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Tarentula hispanica",
+   "origins": [
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890"
+   ]
+  },
+  {
+   "name": "Tartarus emeti",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Taxus baccata",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "tellurium metallicum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Terebintbina",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "terebinthina",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Teucrium marum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "teucrium marum verum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Thea csesarea",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Theridion curassa",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "theridion curassavicum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "thiosinaminum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Thuja occiden",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "thuja occidentalis",
+   "origins": [
+    "open-materia-medica",
+    "repertory:clarke-clinical-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:hering-repertory-1889",
+    "repertory:jahr-repertory-1847",
+    "repertory:pulford-rheumatism-1898"
+   ]
+  },
+  {
+   "name": "tr.— Viola tricolor",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "trillium pendulum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "tuberculinum bovinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "ulmus fulva",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "uranium nitricum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "urea",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "urtica urens",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "ustilago maidis",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "uva ursi",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "v. — Rhus vemix",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "valeriana",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Valeriana officina",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "vanadium metallicum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "variolinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "veratrum album",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:drake-foot-sweat-1894",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "veratrum viride",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Verbascum thap",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "viburnum opulus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Vinca minor",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "viola odorata",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "viola tricolor",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "vipera berus",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "wwi. — Nux vomica",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "x ray",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "xanthoxylum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "xerophyllum tenax",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "yohimbinum",
+   "origins": [
+    "open-materia-medica"
+   ]
+  },
+  {
+   "name": "Zincum",
+   "origins": [
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "zincum metallicum",
+   "origins": [
+    "open-materia-medica",
+    "repertory:bryant-pocket-1900",
+    "repertory:hering-repertory-1889",
+    "repertory:humphreys-sexual-1860",
+    "repertory:jahr-repertory-1847",
+    "repertory:lippe-repertory-1879",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890",
+    "repertory:vilas-eye-ear-1890"
+   ]
+  },
+  {
+   "name": "zingiber",
+   "origins": [
+    "open-materia-medica",
+    "jahr-1847-index"
+   ]
+  },
+  {
+   "name": "Zingiber officinale",
+   "origins": [
+    "repertory:jahr-repertory-1847",
+    "repertory:pulford-rheumatism-1898",
+    "repertory:sensation-as-if-1890"
+   ]
+  }
+ ]
+}

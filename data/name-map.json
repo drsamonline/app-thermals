@@ -1,0 +1,2734 @@
+{
+"built": "2026-11-01",
+"entries": [
+{
+"abbrev": "ACET",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0001",
+"printed": "ACETIC ACin",
+"status": "unresolved"
+},
+{
+"abbrev": "JETI",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0002",
+"printed": "JETIICSA CYlTAPIITJtt",
+"status": "unresolved"
+},
+{
+"abbrev": "AliO",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0003",
+"printed": "AliOE",
+"status": "unresolved"
+},
+{
+"abbrev": "Allf",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0004",
+"printed": "AllfllOErillM ]»1UR1AT1€U]II",
+"status": "unresolved"
+},
+{
+"abbrev": "AIVO",
+"book": "bell-therapeutics-1906.json",
+"corrected": "AIVOUSTURA",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0005",
+"printed": "AIVOUSTURA",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "AWXI",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0006",
+"printed": "AWXIMOWirH €RUI>ITM",
+"status": "unresolved"
+},
+{
+"abbrev": "ANTi",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0007",
+"printed": "ANTimOOTUIWr TAUTARieiTM",
+"status": "unresolved"
+},
+{
+"abbrev": "AROE",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0008",
+"printed": "AROEKTUII IVITBimiir",
+"status": "unresolved"
+},
+{
+"abbrev": "AUmC",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0009",
+"printed": "AUmCA MONTANA",
+"status": "unresolved"
+},
+{
+"abbrev": "Anmm",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Anmmcvn",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0010",
+"printed": "Anmmcvn",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "A8AR",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0011",
+"printed": "A8ARUM EIIROPEIJII",
+"status": "unresolved"
+},
+{
+"abbrev": "A8€l",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0012",
+"printed": "A8€liEPlA8 TITBJER08A",
+"status": "unresolved"
+},
+{
+"abbrev": "BAPT",
+"book": "bell-therapeutics-1906.json",
+"corrected": "BAPTISIA TIACTORIA",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0013",
+"printed": "BAPTISIA TIACTORIA",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "ItlR",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0014",
+"printed": "ItlRYTA CiRBOlVICA",
+"status": "unresolved"
+},
+{
+"abbrev": "BELl",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0015",
+"printed": "BELl<.iDOX.\\A",
+"status": "unresolved"
+},
+{
+"abbrev": "BENZ",
+"book": "bell-therapeutics-1906.json",
+"corrected": "BENZOIC ACID",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0016",
+"printed": "BENZOIC ACID",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "BOli",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0017",
+"printed": "BOliETUlS",
+"status": "unresolved"
+},
+{
+"abbrev": "BORA",
+"book": "bell-therapeutics-1906.json",
+"corrected": "borax",
+"evidence": "the printed name is already a known name",
+"id": "bell-therapeutics-1906-0018",
+"printed": "BORAX",
+"status": "ok"
+},
+{
+"abbrev": "BRO.",
+"book": "bell-therapeutics-1906.json",
+"corrected": "BRO.HINE",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0019",
+"printed": "BRO.HINE",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "CAHP",
+"book": "bell-therapeutics-1906.json",
+"corrected": "CAHPHOH",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0020",
+"printed": "CAHPHOH",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "CAPS",
+"book": "bell-therapeutics-1906.json",
+"corrected": "capsicum annuum",
+"evidence": "the entry's own abbreviation 'CAPS' names one curated remedy",
+"id": "bell-therapeutics-1906-0021",
+"printed": "CAPSICUm",
+"status": "corrected"
+},
+{
+"abbrev": "CARB",
+"book": "bell-therapeutics-1906.json",
+"corrected": "CARBO TBGBTABIUS",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0022",
+"printed": "CARBO TBGBTABIUS",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "CARB",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0023",
+"printed": "CARBOIilC ACID",
+"status": "unresolved"
+},
+{
+"abbrev": "ClIU",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0024",
+"printed": "ClIUMBONll M 11141118",
+"status": "unresolved"
+},
+{
+"abbrev": "CIC€",
+"book": "bell-therapeutics-1906.json",
+"corrected": "cicuta virosa",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between borax and rheum",
+"id": "bell-therapeutics-1906-0025",
+"printed": "CIC€XA VIROSA",
+"status": "corrected"
+},
+{
+"abbrev": "CINA",
+"book": "bell-therapeutics-1906.json",
+"corrected": "CINA",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0026",
+"printed": "CINA",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "COFF",
+"book": "bell-therapeutics-1906.json",
+"corrected": "COFFEA",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0027",
+"printed": "COFFEA",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "C01X",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0028",
+"printed": "C01X7H1CUII1",
+"status": "unresolved"
+},
+{
+"abbrev": "COI-",
+"book": "bell-therapeutics-1906.json",
+"corrected": "COI-OCYXTHIS",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0029",
+"printed": "COI-OCYXTHIS",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "COI^",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0030",
+"printed": "COI^OfSTRUin",
+"status": "unresolved"
+},
+{
+"abbrev": "CWIC",
+"book": "bell-therapeutics-1906.json",
+"corrected": "CWICM",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0031",
+"printed": "CWICM",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "COPA",
+"book": "bell-therapeutics-1906.json",
+"corrected": "copaiva officinalis",
+"evidence": "the entry's own abbreviation 'COPA' names one curated remedy",
+"id": "bell-therapeutics-1906-0032",
+"printed": "COPAIT^",
+"status": "corrected"
+},
+{
+"abbrev": "CORN",
+"book": "bell-therapeutics-1906.json",
+"corrected": "CORNUA CIRCINATA",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0033",
+"printed": "CORNUA CIRCINATA",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "CBOT",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0034",
+"printed": "CBOTA1.1JO HOBRID1J8",
+"status": "unresolved"
+},
+{
+"abbrev": "CROT",
+"book": "bell-therapeutics-1906.json",
+"corrected": "CROTON TIOUIJR",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0035",
+"printed": "CROTON TIOUIJR",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "CTCI",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0036",
+"printed": "CTCI^AMEIV",
+"status": "unresolved"
+},
+{
+"abbrev": "BIGI",
+"book": "bell-therapeutics-1906.json",
+"corrected": "BIGITAUN",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0037",
+"printed": "BIGITAUN",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "DIOS",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0038",
+"printed": "DIOSCOUEA TIIX05A",
+"status": "unresolved"
+},
+{
+"abbrev": "BULC",
+"book": "bell-therapeutics-1906.json",
+"corrected": "BULCAHARA",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0039",
+"printed": "BULCAHARA",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "FJ.A",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0040",
+"printed": "FJ.ATERIIIM",
+"status": "unresolved"
+},
+{
+"abbrev": "FLUO",
+"book": "bell-therapeutics-1906.json",
+"corrected": "FLUORIC ACID",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0041",
+"printed": "FLUORIC ACID",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "GAHI",
+"book": "bell-therapeutics-1906.json",
+"corrected": "GAHIBOGIA",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0042",
+"printed": "GAHIBOGIA",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "GifT",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0043",
+"printed": "GifTAPHITEN",
+"status": "unresolved"
+},
+{
+"abbrev": "Hi:]",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0044",
+"printed": "Hi:]iI.£BORU8 ^ICiCK",
+"status": "unresolved"
+},
+{
+"abbrev": "HlPP",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0045",
+"printed": "HlPPOMAK£ ]|IA]W€lN£L.IiA",
+"status": "unresolved"
+},
+{
+"abbrev": "UYOS",
+"book": "bell-therapeutics-1906.json",
+"corrected": "UYOSCYAIIIJS",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0046",
+"printed": "UYOSCYAIIIJS",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "ICil",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0047",
+"printed": "ICilVATIA",
+"status": "unresolved"
+},
+{
+"abbrev": "IRlf",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0048",
+"printed": "IRlfii TEBISlCOIiOR",
+"status": "unresolved"
+},
+{
+"abbrev": "JABO",
+"book": "bell-therapeutics-1906.json",
+"corrected": "JABOBANDI",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0049",
+"printed": "JABOBANDI",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "JALi",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0050",
+"printed": "JALiAPA",
+"status": "unresolved"
+},
+{
+"abbrev": "JATR",
+"book": "bell-therapeutics-1906.json",
+"corrected": "JATROPHA CUHCAS",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0051",
+"printed": "JATROPHA CUHCAS",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "KAJL",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0052",
+"printed": "KAJLI Bl€HRO]III€U]|I",
+"status": "unresolved"
+},
+{
+"abbrev": "KAI4",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0053",
+"printed": "KAI4I BROMICUM",
+"status": "unresolved"
+},
+{
+"abbrev": "KAT.",
+"book": "bell-therapeutics-1906.json",
+"corrected": "kali carbonicum",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between borax and rheum",
+"id": "bell-therapeutics-1906-0054",
+"printed": "KAT.l CARBONICUM",
+"status": "corrected"
+},
+{
+"abbrev": "KALI",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0055",
+"printed": "KALI ]VITRI€U]lf",
+"status": "unresolved"
+},
+{
+"abbrev": "KBEO",
+"book": "bell-therapeutics-1906.json",
+"corrected": "KBEOSOTIJM",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0056",
+"printed": "KBEOSOTIJM",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "I^YC",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0057",
+"printed": "I^YCOPODICIW",
+"status": "unresolved"
+},
+{
+"abbrev": "MtEZ",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0058",
+"printed": "MtEZERDUIlf",
+"status": "unresolved"
+},
+{
+"abbrev": "NATR",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0059",
+"printed": "NATRrM < ARBOXICUHr",
+"status": "unresolved"
+},
+{
+"abbrev": "NATH",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0060",
+"printed": "NATHUm fSUI-FHUMCtJlWt",
+"status": "unresolved"
+},
+{
+"abbrev": "NITR",
+"book": "bell-therapeutics-1906.json",
+"corrected": "nitricum acidum",
+"evidence": "the entry's own abbreviation 'NITR' names one curated remedy",
+"id": "bell-therapeutics-1906-0061",
+"printed": "NITRIC^ Af^lD",
+"status": "corrected"
+},
+{
+"abbrev": "HEX",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0062",
+"printed": "HEX ROfSCllATA",
+"status": "unresolved"
+},
+{
+"abbrev": "PAri",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0063",
+"printed": "PAri.l.mA NORRILIM",
+"status": "unresolved"
+},
+{
+"abbrev": "PETR",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0064",
+"printed": "PETR01.£1Jli",
+"status": "unresolved"
+},
+{
+"abbrev": "PHO.",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0065",
+"printed": "PHO.SPHOBU8",
+"status": "unresolved"
+},
+{
+"abbrev": "PHOS",
+"book": "bell-therapeutics-1906.json",
+"corrected": "PHOSPHORIC ACID",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0066",
+"printed": "PHOSPHORIC ACID",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "PICR",
+"book": "bell-therapeutics-1906.json",
+"corrected": "PICRIC ACID",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0067",
+"printed": "PICRIC ACID",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Plir",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0068",
+"printed": "PlirMBUM HETALlilCUJII",
+"status": "unresolved"
+},
+{
+"abbrev": "PSOR",
+"book": "bell-therapeutics-1906.json",
+"corrected": "PSORITTIJIII",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0069",
+"printed": "PSORITTIJIII",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "PVIi",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0070",
+"printed": "PVIiSATlliliA",
+"status": "unresolved"
+},
+{
+"abbrev": "MAPU",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0071",
+"printed": "MAPUAISVH SAXn ilSi",
+"status": "unresolved"
+},
+{
+"abbrev": "RHEU",
+"book": "bell-therapeutics-1906.json",
+"corrected": "rheum",
+"evidence": "the printed name is already a known name",
+"id": "bell-therapeutics-1906-0072",
+"printed": "RHEUM",
+"status": "ok"
+},
+{
+"abbrev": "RHOD",
+"book": "bell-therapeutics-1906.json",
+"corrected": "RHODODENDBON",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0073",
+"printed": "RHODODENDBON",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "RIJM",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0074",
+"printed": "RIJMF.X C RISPUN",
+"status": "unresolved"
+},
+{
+"abbrev": "SABA",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0075",
+"printed": "SABABUUt",
+"status": "unresolved"
+},
+{
+"abbrev": "SAMB",
+"book": "bell-therapeutics-1906.json",
+"corrected": "SAMBIJCIJSI KTIGER",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0076",
+"printed": "SAMBIJCIJSI KTIGER",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "CORN",
+"book": "bell-therapeutics-1906.json",
+"corrected": "CORNUTITM",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0077",
+"printed": "CORNUTITM",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "SF.P",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0078",
+"printed": "SF.PIA",
+"status": "unresolved"
+},
+{
+"abbrev": "N1U€",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0079",
+"printed": "N1U€£A",
+"status": "unresolved"
+},
+{
+"abbrev": "STRA",
+"book": "bell-therapeutics-1906.json",
+"corrected": "stramonium",
+"evidence": "the entry's own abbreviation 'STRA' names one curated remedy",
+"id": "bell-therapeutics-1906-0080",
+"printed": "STRAMOMIlJir",
+"status": "corrected"
+},
+{
+"abbrev": "SULP",
+"book": "bell-therapeutics-1906.json",
+"corrected": "sulphur",
+"evidence": "the printed name is already a known name",
+"id": "bell-therapeutics-1906-0081",
+"printed": "SULPHUR",
+"status": "ok"
+},
+{
+"abbrev": "SULP",
+"book": "bell-therapeutics-1906.json",
+"corrected": "SULPHURIC ACID",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0082",
+"printed": "SULPHURIC ACID",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "TABA",
+"book": "bell-therapeutics-1906.json",
+"corrected": "tabacum",
+"evidence": "the printed name is already a known name",
+"id": "bell-therapeutics-1906-0083",
+"printed": "TABACUM",
+"status": "ok"
+},
+{
+"abbrev": "TABA",
+"book": "bell-therapeutics-1906.json",
+"corrected": "TABAXACUIIE",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0084",
+"printed": "TABAXACUIIE",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "TERE",
+"book": "bell-therapeutics-1906.json",
+"corrected": "TEREBIMTHIMA",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0085",
+"printed": "TEREBIMTHIMA",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "XlNO",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0086",
+"printed": "XlNOIB£R",
+"status": "unresolved"
+},
+{
+"abbrev": "Mind",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0087",
+"printed": "Mind and Mood",
+"status": "unresolved"
+},
+{
+"abbrev": "Eyes",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0088",
+"printed": "Eyes and Ears",
+"status": "unresolved"
+},
+{
+"abbrev": "Nosh",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Nosh",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0089",
+"printed": "Nosh",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Face",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Face",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0090",
+"printed": "Face",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Mout",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Mouth",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0091",
+"printed": "Mouth",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Thro",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Throat",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0092",
+"printed": "Throat",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "CEso",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0093",
+"printed": "CEsophagus",
+"status": "unresolved"
+},
+{
+"abbrev": "Eruc",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Eructations",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0094",
+"printed": "Eructations",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Stom",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Stomach",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0095",
+"printed": "Stomach",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Abdo",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Abdomen",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0096",
+"printed": "Abdomen",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Anus",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Anus",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0097",
+"printed": "Anus",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Urin",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Urine",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0098",
+"printed": "Urine",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Extr",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Extremities",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0099",
+"printed": "Extremities",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "SivE",
+"book": "bell-therapeutics-1906.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "bell-therapeutics-1906-0100",
+"printed": "SivEBP",
+"status": "unresolved"
+},
+{
+"abbrev": "Feve",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Fever",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0101",
+"printed": "Fever",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Skin",
+"book": "bell-therapeutics-1906.json",
+"corrected": "Skin",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0102",
+"printed": "Skin",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Gene",
+"book": "bell-therapeutics-1906.json",
+"corrected": "General Symptoms",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "bell-therapeutics-1906-0103",
+"printed": "General Symptoms",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Igna",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "ignatia amara",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0100",
+"printed": "Ignatia Amara",
+"status": "ok"
+},
+{
+"abbrev": "Igna",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Ignatia Amaka",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0101",
+"printed": "Ignatia Amaka",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Iodi",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Iodium. Ipecacuanha",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0102",
+"printed": "Iodium. Ipecacuanha",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Ipec",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Ipecacuanha. Kali Carbonicum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0103",
+"printed": "Ipecacuanha. Kali Carbonicum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Kali",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "kali carbonicum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0104",
+"printed": "Kali Carbon Icum",
+"status": "ok"
+},
+{
+"abbrev": "Kali",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "kali carbonicum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0105",
+"printed": "Kali Carbonicum",
+"status": "ok"
+},
+{
+"abbrev": "Kali",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0106",
+"printed": "Kali Chloricum. Kali Hydriodicum",
+"status": "unresolved"
+},
+{
+"abbrev": "Kali",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Kali Iiyduiodicum. Krkosotum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0107",
+"printed": "Kali Iiyduiodicum. Krkosotum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Kreo",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Kreosotum. Lachesis",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0108",
+"printed": "Kreosotum. Lachesis",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Lach",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Lachesis. Lactuca Virosa",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0109",
+"printed": "Lachesis. Lactuca Virosa",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Lact",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Lactuca Virosa",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0110",
+"printed": "Lactuca Virosa",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Lact",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Lactuca Vi Rosa",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0111",
+"printed": "Lactuca Vi Rosa",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Lact",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Lactuca Virosa",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0112",
+"printed": "Lactuca Virosa",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Lami",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Lamitjm Album. Laurocerasus",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0113",
+"printed": "Lamitjm Album. Laurocerasus",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Laur",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Laurocerasus. Ledum Palustre",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0114",
+"printed": "Laurocerasus. Ledum Palustre",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Ledu",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "ledum palustre",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0115",
+"printed": "Ledum Palustre",
+"status": "ok"
+},
+{
+"abbrev": "Lobe",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Lobella Inflata",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0116",
+"printed": "Lobella Inflata",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Lyco",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Lycopodium. Magnesia Carbonica",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0117",
+"printed": "Lycopodium. Magnesia Carbonica",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Magn",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "magnesia carbonica",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0118",
+"printed": "Magnesia. Carbonica",
+"status": "ok"
+},
+{
+"abbrev": "Magn",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "magnesia carbonica",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0119",
+"printed": "Magnesia Carbonica",
+"status": "ok"
+},
+{
+"abbrev": "Magn",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "magnesia muriatica",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0120",
+"printed": "Magnesia Muriatica",
+"status": "ok"
+},
+{
+"abbrev": "Magn",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Magnesia Sulphurica",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0121",
+"printed": "Magnesia Sulphurica",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Meny",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Menyanthes Trifoliata",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0122",
+"printed": "Menyanthes Trifoliata",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Meph",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "mephitis putorius",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0123",
+"printed": "Mephitis Putorius",
+"status": "ok"
+},
+{
+"abbrev": "Meph",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Mephitis Putorius. Mercurius",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0124",
+"printed": "Mephitis Putorius. Mercurius",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Merc",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Mercurius",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0125",
+"printed": "Mercurius",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Meze",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Mezereum. Millefolium",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0126",
+"printed": "Mezereum. Millefolium",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Yol.",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0127",
+"printed": "Yol. I",
+"status": "unresolved"
+},
+{
+"abbrev": "Mill",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Millefolium. Moschus",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0128",
+"printed": "Millefolium. Moschus",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Mure",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Murex Purpureus",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0129",
+"printed": "Murex Purpureus",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Muri",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Muriatis Acidum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0130",
+"printed": "Muriatis Acidum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Muri",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "muriaticum acidum",
+"evidence": "the entry's own abbreviation 'Muri' names one curated remedy",
+"id": "jahr-materia-medica-1847-0131",
+"printed": "Muriatis Acidum. Natrum Carbonicum",
+"status": "corrected"
+},
+{
+"abbrev": "Natr",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "natrum carbonicum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0132",
+"printed": "Natrum Carbonicum",
+"status": "ok"
+},
+{
+"abbrev": "Natr",
+"also": "Natrum Muriaticum",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "natrum carbonicum",
+"evidence": "two names run together in the transcription: natrum carbonicum + Natrum Muriaticum",
+"id": "jahr-materia-medica-1847-0133",
+"printed": "Natrum Carbonicum. Natrum Muriaticum",
+"status": "merged"
+},
+{
+"abbrev": "Natr",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "natrum muriaticum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0134",
+"printed": "Natrum Muriaticum",
+"status": "ok"
+},
+{
+"abbrev": "Natr",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Natrtjm Muriaticum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0135",
+"printed": "Natrtjm Muriaticum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Natr",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "natrum muriaticum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0136",
+"printed": "Natrum Muriaticum",
+"status": "ok"
+},
+{
+"abbrev": "Natr",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "natrum sulphuricum",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between natrum muriaticum and nux moschata",
+"id": "jahr-materia-medica-1847-0137",
+"printed": "Natrum Sulfur I Cum",
+"status": "corrected"
+},
+{
+"abbrev": "Nicc",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Niccolum Carbonicum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0138",
+"printed": "Niccolum Carbonicum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Nitr",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Nitri Acidum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0139",
+"printed": "Nitri Acidum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Nux",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "nux moschata",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0140",
+"printed": "Nux Moschata",
+"status": "ok"
+},
+{
+"abbrev": "Nux",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "nux vomica",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0141",
+"printed": "Nux Vomica",
+"status": "ok"
+},
+{
+"abbrev": "Ntjx",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Ntjx Vomica",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0142",
+"printed": "Ntjx Vomica",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Nux",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "nux vomica",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0143",
+"printed": "Nux Vomica",
+"status": "ok"
+},
+{
+"abbrev": "Oleu",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Oleum Animale",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0144",
+"printed": "Oleum Animale",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Onis",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Oniscus Asellus. Opium",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0145",
+"printed": "Oniscus Asellus. Opium",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Opiu",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Opium. Pceonia",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0146",
+"printed": "Opium. Pceonia",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Pari",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Paris Quadrifolia. Petroleum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0147",
+"printed": "Paris Quadrifolia. Petroleum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Petr",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Petroleum. Petroselinum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0148",
+"printed": "Petroleum. Petroselinum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Phel",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Phellan Duixjm Aquaticum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0149",
+"printed": "Phellan Duixjm Aquaticum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Phel",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Phellandrium Aquaticum. Phosphorus",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0150",
+"printed": "Phellandrium Aquaticum. Phosphorus",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Phos",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Phosphori Acidum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0151",
+"printed": "Phosphori Acidum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Phos",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0152",
+"printed": "Phosphori Acidum. Pinus. Platina",
+"status": "unresolved"
+},
+{
+"abbrev": "Pl",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0153",
+"printed": "Pl Ati N A",
+"status": "unresolved"
+},
+{
+"abbrev": "Prun",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "prunus spinosa",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0154",
+"printed": "Prunus Spinosa",
+"status": "ok"
+},
+{
+"abbrev": "Ranu",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "ranunculus bulbosus",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0155",
+"printed": "Ranunculus Bulbosus",
+"status": "ok"
+},
+{
+"abbrev": "Ranu",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "ranunculus sceleratus",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0156",
+"printed": "Ranunculus Sceleratus",
+"status": "ok"
+},
+{
+"abbrev": "Raph",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "raphanus sativus",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0157",
+"printed": "Raphanus Sativus",
+"status": "ok"
+},
+{
+"abbrev": "Raph",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Raphanus Sativus. Ratanhia",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0158",
+"printed": "Raphanus Sativus. Ratanhia",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Rhod",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Rhododendron Ciirysanthum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0159",
+"printed": "Rhododendron Ciirysanthum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Rhus",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "rhus toxicodendron",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0160",
+"printed": "Rhus Toxicodendron",
+"status": "ok"
+},
+{
+"abbrev": "Rhus",
+"also": "Rhus Vernix",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "rhus toxicodendron",
+"evidence": "two names run together in the transcription: rhus toxicodendron + Rhus Vernix",
+"id": "jahr-materia-medica-1847-0161",
+"printed": "Rhus Toxicodendron. Rhus Vernix",
+"status": "merged"
+},
+{
+"abbrev": "Ruta",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "ruta graveolens",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0162",
+"printed": "Ruta Graveolens",
+"status": "ok"
+},
+{
+"abbrev": "Ruta",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Ruta Graveolens. Sabadilla",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0163",
+"printed": "Ruta Graveolens. Sabadilla",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Sang",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "sanguinaria canadensis",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0164",
+"printed": "Sanguinaria Canadensis",
+"status": "ok"
+},
+{
+"abbrev": "Scro",
+"also": "Secale Cornutum",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "scrophularia nodosa",
+"evidence": "two names run together in the transcription: scrophularia nodosa + Secale Cornutum",
+"id": "jahr-materia-medica-1847-0165",
+"printed": "Scrophularia Nodosa. Secale Cornutum",
+"status": "merged"
+},
+{
+"abbrev": "Seca",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "secale cornutum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0166",
+"printed": "Secale Cornutum",
+"status": "ok"
+},
+{
+"abbrev": "Seca",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Secale Cornutum. Selenium",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0167",
+"printed": "Secale Cornutum. Selenium",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Sele",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Selenium. Senega",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0168",
+"printed": "Selenium. Senega",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Senn",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Senna. Sepia",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0169",
+"printed": "Senna. Sepia",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Si",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0170",
+"printed": "Si Lice A",
+"status": "unresolved"
+},
+{
+"abbrev": "Spig",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "spigelia anthelmia",
+"evidence": "the entry's own abbreviation 'Spig' names one curated remedy",
+"id": "jahr-materia-medica-1847-0171",
+"printed": "Spigeli A",
+"status": "corrected"
+},
+{
+"abbrev": "Spon",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "spongia tosta",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0172",
+"printed": "Spongia Tosta",
+"status": "ok"
+},
+{
+"abbrev": "Squi",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Squilla Maritima",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0173",
+"printed": "Squilla Maritima",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Stan",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Stannum. Staphysagria",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0174",
+"printed": "Stannum. Staphysagria",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Stra",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Stramonium. Stronti Ana",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0175",
+"printed": "Stramonium. Stronti Ana",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Sulp",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Sulphur. Sulphuris Acidum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0176",
+"printed": "Sulphur. Sulphuris Acidum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Sulp",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Sulphuris Acidum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0177",
+"printed": "Sulphuris Acidum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Tart",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Tartarus Emeticus",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0178",
+"printed": "Tartarus Emeticus",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Tart",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Tartarus Emetjcus",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0179",
+"printed": "Tartarus Emetjcus",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Tart",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Tartarus Emeticus",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0180",
+"printed": "Tartarus Emeticus",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Taxu",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Taxus Baccata",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0181",
+"printed": "Taxus Baccata",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Tere",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "terebinthina",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0182",
+"printed": "Terebinth In A",
+"status": "ok"
+},
+{
+"abbrev": "Teuc",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "teucrium marum verum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0183",
+"printed": "Teucrium Marum Verum",
+"status": "ok"
+},
+{
+"abbrev": "Thuj",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Thuja Occidentals",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0184",
+"printed": "Thuja Occidentals",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Thuj",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "thuja occidentalis",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0185",
+"printed": "Thuja Occidentalis",
+"status": "ok"
+},
+{
+"abbrev": "Vale",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Valeriana Officinalis",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0186",
+"printed": "Valeriana Officinalis",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Vale",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "valeriana",
+"evidence": "the entry's own abbreviation 'Vale' names one curated remedy",
+"id": "jahr-materia-medica-1847-0187",
+"printed": "Valeriana Officinalis. Veratrum Album",
+"status": "corrected"
+},
+{
+"abbrev": "Vera",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "veratrum album",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0188",
+"printed": "Veratrum Album",
+"status": "ok"
+},
+{
+"abbrev": "Viol",
+"also": "Viola Tricolor",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "viola odorata",
+"evidence": "two names run together in the transcription: viola odorata + Viola Tricolor",
+"id": "jahr-materia-medica-1847-0189",
+"printed": "Viola Odorata. Viola Tricolor",
+"status": "merged"
+},
+{
+"abbrev": "Viol",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "viola tricolor",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0190",
+"printed": "Viola Tricolor",
+"status": "ok"
+},
+{
+"abbrev": "Zinc",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Zincum Oxydatum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0191",
+"printed": "Zincum Oxydatum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Magn",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "magnetis poli ambo",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0192",
+"printed": "Magnetis Poli Ambo",
+"status": "ok"
+},
+{
+"abbrev": "Mane",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0193",
+"printed": "Manetis Poli Ambo. Arcticus",
+"status": "unresolved"
+},
+{
+"abbrev": "Magn",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "magnetis polus arcticus",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0194",
+"printed": "Magnetis Polus Arcticus",
+"status": "ok"
+},
+{
+"abbrev": "Magn",
+"also": "Australis",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "magnetis polus arcticus",
+"evidence": "two names run together in the transcription: magnetis polus arcticus + Australis",
+"id": "jahr-materia-medica-1847-0195",
+"printed": "Magnetis Polus Arcticus. Australis",
+"status": "merged"
+},
+{
+"abbrev": "Magn",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "magnetis polus australis",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0196",
+"printed": "Magnetis Polus Australis",
+"status": "ok"
+},
+{
+"abbrev": "Supp",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Supplement. Aurum Foliatum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0197",
+"printed": "Supplement. Aurum Foliatum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Supp",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Supplement. Aurum Muriaticum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0198",
+"printed": "Supplement. Aurum Muriaticum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Supp",
+"book": "jahr-materia-medica-1847-2.json",
+"corrected": "Supplement. Aurum Sulphuricum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0199",
+"printed": "Supplement. Aurum Sulphuricum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Acon",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "aconitum napellus",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0001",
+"printed": "Aconitum Napellus",
+"status": "ok"
+},
+{
+"abbrev": "Agar",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "agaricus muscarius",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0002",
+"printed": "Agaricus Muscarius",
+"status": "ok"
+},
+{
+"abbrev": "Agar",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "agaricus muscarius",
+"evidence": "the entry's own abbreviation 'Agar' names one curated remedy",
+"id": "jahr-materia-medica-1847-0003",
+"printed": "Agaricus Muscarius Agnus Castus",
+"status": "corrected"
+},
+{
+"abbrev": "Agnu",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "agnus castus",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0004",
+"printed": "Agnus Castus",
+"status": "ok"
+},
+{
+"abbrev": "Alum",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Alum Sna",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0005",
+"printed": "Alum Sna",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Alum",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "alumina",
+"evidence": "the entry's own abbreviation 'Alum' names one curated remedy",
+"id": "jahr-materia-medica-1847-0006",
+"printed": "Alumina Am Bra Grisea",
+"status": "corrected"
+},
+{
+"abbrev": "Ambr",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "ambra grisea",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0007",
+"printed": "Ambra Grisea",
+"status": "ok"
+},
+{
+"abbrev": "Ambr",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Ambra Grisea Ammoniacum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0008",
+"printed": "Ambra Grisea Ammoniacum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Ammo",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "ammonium carbonicum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0009",
+"printed": "Ammonium Carbonicum",
+"status": "ok"
+},
+{
+"abbrev": "Ammo",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Ammonium Causticum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0010",
+"printed": "Ammonium Causticum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Ammo",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Ammonium muriaticum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0011",
+"printed": "Ammonium Muriaticum",
+"status": "ok"
+},
+{
+"abbrev": "Anac",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "anacardium orientale",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0012",
+"printed": "Anacardium Orientale",
+"status": "ok"
+},
+{
+"abbrev": "Anac",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Anacardium Orientals",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0013",
+"printed": "Anacardium Orientals",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Anac",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "anacardium orientale",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0014",
+"printed": "Anacardium Orientale",
+"status": "ok"
+},
+{
+"abbrev": "Angu",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Angustura. Angustura Spuria",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0015",
+"printed": "Angustura. Angustura Spuria",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Anti",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "antimonium crudum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0016",
+"printed": "Antimonium Crudum",
+"status": "ok"
+},
+{
+"abbrev": "Arge",
+"also": "Arnica Montana",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Argentum nitricum",
+"evidence": "two names run together in the transcription: Argentum nitricum + Arnica Montana",
+"id": "jahr-materia-medica-1847-0017",
+"printed": "Argentum Nitricum. Arnica Montana",
+"status": "merged"
+},
+{
+"abbrev": "Arni",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "arnica montana",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0018",
+"printed": "Arnica Montana",
+"status": "ok"
+},
+{
+"abbrev": "Arni",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "arnica montana",
+"evidence": "the entry's own abbreviation 'Arni' names one curated remedy",
+"id": "jahr-materia-medica-1847-0019",
+"printed": "Arnica Mont. Arsenicum Album",
+"status": "corrected"
+},
+{
+"abbrev": "Arse",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "arsenicum album",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0020",
+"printed": "Arsenicum Album",
+"status": "ok"
+},
+{
+"abbrev": "Arum",
+"book": "jahr-materia-medica-1847.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0021",
+"printed": "Arum. Ass A Fcetida",
+"status": "unresolved"
+},
+{
+"abbrev": "Assa",
+"book": "jahr-materia-medica-1847.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0022",
+"printed": "Assa Fcetida. Asarum Europ-Eum",
+"status": "unresolved"
+},
+{
+"abbrev": "As",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "As Arum Europium",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0023",
+"printed": "As Arum Europium",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Asa",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Asa Rum Europium",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0024",
+"printed": "Asa Rum Europium",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Atha",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Athamantha. Aurum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0025",
+"printed": "Athamantha. Aurum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Bary",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "baryta carbonica",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0026",
+"printed": "Baryta Carbonica",
+"status": "ok"
+},
+{
+"abbrev": "Bary",
+"also": "Baryta Muriatica",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "baryta carbonica",
+"evidence": "two names run together in the transcription: baryta carbonica + Baryta Muriatica",
+"id": "jahr-materia-medica-1847-0027",
+"printed": "Baryta Carbonica. Baryta Muriatica",
+"status": "merged"
+},
+{
+"abbrev": "Bary",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Baryta Muriatica. Belladonna",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0028",
+"printed": "Baryta Muriatica. Belladonna",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Bell",
+"also": "Berber Is Vulgaris",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "belladonna",
+"evidence": "two names run together in the transcription: belladonna + Berber Is Vulgaris",
+"id": "jahr-materia-medica-1847-0029",
+"printed": "Belladonna. Berber Is Vulgaris",
+"status": "merged"
+},
+{
+"abbrev": "Herb",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Herberts Vulgaris",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0030",
+"printed": "Herberts Vulgaris",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Berb",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "berberis vulgaris",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0031",
+"printed": "Berberis Vulgaris",
+"status": "ok"
+},
+{
+"abbrev": "Berr",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Berreris Vulgaris",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0032",
+"printed": "Berreris Vulgaris",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Berb",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Berberis Vulgaris. Bismuthum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0033",
+"printed": "Berberis Vulgaris. Bismuthum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Bora",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Borax veneta",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0034",
+"printed": "Borax Veneta",
+"status": "ok"
+},
+{
+"abbrev": "Bora",
+"book": "jahr-materia-medica-1847.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0035",
+"printed": "Borax Yen Eta. Bovista",
+"status": "unresolved"
+},
+{
+"abbrev": "Bovi",
+"also": "Bruce A Anti-Dyssenterica",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "bovista",
+"evidence": "two names run together in the transcription: bovista + Bruce A Anti-Dyssenterica",
+"id": "jahr-materia-medica-1847-0036",
+"printed": "Bovista. Bruce A Anti-Dyssenterica",
+"status": "merged"
+},
+{
+"abbrev": "Bryo",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "bryonia alba",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0037",
+"printed": "Bryonia Alba",
+"status": "ok"
+},
+{
+"abbrev": "Bryo",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "bryonia alba",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0038",
+"printed": "Bryonia. Alba",
+"status": "ok"
+},
+{
+"abbrev": "Cala",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "caladium seguinum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0039",
+"printed": "Caladium Seguinum",
+"status": "ok"
+},
+{
+"abbrev": "Cala",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "caladium seguinum",
+"evidence": "the entry's own abbreviation 'Cala' names one curated remedy",
+"id": "jahr-materia-medica-1847-0040",
+"printed": "Calad. Seg. Calcarea Carbonica",
+"status": "corrected"
+},
+{
+"abbrev": "Calc",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "calcarea carbonica",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0041",
+"printed": "Calcarea Carbonica",
+"status": "ok"
+},
+{
+"abbrev": "Calc",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Calcarea Phospiiorata",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0042",
+"printed": "Calcarea Phospiiorata",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Camp",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Camphora. Cannabis Sativa",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0043",
+"printed": "Camphora. Cannabis Sativa",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Cann",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "cannabis sativa",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0044",
+"printed": "Cannabis Sativa",
+"status": "ok"
+},
+{
+"abbrev": "Cann",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Cannabis Satiya. Cantharis",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0045",
+"printed": "Cannabis Satiya. Cantharis",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Caps",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "capsicum annuum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0046",
+"printed": "Capsicum Annuum",
+"status": "ok"
+},
+{
+"abbrev": "Carb",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "carbo animalis",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0047",
+"printed": "Carbo Animalis",
+"status": "ok"
+},
+{
+"abbrev": "Carb",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "carbo vegetabilis",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0048",
+"printed": "Carbo Vegeta Bilis",
+"status": "ok"
+},
+{
+"abbrev": "Carb",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "carbo vegetabilis",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0049",
+"printed": "Carbo Vegeta Bi Lis",
+"status": "ok"
+},
+{
+"abbrev": "Carb",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "carbo vegetabilis",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0050",
+"printed": "Carbo Vegetabilis",
+"status": "ok"
+},
+{
+"abbrev": "Garb",
+"book": "jahr-materia-medica-1847.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0051",
+"printed": "Garbo Vegeta Bi Lis",
+"status": "unresolved"
+},
+{
+"abbrev": "Cham",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "chamomilla vulgaris",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0052",
+"printed": "Chamomilla Vulgaris",
+"status": "ok"
+},
+{
+"abbrev": "Chen",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Chenopodium Glaucum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0053",
+"printed": "Chenopodium Glaucum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Chin",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "chininum sulphuricum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0054",
+"printed": "Chininum Sulphuricum",
+"status": "ok"
+},
+{
+"abbrev": "Chin",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Chininum Sulpiiuricum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0055",
+"printed": "Chininum Sulpiiuricum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Chin",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "chininum sulphuricum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0056",
+"printed": "Chininum Sulphuricum",
+"status": "ok"
+},
+{
+"abbrev": "Cina",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Cina. Cinnabaris",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0057",
+"printed": "Cina. Cinnabaris",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Cist",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "cistus canadensis",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0058",
+"printed": "Cistus Canadensis",
+"status": "ok"
+},
+{
+"abbrev": "Clem",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Clematis Erecta",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0059",
+"printed": "Clematis Erecta",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Cocc",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Coccinella. Cocculus",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0060",
+"printed": "Coccinella. Cocculus",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Coff",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "coffea cruda",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0061",
+"printed": "Coffea Cruda",
+"status": "ok"
+},
+{
+"abbrev": "Coff",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "coffea cruda",
+"evidence": "the entry's own abbreviation 'Coff' names one curated remedy",
+"id": "jahr-materia-medica-1847-0062",
+"printed": "Coffey Cruda. Colchicum Autumnale",
+"status": "corrected"
+},
+{
+"abbrev": "Colc",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "colchicum autumnale",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0063",
+"printed": "Colchicum Autumnale",
+"status": "ok"
+},
+{
+"abbrev": "Colc",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Colcii Jcum Autumnale",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0064",
+"printed": "Colcii Jcum Autumnale",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Colo",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Colocynthis. Conium Maculatum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0065",
+"printed": "Colocynthis. Conium Maculatum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Coni",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "conium maculatum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0066",
+"printed": "Conium Maculatum",
+"status": "ok"
+},
+{
+"abbrev": "Coni",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Conium Maculatuai",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0067",
+"printed": "Conium Maculatuai",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Coni",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "conium maculatum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0068",
+"printed": "Conium Maculatum",
+"status": "ok"
+},
+{
+"abbrev": "Cora",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "corallium rubrum",
+"evidence": "the entry's own abbreviation 'Cora' names one curated remedy",
+"id": "jahr-materia-medica-1847-0069",
+"printed": "Corallia Rubra. Crocus Sativus",
+"status": "corrected"
+},
+{
+"abbrev": "Croc",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "crocus sativus",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0070",
+"printed": "Crocus Sativus",
+"status": "ok"
+},
+{
+"abbrev": "Crot",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "croton tiglium",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0071",
+"printed": "Croton Tiglium",
+"status": "ok"
+},
+{
+"abbrev": "Crot",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Croton Tigltum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0072",
+"printed": "Croton Tigltum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Crot",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "croton tiglium",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0073",
+"printed": "Croton Tiglium",
+"status": "ok"
+},
+{
+"abbrev": "Cupr",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "cuprum metallicum",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0074",
+"printed": "Cuprum Metallicum",
+"status": "ok"
+},
+{
+"abbrev": "Cycl",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Cyclamen Europium",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0075",
+"printed": "Cyclamen Europium",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Daph",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Daphne Indica",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0076",
+"printed": "Daphne Indica",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Daph",
+"book": "jahr-materia-medica-1847.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0077",
+"printed": "Daphne Indica. Diadema Aranea",
+"status": "unresolved"
+},
+{
+"abbrev": "Diad",
+"book": "jahr-materia-medica-1847.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0078",
+"printed": "Diadema Aranea. Digitalis Purpurea",
+"status": "unresolved"
+},
+{
+"abbrev": "Digi",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "digitalis purpurea",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0079",
+"printed": "Digitalis Purpurea",
+"status": "ok"
+},
+{
+"abbrev": "Dros",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "drosera rotundifolia",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0080",
+"printed": "Drosera Rotundi Folia",
+"status": "ok"
+},
+{
+"abbrev": "Dros",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "drosera rotundifolia",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0081",
+"printed": "Drosera Rotun Difolia",
+"status": "ok"
+},
+{
+"abbrev": "Dulc",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Dulcamara. Electricitas",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0082",
+"printed": "Dulcamara. Electricitas",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Elec",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Electricitas. Eugenia Iameos",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0083",
+"printed": "Electricitas. Eugenia Iameos",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Euph",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "euphrasia officinalis",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0084",
+"printed": "Euphrasia Officinalis",
+"status": "ok"
+},
+{
+"abbrev": "Ferr",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Ferrum Magneticum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0085",
+"printed": "Ferrum Magneticum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Ferr",
+"book": "jahr-materia-medica-1847.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0086",
+"printed": "Ferrum Magneticum. Ferrum Muriaticum",
+"status": "unresolved"
+},
+{
+"abbrev": "Gent",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Gentiana Lutea",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0087",
+"printed": "Gentiana Lutea",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Gins",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Ginseng. Grannatum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0088",
+"printed": "Ginseng. Grannatum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Grap",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Graphites. Gratiola Officinalis",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0089",
+"printed": "Graphites. Gratiola Officinalis",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Grat",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Gratiola Officinalis",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0090",
+"printed": "Gratiola Officinalis",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Hell",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "helleborus niger",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0091",
+"printed": "Helleborus Niger",
+"status": "ok"
+},
+{
+"abbrev": "Hepa",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "hepar sulphuris",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0092",
+"printed": "Hepar Sulphuris",
+"status": "ok"
+},
+{
+"abbrev": "Hepa",
+"also": "Haracleum Spondilium",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "hepar sulphuris",
+"evidence": "two names run together in the transcription: hepar sulphuris + Haracleum Spondilium",
+"id": "jahr-materia-medica-1847-0093",
+"printed": "Hepar Sulphuris. Haracleum Spondilium",
+"status": "merged"
+},
+{
+"abbrev": "Hydr",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Hydrociani Acidum",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0094",
+"printed": "Hydrociani Acidum",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Hydr",
+"book": "jahr-materia-medica-1847.json",
+"corrected": null,
+"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0095",
+"printed": "Hydrociani Acidum. Hyoscyamus Niger",
+"status": "unresolved"
+},
+{
+"abbrev": "Hyos",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "hyoscyamus niger",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0096",
+"printed": "Hyoscyamus Niger",
+"status": "ok"
+},
+{
+"abbrev": "Iiyo",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "Iiyoscyamus Niger",
+"evidence": "a readable name the reference does not carry; kept exactly as printed",
+"id": "jahr-materia-medica-1847-0097",
+"printed": "Iiyoscyamus Niger",
+"status": "ok-as-printed"
+},
+{
+"abbrev": "Hyos",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "hyoscyamus niger",
+"evidence": "the printed name is already a known name",
+"id": "jahr-materia-medica-1847-0098",
+"printed": "Hyoscyamus Niger",
+"status": "ok"
+},
+{
+"abbrev": "Igna",
+"book": "jahr-materia-medica-1847.json",
+"corrected": "ignatia amara",
+"evidence": "the entry's own abbreviation 'Igna' names one curated remedy",
+"id": "jahr-materia-medica-1847-0099",
+"printed": "Ignatia Amap.A",
+"status": "corrected"
+}
+],
+"rule": "Correct the OCR-damaged remedy names in the two transcribed books."
+}
