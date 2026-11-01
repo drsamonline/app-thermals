@@ -1,0 +1,43 @@
+{
+"built": "2026-11-01",
+"repairs": [
+{
+"damage_after": 0.6,
+"damage_before": 0.6,
+"from": "Icy coldness of the whole body, with chilliness and shaking, or cold, clammy, debilitating perspira tion",
+"page": 72,
+"page_label": null,
+"similarity": 0.99,
+"to": "Icy coldness of the whole body, with chilliness and shaking, or cold, clammy, debilitating perspiration"
+},
+{
+"damage_after": 1.5,
+"damage_before": 1.8,
+"from": "The '' chilliness in the rectum,\" before stool, is a singular but genuine symptom, which further ob servation may prove to be characteristic.",
+"page": 142,
+"page_label": null,
+"similarity": 1.0,
+"to": "The '' chilliness in the rectum,\" before stool, is a singular but genuine symptom, which further observation may prove to be characteristic."
+},
+{
+"damage_after": 0.3,
+"damage_before": 0.3,
+"from": "Chilliness and sen sitiveness to cold.",
+"page": 184,
+"page_label": null,
+"similarity": 0.99,
+"to": "Chilliness and sensitiveness to cold."
+},
+{
+"damage_after": 0.3,
+"damage_before": 0.3,
+"from": "Want of animal heat, alw'ays chilly, even when exercising.",
+"page": 191,
+"page_label": null,
+"similarity": 0.99,
+"to": "Want of animal heat, always chilly, even when exercising."
+}
+],
+"source": "https://archive.org/details/in.ernet.dli.2015.94901",
+"what": "quoted sentences rebuilt from the scan's own page text: the line break and the end-of-line hyphen removed, nothing paraphrased"
+}

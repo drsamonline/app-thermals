@@ -171,6 +171,16 @@ def extract_omm(root):
 
 
 # ---------------------------------------------------------------- JSON books
+def load_text_repairs(path="data/text-repairs.json"):
+    """Quotes repaired from the scan's own page text, keyed by what was printed."""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            data = json.load(fh)
+    except FileNotFoundError:
+        return {}
+    return {r["from"]: r for r in data.get("repairs", [])}
+
+
 def load_name_map(path="data/name-map.json"):
     """The corrections proven by tools/names.py, keyed by (book file, remedy id)."""
     try:
@@ -181,8 +191,9 @@ def load_name_map(path="data/name-map.json"):
     return {(e["book"], e["id"]): e for e in data.get("entries", [])}
 
 
-def extract_books(root, name_map=None):
+def extract_books(root, name_map=None, repairs=None):
     name_map = name_map or {}
+    repairs = repairs or {}
     rows, books, names = [], [], {}
     stats = {}
     md = os.path.join(root, "materia_medica")
@@ -222,6 +233,8 @@ def extract_books(root, name_map=None):
                 chapter = sym.get("chapter") or ""
                 for s in sentences(clean(sym.get("text") or "")):
                     if qualifies(s, chapter):
+                        fix = repairs.get(s)
+                        shown = fix["to"] if fix else s
                         rows.append({
                             "remedy": rname,
                             "remedy_slug": slug,
@@ -229,11 +242,13 @@ def extract_books(root, name_map=None):
                             "source_short": title,
                             "source_kind": "book",
                             "chapter": chapter,
-                            "sentence": s,
-                            "side": side(s),
+                            "sentence": shown,
+                            "sentence_printed": s if fix else None,
+                            "text_page": fix["page"] if fix else None,
+                            "side": side(shown),
                             "name_status": name_status,
                             "name_printed": printed,
-                            "text_damage": text_damage(s),
+                            "text_damage": text_damage(shown),
                         })
     return rows, books, names, stats
 
@@ -244,7 +259,7 @@ def main():
     out_dir = sys.argv[3] if len(sys.argv) > 3 else "data"
 
     omm_rows, omm_pages = extract_omm(omm_root)
-    book_rows, books, book_names, name_stats = extract_books(book_root, load_name_map())
+    book_rows, books, book_names, name_stats = extract_books(book_root, load_name_map(), load_text_repairs())
     rows = omm_rows + book_rows
     seen, deduped = set(), []
     for r in rows:

@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.6.0 — 2026-11-01
+
+Damaged quotes repaired from the page that carries them.
+
+- `tools/text-repair.py` pulls the scan's page-level OCR (`_djvu.xml`, 324 pages) and repairs
+  only what the page witnesses: a word split across a line (`sen-` + `sitiveness` →
+  `sensitiveness`), an apostrophe inside a word (`alw'ays` → `always`), and a page number
+  swallowed into the prose.
+- 4 of the 31 damaged quotes are repaired; the other 27 stay flagged, because the page does
+  not witness a safe repair for them and nothing is added, dropped or reordered.
+- A repaired quote keeps the transcription's own words beside it and shows its page number.
+- 558 assertions.
+
 ## 1.5.1 — 2026-11-01
 
 The last two names closed by symptom matching; nothing is unresolved.

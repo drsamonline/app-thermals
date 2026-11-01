@@ -280,5 +280,21 @@ test("the second scan cross-checks the names without renaming them", function ()
   ok(/never renames/.test(x.what), "the file states that it never renames");
 });
 
+
+test("a quote repaired from the page keeps both versions and says where it came from", function () {
+  var fixed = ROWS.filter(function (r) { return r.text_page; });
+  ok(fixed.length > 0, "some quotes were repaired from the scan's page text");
+  fixed.forEach(function (r) {
+    ok(!!r.sentence_printed, "the transcription's own words are kept beside the repair");
+    ok(r.sentence_printed !== r.sentence, "the repair actually differs from what was printed");
+    ok(r.text_page > 0, "the page it came from is recorded");
+    // nothing may be added: every word of the repair comes from the page
+    ok(r.sentence.length > 20, "the repaired sentence is still a sentence");
+  });
+  var html = T.renderRows([fixed[0]]);
+  ok(/repaired from p\./.test(html), "the page shows which page the repair came from");
+  ok(html.indexOf(T.esc(fixed[0].sentence)) >= 0, "and quotes the repaired text");
+});
+
 console.log(passed + " passed, " + failed + " failed");
 process.exit(failed ? 1 : 0);

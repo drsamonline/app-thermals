@@ -233,6 +233,10 @@
         note = ' <span class="name-note">' + esc(T.NAME_NOTE[r.name_status] || "printed as") +
           " “" + esc(r.name_printed) + "”</span>";
       }
+      var repaired = r.text_page
+        ? ' <span class="name-note">repaired from p.' + esc(r.text_page) +
+          ' of the scan — the scanner\'s line break and split word removed, nothing else changed</span>'
+        : "";
       var damage = r.text_damage
         ? ' <span class="name-note">OCR text — this sentence carries a swallowed page number or a broken word</span>'
         : "";
@@ -240,7 +244,7 @@
         "<blockquote>" + esc(r.sentence) + "</blockquote>" +
         '<figcaption><span class="src">' + esc(r.source) + "</span>" +
         (r.chapter ? ' <span class="chapter">· ' + esc(r.chapter) + "</span>" : "") +
-        note + damage + "</figcaption></figure>";
+        note + repaired + damage + "</figcaption></figure>";
     }).join("");
   };
 

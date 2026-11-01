@@ -1096,11 +1096,13 @@
 "remedy": "Aethusa cynapium",
 "remedy_slug": "aethusa-cynapium",
 "sentence": "Drowsiness with chilliness.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1109,11 +1111,13 @@
 "remedy": "Aloe socotrina",
 "remedy_slug": "aloe-socotrina",
 "sentence": "Chilliness when leaving the fire.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "Aggravation",
@@ -1122,11 +1126,13 @@
 "remedy": "Asarum europaeum",
 "remedy_slug": "asarum-europaeum",
 "sentence": "In chilly, nervous individuals",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1135,11 +1141,13 @@
 "remedy": "Asarum europaeum",
 "remedy_slug": "asarum-europaeum",
 "sentence": "Constantly chilly.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "Before Stool",
@@ -1148,11 +1156,13 @@
 "remedy": "Baryta carbonica",
 "remedy_slug": "baryta-carbonica",
 "sentence": "Chilliness over the head and legs",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "During Stool",
@@ -1161,11 +1171,13 @@
 "remedy": "Boletus laricis",
 "remedy_slug": "boletus-laricis",
 "sentence": "Chilliness along the spine, followed by hot flashes and sweat.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1173,12 +1185,14 @@
 "name_status": "ok-as-printed",
 "remedy": "CAHPHOH",
 "remedy_slug": "cahphoh",
-"sentence": "Icy coldness of the whole body, with chilliness and shaking, or cold, clammy, debilitating perspira tion",
+"sentence": "Icy coldness of the whole body, with chilliness and shaking, or cold, clammy, debilitating perspiration",
+"sentence_printed": "Icy coldness of the whole body, with chilliness and shaking, or cold, clammy, debilitating perspira tion",
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": 72
 },
 {
 "chapter": "After Stool",
@@ -1187,11 +1201,13 @@
 "remedy": "CAHPHOH",
 "remedy_slug": "cahphoh",
 "sentence": "Violent chilliness as though water were poured over one, with in ternal warmth",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1200,11 +1216,13 @@
 "remedy": "carbolicum acidum",
 "remedy_slug": "carbolicum-acidum",
 "sentence": "In voluntary emission of urine which feels hot.",
+"sentence_printed": null,
 "side": "heat",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1213,11 +1231,13 @@
 "remedy": "CORNUA CIRCINATA",
 "remedy_slug": "cornua-circinata",
 "sentence": "Chilliness, followed by flashes of heat and sweat.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1226,11 +1246,13 @@
 "remedy": "BIGITAUN",
 "remedy_slug": "bigitaun",
 "sentence": "Vomiting is sometimes accompanied by external heat, mingled with chills, and followed by perspiration with chilliness.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1239,11 +1261,13 @@
 "remedy": "Ferrum metallicum",
 "remedy_slug": "ferrum-metallicum",
 "sentence": "Chilliness, with continued THEIR INDICATIONS, IO3 yawning.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1252,11 +1276,13 @@
 "remedy": "GAHIBOGIA",
 "remedy_slug": "gahibogia",
 "sentence": "Chilliness in the back.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1265,11 +1291,13 @@
 "remedy": "Graphites",
 "remedy_slug": "graphites",
 "sentence": "It is especially adapted to fat, flabby persons, who suffer from constant chilliness, and are subject to eczematous and herpetic eruptions, which crack and ooze a glutinous fluid.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1278,11 +1306,13 @@
 "remedy": "Graphites",
 "remedy_slug": "graphites",
 "sentence": "Cold feeling of the stomach, as if full of water.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1291,11 +1321,13 @@
 "remedy": "Graphites",
 "remedy_slug": "graphites",
 "sentence": "1 1 1 Cold feeling in the abdomen.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1304,11 +1336,13 @@
 "remedy": "Kali bromatum",
 "remedy_slug": "kali-bromatum",
 "sentence": "Great chilliness, even in a hot room.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "Before Stool",
@@ -1317,11 +1351,13 @@
 "remedy": "Lycopodium clavatum",
 "remedy_slug": "lycopodium-clavatum",
 "sentence": "Chilliness in the rectum",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1329,12 +1365,14 @@
 "name_status": "second-scan",
 "remedy": "Lycopodium clavatum",
 "remedy_slug": "lycopodium-clavatum",
-"sentence": "The '' chilliness in the rectum,\" before stool, is a singular but genuine symptom, which further ob servation may prove to be characteristic.",
+"sentence": "The '' chilliness in the rectum,\" before stool, is a singular but genuine symptom, which further observation may prove to be characteristic.",
+"sentence_printed": "The '' chilliness in the rectum,\" before stool, is a singular but genuine symptom, which further ob servation may prove to be characteristic.",
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": 142
 },
 {
 "chapter": "Accompaniments",
@@ -1343,11 +1381,13 @@
 "remedy": "petroleum",
 "remedy_slug": "petroleum",
 "sentence": "Cold feeling in the abdomen.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1356,11 +1396,13 @@
 "remedy": "petroleum",
 "remedy_slug": "petroleum",
 "sentence": "Aversion to the open air, which causes chilliness.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "Before Stool",
@@ -1369,11 +1411,13 @@
 "remedy": "phosphorus",
 "remedy_slug": "phosphorus",
 "sentence": "Heat or chilliness",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1382,11 +1426,13 @@
 "remedy": "PICRIC ACID",
 "remedy_slug": "picric-acid",
 "sentence": "Chilliness followed by clammy sweat.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1394,12 +1440,14 @@
 "name_status": "second-scan",
 "remedy": "Sabadilla officinalis",
 "remedy_slug": "sabadilla-officinalis",
-"sentence": "Chilliness and sen sitiveness to cold.",
+"sentence": "Chilliness and sensitiveness to cold.",
+"sentence_printed": "Chilliness and sen sitiveness to cold.",
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": 184
 },
 {
 "chapter": "Accompaniments",
@@ -1408,11 +1456,13 @@
 "remedy": "SAMBIJCIJSI KTIGER",
 "remedy_slug": "sambijcijsi-ktiger",
 "sentence": "Burning or cold feeling in the abdomen, with sensation of emptiness.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Accompaniments",
@@ -1421,11 +1471,13 @@
 "remedy": "SAMBIJCIJSI KTIGER",
 "remedy_slug": "sambijcijsi-ktiger",
 "sentence": "Predominant chilliness.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "During Stool",
@@ -1434,11 +1486,13 @@
 "remedy": "Silicea terra",
 "remedy_slug": "silicea-terra",
 "sentence": "Chilliness, and nausea in the throat",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "After Stool",
@@ -1446,12 +1500,14 @@
 "name_status": "second-scan",
 "remedy": "Silicea terra",
 "remedy_slug": "silicea-terra",
-"sentence": "Want of animal heat, alw'ays chilly, even when exercising.",
+"sentence": "Want of animal heat, always chilly, even when exercising.",
+"sentence_printed": "Want of animal heat, alw'ays chilly, even when exercising.",
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": 191
 },
 {
 "chapter": "Accompaniments",
@@ -1460,11 +1516,13 @@
 "remedy": "sulphur",
 "remedy_slug": "sulphur",
 "sentence": "Continued dry heat, or coldness and cold sweat Chilliness about the lower part of the body .",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "During Stool",
@@ -1473,11 +1531,13 @@
 "remedy": "TEREBIMTHIMA",
 "remedy_slug": "terebimthima",
 "sentence": "Chilliness and shuddering",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1486,11 +1546,13 @@
 "remedy": "Fever",
 "remedy_slug": "fever",
 "sentence": "Sulph Chilliness even when exercising",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1499,11 +1561,13 @@
 "remedy": "Fever",
 "remedy_slug": "fever",
 "sentence": "Alum, Graph, ■ - , chilliness, with",
+"sentence_printed": null,
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1512,11 +1576,13 @@
 "remedy": "kali carbonicum",
 "remedy_slug": "kali-carbonicum",
 "sentence": "Great chilliness, constant shivering and shuddering, sometimes with stiffness of the hand.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1525,11 +1591,13 @@
 "remedy": "Lamitjm Album. Laurocerasus",
 "remedy_slug": "lamitjm-album-laurocerasus",
 "sentence": "Chilliness and febrile shivering, which are removed neither by the heat of the fire, nor by that of the bed.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Extremities",
@@ -1538,11 +1606,13 @@
 "remedy": "Mercurius",
 "remedy_slug": "mercurius",
 "sentence": "Chilliness, shiverings and coldness of the whole body, especially in the hands and feet, with violent thirst, and sometimes without a desire for warmth.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "General Symptoms",
@@ -1551,11 +1621,13 @@
 "remedy": "nux moschata",
 "remedy_slug": "nux-moschata",
 "sentence": "State of chilliness, as when suddenly cooled after perspiring, with pain in the nape of the neck, and in all the bones.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1564,11 +1636,13 @@
 "remedy": "nux vomica",
 "remedy_slug": "nux-vomica",
 "sentence": "The hands are cold and chilly.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1577,11 +1651,13 @@
 "remedy": "ranunculus bulbosus",
 "remedy_slug": "ranunculus-bulbosus",
 "sentence": "Attacks of fever after a meal or in the evening, characterised principally by chilliness, with pains in the abdomen, and other distressing symptoms.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1590,11 +1666,13 @@
 "remedy": "Ruta Graveolens. Sabadilla",
 "remedy_slug": "ruta-graveolens-sabadilla",
 "sentence": "Fever without thirst, manifested only by chilliness, with intermittent heat, which is more perceptible in the face and hands than in the other parts of the body.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1603,11 +1681,13 @@
 "remedy": "Senna. Sepia",
 "remedy_slug": "senna-sepia",
 "sentence": "Rheumatic pains, with swelling of the parts affected, perspiration easily excited, chilliness or shivering, alternately with heat.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1616,11 +1696,13 @@
 "remedy": "Senna. Sepia",
 "remedy_slug": "senna-sepia",
 "sentence": "Excessively chilly disposition, and shuddering, with frequent shiverings, also on the least movement.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1629,11 +1711,13 @@
 "remedy": "Stannum. Staphysagria",
 "remedy_slug": "stannum-staphysagria",
 "sentence": "- °Fever in the evening, manifesting itself only by chilliness.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Genital Organs",
@@ -1642,11 +1726,13 @@
 "remedy": "Stramonium. Stronti Ana",
 "remedy_slug": "stramonium-stronti-ana",
 "sentence": "Chilliness, \"coldness, shivering, and shuddering, principally in the evening, or at night, in bed, as well as in the after- noon, and when walking in the open air.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Teeth",
@@ -1655,11 +1741,13 @@
 "remedy": "Sulphuris Acidum",
 "remedy_slug": "sulphuris-acidum",
 "sentence": "Great chilliness after drinking, or eating.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1668,11 +1756,13 @@
 "remedy": "viola tricolor",
 "remedy_slug": "viola-tricolor",
 "sentence": "Chilliness and coldness in the open air.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "Clinical Remarks",
@@ -1681,11 +1771,13 @@
 "remedy": "agaricus muscarius",
 "remedy_slug": "agaricus-muscarius",
 "sentence": "Disposition exceedingly chilly, and shiverings in the open air, or on raising the bed-clothes, although the limbs may be warm.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "General Symptoms",
@@ -1694,11 +1786,13 @@
 "remedy": "Alum Sna",
 "remedy_slug": "alum-sna",
 "sentence": "Fever toivards the evening, with predominant chilliness.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1707,11 +1801,13 @@
 "remedy": "anacardium orientale",
 "remedy_slug": "anacardium-orientale",
 "sentence": "Strony disposition to chilliness, and great sensibility to cold and currents of air.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1720,11 +1816,13 @@
 "remedy": "baryta carbonica",
 "remedy_slug": "baryta-carbonica",
 "sentence": "Strong disposition to chilliness.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "Clinical Remarks",
@@ -1733,11 +1831,13 @@
 "remedy": "cistus canadensis",
 "remedy_slug": "cistus-canadensis",
 "sentence": "Chilly disposition.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1746,11 +1846,13 @@
 "remedy": "Coccinella. Cocculus",
 "remedy_slug": "coccinella-cocculus",
 "sentence": "Fever, with tendency to become chilly, though the skin is hot to the touch.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1759,11 +1861,13 @@
 "remedy": "croton tiglium",
 "remedy_slug": "croton-tiglium",
 "sentence": "Chilliness, with shuddering.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": false
+"text_damage": false,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1772,11 +1876,13 @@
 "remedy": "Graphites. Gratiola Officinalis",
 "remedy_slug": "graphites-gratiola-officinalis",
 "sentence": "Great tendency to chilliness.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1785,11 +1891,13 @@
 "remedy": "Gratiola Officinalis",
 "remedy_slug": "gratiola-officinalis",
 "sentence": "Shivering, chilliness, and shuddering, even near a fire.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 },
 {
 "chapter": "General",
@@ -1798,10 +1906,12 @@
 "remedy": "Hydrociani Acidum",
 "remedy_slug": "hydrociani-acidum",
 "sentence": "Chilliness ; frequent shudderings, especially after midnight or in the morning P shivering, with yawning or with thirst.",
+"sentence_printed": null,
 "side": "cold",
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true
+"text_damage": true,
+"text_page": null
 }
 ]
