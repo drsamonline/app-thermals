@@ -208,12 +208,12 @@ def extract_books(root, name_map=None):
                 rname = printed
                 name_status = (fix or {}).get("status", "unverified")
             slug = re.sub(r"[^a-z0-9]+", "-", rname.lower()).strip("-")
-            if name_status in ("merged", "not-a-remedy"):
+            if name_status in ("merged", "not-a-remedy", "duplicate"):
                 # An entry the transcription ran together with the next remedy
                 # cannot be attributed to either, so its sentences are not
                 # bundled: one row must be one remedy, one source, one sentence.
-                stats["merged_not_bundled" if name_status == "merged" else "not_a_remedy"] = \
-                    stats.get("merged_not_bundled" if name_status == "merged" else "not_a_remedy", 0) + 1
+                key = {"merged": "merged_not_bundled"}.get(name_status, name_status)
+                stats[key] = stats.get(key, 0) + 1
                 continue
             if slug:
                 names[slug] = rname

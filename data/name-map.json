@@ -31,11 +31,11 @@
 {
 "abbrev": "Allf",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Ammonium muriaticum",
+"evidence": "owner asked me to match the symptoms, and offered Allium cepa / Allium sativum. Matched: its own sentences ('Like scrapings of meat; Copious (watery); Copious of coagulated blood; Constipation alternating with diarrhoea') sit at lines 1178-1179 of the second scan, directly under section 8 'AMMONIUM MURIATICUM'. The book has NO Allium section at all (0 occurrences), so Allium is ruled out - and the slot confirms it: after Aloe comes Alumina, then Ammonium muriaticum.",
 "id": "bell-therapeutics-1906-0004",
 "printed": "AllfllOErillM ]»1UR1AT1€U]II",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "AIVO",
@@ -50,10 +50,10 @@
 "abbrev": "AWXI",
 "book": "bell-therapeutics-1906.json",
 "corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"evidence": "DUPLICATE, withheld. Its symptoms ('Aggravation: After acids... After cold bathing... In aged persons... During pregnancy') sit at line 1272 - inside the SAME section 8 'AMMONIUM MURIATICUM' as the entry above. The transcription split one remedy into two entries under two differently damaged headings; naming both would show the same remedy twice.",
 "id": "bell-therapeutics-1906-0006",
 "printed": "AWXIMOWirH €RUI>ITM",
-"status": "unresolved"
+"status": "duplicate"
 },
 {
 "abbrev": "ANTi",

@@ -130,6 +130,11 @@
    "printed": "PVIiSATlliliA",
    "corrected": "Pulsatilla nigricans",
    "note": "owner endorsed the first list; PVIi = PULS"
+  },
+  {
+   "printed": "AllfllOErillM ]»1UR1AT1€U]II",
+   "corrected": "Ammonium muriaticum",
+   "note": "owner asked me to match the symptoms, and offered Allium cepa / Allium sativum. Matched: its own sentences ('Like scrapings of meat; Copious (watery); Copious of coagulated blood; Constipation alternating with diarrhoea') sit at lines 1178-1179 of the second scan, directly under section 8 'AMMONIUM MURIATICUM'. The book has NO Allium section at all (0 occurrences), so Allium is ruled out - and the slot confirms it: after Aloe comes Alumina, then Ammonium muriaticum."
   }
  ],
  "second_scan_confirmations": {
@@ -211,6 +216,12 @@
    {
     "printed": "SivEBP",
     "evidence": "a page artefact - no reading at all"
+   }
+  ],
+  "duplicates": [
+   {
+    "printed": "AWXIMOWirH €RUI>ITM",
+    "evidence": "DUPLICATE, withheld. Its symptoms ('Aggravation: After acids... After cold bathing... In aged persons... During pregnancy') sit at line 1272 - inside the SAME section 8 'AMMONIUM MURIATICUM' as the entry above. The transcription split one remedy into two entries under two differently damaged headings; naming both would show the same remedy twice."
    }
   ]
  }

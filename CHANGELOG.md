@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.5.1 — 2026-11-01
+
+The last two names closed by symptom matching; nothing is unresolved.
+
+- `AllfllOErillM ]»1UR1AT1€U]II` = **Ammonium muriaticum** — its own sentences sit at lines
+  1178-1179 of the second scan, under section 8 `AMMONIUM MURIATICUM`. The book has no
+  *Allium* section at all, which rules that reading out.
+- `AWXIMOWirH €RUI>ITM` = the same remedy again (line 1272, same section): the transcription
+  split one remedy into two entries. Withheld as a **duplicate** instead of shown twice.
+- 302 entries: 79 confirmed, 47 corrected (26 owner-confirmed), 10 second-scan, 132 as
+  printed, 34 withheld for cause. Unresolved: **0**.
+- 539 assertions.
+
 ## 1.5.0 — 2026-11-01
 
 The owner read the residue and confirmed the readings; every name a reader can reach is

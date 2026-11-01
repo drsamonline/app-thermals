@@ -102,9 +102,10 @@ is kept as printed; only visible OCR damage is ever corrected.
 | corrected from a named authority, 25 of them readings the owner confirmed directly | **45** |
 | settled by a second scan of the same book, from the entry's own symptoms | **10** |
 | readable, kept as printed (a remedy the reference does not carry) | **132** |
-| still unresolved — both carry no statement, so neither is shown | **2** |
+| still unresolved | **0** |
 | **not bundled** — the transcription ran two remedies together | **27** |
 | **not bundled** — not a remedy (a chapter heading, a page artefact, or a fragment) | **6** |
+| **not bundled** — a duplicate of the entry above it | **1** |
 
 Every correction carries its evidence in `data/name-map.json`, and the app shows the name
 the transcription printed next to the correction, so a reader can check it rather than
@@ -185,9 +186,18 @@ symptom sits in the *Antimonium tartaricum* section, and the book's own index at
 "chopped spinach" stools to *Aconite*. The owner's note that Aconite is a separate
 medicine removed the third, and no fourth source breaks the tie, so it is not bundled.
 
-Two names remain unresolved and neither carries a statement, so neither can appear in the
-app: the two Ammoniums (`AllfllOErillM ]»1UR1AT1€U]II` and `AWXIMOWirH €RUI>ITM`), where the
-transcription has the carbonicum and the muriaticum in an order the book does not confirm.
+**The last two closed by symptom matching.** The two "Ammoniums" are both **Ammonium
+muriaticum**, and the book has no *Allium* section at all (0 occurrences), so that reading is
+ruled out. `AllfllOErillM ]»1UR1AT1€U]II` carries "Like scrapings of meat; Copious (watery);
+Copious of coagulated blood; Constipation alternating with diarrhoea" — lines 1178-1179 of the
+second scan, directly under section 8 `AMMONIUM MURIATICUM`. `AWXIMOWirH €RUI>ITM` carries
+"After acids… After cold bathing… In aged persons… During pregnancy" — line 1272, inside the
+*same* section. So the transcription split one remedy into two entries under two differently
+damaged headings; the second is withheld as a **duplicate** rather than shown twice.
+
+**Zero names are now unresolved.** 302 transcribed entries: 79 confirmed, 47 corrected (26 of
+them the owner's own readings), 10 settled by the second scan, 132 readable and kept as
+printed, and 34 withheld for cause — 27 merged, 6 not remedies, 1 duplicate.
 
 **The texts.** `text_damage` marks the quotes that carry visible OCR damage — a swallowed
 page number, a broken word, a stray mark. 31 of the 55 quoted book sentences carry it. They

@@ -187,6 +187,8 @@ def load_overrides(path=os.path.join(ROOT, "data", "name-overrides.json")):
     out = {}
     for o in data.get("second_scan_confirmations", {}).get("readings", []):
         out[letters(o["printed"])] = {"corrected": o["corrected"], "note": o["evidence"], "status": "second-scan"}
+    for o in data.get("second_scan_confirmations", {}).get("duplicates", []):
+        out[letters(o["printed"])] = {"corrected": None, "note": o["evidence"], "status": "duplicate"}
     for o in data.get("second_scan_confirmations", {}).get("not_a_remedy", []):
         out[letters(o["printed"])] = {"corrected": None, "note": o["evidence"], "status": "not-a-remedy"}
     for o in data.get("owner_confirmations", []):
