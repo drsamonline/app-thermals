@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.5.0 — 2026-11-01
+
+The owner read the residue and confirmed the readings; every name a reader can reach is
+now settled.
+
+- 25 corrections are owner-confirmed, including Chelidonium majus, Nux moschata,
+  Magnesia carbonica and Paullinia sorbilis (settled against Pulsatilla by its own
+  `(Guarana.)` synonym line).
+- Asarum europaeum settled from the second scan, which joins it to Open Materia Medica:
+  two-source remedies 11 → 12.
+- Six entries withheld rather than named: four chapter headings, one page artefact, and
+  `AROEKTUII IVITBimiir`, where position, section and the book's index give three
+  different answers.
+- Two unresolved names remain and neither carries a statement, so neither is shown.
+- 541 assertions.
+
 ## 1.4.0 — 2026-11-01
 
 The second-scan method run over every entry, and a decision not to let it rename.

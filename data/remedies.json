@@ -1,14 +1,5 @@
 [
 {
-"classified": true,
-"name": "A8ARUM EIIROPEIJII",
-"rows": 2,
-"slug": "a8arum-eiiropeijii",
-"sources": [
-"Homoeopathic Therapeutics"
-]
-},
-{
 "classified": false,
 "name": "abies canadensis",
 "rows": 0,
@@ -342,10 +333,11 @@
 {
 "classified": true,
 "name": "asarum europaeum",
-"rows": 1,
+"rows": 3,
 "slug": "asarum-europaeum",
 "sources": [
-"Open Materia Medica"
+"Open Materia Medica",
+"Homoeopathic Therapeutics"
 ]
 },
 {

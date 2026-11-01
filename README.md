@@ -52,11 +52,11 @@ Then:
 | | |
 |---|---|
 | quoted sentences (rows) | **164** |
-| remedies in the index | **366** |
-| remedies with at least one statement | **116** |
+| remedies in the index | **365** |
+| remedies with at least one statement | **115** |
 | remedies with no statement in any source (`unclassified`) | **250** |
 | sources | **3** |
-| remedies carried by two sources | **11** — Baryta carbonica, Carbolicum acidum, Cistus canadensis, Graphites, Kali carbonicum, Lycopodium clavatum, Nux vomica, Phosphorus, Sabadilla officinalis, Silicea terra, Sulphur |
+| remedies carried by two sources | **12** — Asarum europaeum, Baryta carbonica, Carbolicum acidum, Cistus canadensis, Graphites, Kali carbonicum, Lycopodium clavatum, Nux vomica, Phosphorus, Sabadilla officinalis, Silicea terra, Sulphur |
 
 Sources bundled:
 
@@ -99,12 +99,12 @@ is kept as printed; only visible OCR damage is ever corrected.
 | outcome | entries |
 |---|---|
 | confirmed — the printed name is already a known name | **79** |
-| corrected from a named authority (incl. 3 readings the owner supplied directly) | **24** |
-| settled by a second scan of the same book, from the entry's own symptoms | **9** |
+| corrected from a named authority, 25 of them readings the owner confirmed directly | **45** |
+| settled by a second scan of the same book, from the entry's own symptoms | **10** |
 | readable, kept as printed (a remedy the reference does not carry) | **132** |
-| unreadable, kept as printed and marked `spelling unconfirmed` in the app | **30** |
+| still unresolved — both carry no statement, so neither is shown | **2** |
 | **not bundled** — the transcription ran two remedies together | **27** |
-| **not bundled** — not a remedy at all (a fragment of the book's own index) | **1** |
+| **not bundled** — not a remedy (a chapter heading, a page artefact, or a fragment) | **6** |
 
 Every correction carries its evidence in `data/name-map.json`, and the app shows the name
 the transcription printed next to the correction, so a reader can check it rather than
@@ -168,6 +168,26 @@ these books repeat across many remedies. So the pass is used as a **cross-check*
 (`data/name-crosscheck.json`): it agrees with 18 of the names the app shows and flags the
 other 43 for a human eye. A wrong name is the exact failure this app exists to avoid, so a
 machine that is right four times in five does not get to write the answer.
+
+### Where the names stand now
+
+Every name that reaches a reader is settled. The owner read the residue and confirmed the
+readings directly, so 25 of the 45 corrections are his: `ClIUMBONll M 11141118` =
+**Chelidonium majus**, `HEX ROfSCllATA` = **Nux moschata**, `MAPUAISVH SAXn ilSi` =
+**Magnesia carbonica** (the book carries one Magnesia), and `PAri.l.mA NORRILIM` =
+**Paullinia sorbilis** — settled against Pulsatilla by the entry's own first line,
+`(Guarana.)`, which is that remedy's synonym.
+
+Six entries are **withheld rather than named**: four chapter headings (`CEsophagus`,
+`Eyes and Ears`, `Mind and Mood`) and a page artefact (`SivEBP`), plus `AROEKTUII
+IVITBimiir`, where three readings disagree — its position says an *Argentum*, its
+symptom sits in the *Antimonium tartaricum* section, and the book's own index attributes
+"chopped spinach" stools to *Aconite*. The owner's note that Aconite is a separate
+medicine removed the third, and no fourth source breaks the tie, so it is not bundled.
+
+Two names remain unresolved and neither carries a statement, so neither can appear in the
+app: the two Ammoniums (`AllfllOErillM ]»1UR1AT1€U]II` and `AWXIMOWirH €RUI>ITM`), where the
+transcription has the carbonicum and the muriaticum in an order the book does not confirm.
 
 **The texts.** `text_damage` marks the quotes that carry visible OCR damage — a swallowed
 page number, a broken word, a stray mark. 31 of the 55 quoted book sentences carry it. They

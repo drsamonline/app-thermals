@@ -4,11 +4,11 @@
 {
 "abbrev": "ACET",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Acetic acid",
+"evidence": "owner endorsed the first list; abbreviation ACET, and ACin = ACID",
 "id": "bell-therapeutics-1906-0001",
 "printed": "ACETIC ACin",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "JETI",
@@ -58,29 +58,29 @@
 {
 "abbrev": "ANTi",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Antimonium tartaricum",
+"evidence": "owner endorsed the first list; abbreviation ANTi, TAUTARieiTM = TARTARICUM",
 "id": "bell-therapeutics-1906-0007",
 "printed": "ANTimOOTUIWr TAUTARieiTM",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "AROE",
 "book": "bell-therapeutics-1906.json",
 "corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"evidence": "WITHHELD. The owner noted Aconite is a separate medicine, so the book's index attribution ('like chopped spinach: Acon.') does not make this entry Aconite; its symptom sits inside the Antimonium tartaricum section, and its position says an Argentum. Three readings that do not agree, and no fourth source to break the tie - so it is not bundled rather than guessed.",
 "id": "bell-therapeutics-1906-0008",
 "printed": "AROEKTUII IVITBimiir",
-"status": "unresolved"
+"status": "not-a-remedy"
 },
 {
 "abbrev": "AUmC",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Arnica montana",
+"evidence": "owner endorsed the first list; the letters read ARNICA MONTANA",
 "id": "bell-therapeutics-1906-0009",
 "printed": "AUmCA MONTANA",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "Anmm",
@@ -94,20 +94,20 @@
 {
 "abbrev": "A8AR",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Asarum europaeum",
+"evidence": "the second scan's heading for its section is 'ASARUM ECROPEFU' and the entry's two statements ('In chilly, nervous individuals', 'Constantly chilly.') sit at its start; the estate's Open Materia Medica carries the same remedy, so this is the join that makes it two-source",
 "id": "bell-therapeutics-1906-0011",
 "printed": "A8ARUM EIIROPEIJII",
-"status": "unresolved"
+"status": "second-scan"
 },
 {
 "abbrev": "A8€l",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Asclepias tuberosa",
+"evidence": "owner endorsed the first list; abbreviation A8€l = ASCL and TITBJER08A = TUBEROSA",
 "id": "bell-therapeutics-1906-0012",
 "printed": "A8€liEPlA8 TITBJER08A",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "BAPT",
@@ -130,11 +130,11 @@
 {
 "abbrev": "BELl",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Belladonna",
+"evidence": "owner endorsed the first list; abbreviation BELl",
 "id": "bell-therapeutics-1906-0015",
 "printed": "BELl<.iDOX.\\A",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "BENZ",
@@ -211,11 +211,11 @@
 {
 "abbrev": "ClIU",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Chelidonium majus",
+"evidence": "owner: '13 true' - the heading reads CHELIDONIUM MAJUS and the slot is between Carbolic acid and Cicuta virosa",
 "id": "bell-therapeutics-1906-0024",
 "printed": "ClIUMBONll M 11141118",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "CIC€",
@@ -247,11 +247,11 @@
 {
 "abbrev": "C01X",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Colchicum autumnale",
+"evidence": "owner endorsed the first list; abbreviation C01X = COLCH",
 "id": "bell-therapeutics-1906-0028",
 "printed": "C01X7H1CUII1",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "COI-",
@@ -265,11 +265,11 @@
 {
 "abbrev": "COI^",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Colostrum",
+"evidence": "owner endorsed the first list; the slot is the book's section 47 COLOSTRUM",
 "id": "bell-therapeutics-1906-0030",
 "printed": "COI^OfSTRUin",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "CWIC",
@@ -301,11 +301,11 @@
 {
 "abbrev": "CBOT",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Crotalus horridus",
+"evidence": "owner endorsed the first list; abbreviation CBOT = CROT",
 "id": "bell-therapeutics-1906-0034",
 "printed": "CBOTA1.1JO HOBRID1J8",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "CROT",
@@ -319,11 +319,11 @@
 {
 "abbrev": "CTCI",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Cyclamen europaeum",
+"evidence": "owner endorsed the first list; abbreviation CTCI = CYCL",
 "id": "bell-therapeutics-1906-0036",
 "printed": "CTCI^AMEIV",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "BIGI",
@@ -391,20 +391,20 @@
 {
 "abbrev": "Hi:]",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Helleborus niger",
+"evidence": "owner endorsed the first list; the letters read HELLEBORUS NIGER",
 "id": "bell-therapeutics-1906-0044",
 "printed": "Hi:]iI.£BORU8 ^ICiCK",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "HlPP",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Hippomane mancinella",
+"evidence": "owner endorsed the first list; abbreviation HlPP = HIPP",
 "id": "bell-therapeutics-1906-0045",
 "printed": "HlPPOMAK£ ]|IA]W€lN£L.IiA",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "UYOS",
@@ -418,20 +418,20 @@
 {
 "abbrev": "ICil",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Ignatia amara",
+"evidence": "owner endorsed the first list; abbreviation ICil = IGNA",
 "id": "bell-therapeutics-1906-0047",
 "printed": "ICilVATIA",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "IRlf",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Iris versicolor",
+"evidence": "owner endorsed the first list; abbreviation IRlf = IRIS",
 "id": "bell-therapeutics-1906-0048",
 "printed": "IRlfii TEBISlCOIiOR",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "JABO",
@@ -445,11 +445,11 @@
 {
 "abbrev": "JALi",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Jalapa",
+"evidence": "owner endorsed the first list; the letters read JALAPA",
 "id": "bell-therapeutics-1906-0050",
 "printed": "JALiAPA",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "JATR",
@@ -535,11 +535,11 @@
 {
 "abbrev": "NATH",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Natrum sulphuricum",
+"evidence": "owner endorsed the first list; NATH = NATR, fSUI-FHUM = SULPHUR",
 "id": "bell-therapeutics-1906-0060",
 "printed": "NATHUm fSUI-FHUMCtJlWt",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "NITR",
@@ -553,20 +553,20 @@
 {
 "abbrev": "HEX",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Nux moschata",
+"evidence": "owner: '17 true' - ROfSCllATA is MOSCHATA and HEX is NUX; the slot is between Nitric acid and Paullinia",
 "id": "bell-therapeutics-1906-0062",
 "printed": "HEX ROfSCllATA",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "PAri",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Paullinia sorbilis",
+"evidence": "owner asked Paullinia vs Pulsatilla: it is Paullinia - the entry's own first line is '(Guarana.)', its synonym, and its prose names Paullinia; Pulsatilla is a separate entry in the same transcription",
 "id": "bell-therapeutics-1906-0063",
 "printed": "PAri.l.mA NORRILIM",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "PETR",
@@ -607,11 +607,11 @@
 {
 "abbrev": "Plir",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Plumbum metallicum",
+"evidence": "owner endorsed the first list; Plir = PLUM, HETALlilCUJII = METALLICUM",
 "id": "bell-therapeutics-1906-0068",
 "printed": "PlirMBUM HETALlilCUJII",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "PSOR",
@@ -625,20 +625,20 @@
 {
 "abbrev": "PVIi",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Pulsatilla nigricans",
+"evidence": "owner endorsed the first list; PVIi = PULS",
 "id": "bell-therapeutics-1906-0070",
 "printed": "PVIiSATlliliA",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "MAPU",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Magnesia carbonica",
+"evidence": "owner: '23 magnesia' - the book carries one Magnesia, section 89 MAGNESIA CARBONICA",
 "id": "bell-therapeutics-1906-0071",
 "printed": "MAPUAISVH SAXn ilSi",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "RHEU",
@@ -779,19 +779,19 @@
 "abbrev": "Mind",
 "book": "bell-therapeutics-1906.json",
 "corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"evidence": "a chapter heading, not a remedy",
 "id": "bell-therapeutics-1906-0087",
 "printed": "Mind and Mood",
-"status": "unresolved"
+"status": "not-a-remedy"
 },
 {
 "abbrev": "Eyes",
 "book": "bell-therapeutics-1906.json",
 "corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"evidence": "a chapter heading, not a remedy",
 "id": "bell-therapeutics-1906-0088",
 "printed": "Eyes and Ears",
-"status": "unresolved"
+"status": "not-a-remedy"
 },
 {
 "abbrev": "Nosh",
@@ -833,10 +833,10 @@
 "abbrev": "CEso",
 "book": "bell-therapeutics-1906.json",
 "corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"evidence": "a chapter heading (Oesophagus), not a remedy",
 "id": "bell-therapeutics-1906-0093",
 "printed": "CEsophagus",
-"status": "unresolved"
+"status": "not-a-remedy"
 },
 {
 "abbrev": "Eruc",
@@ -896,10 +896,10 @@
 "abbrev": "SivE",
 "book": "bell-therapeutics-1906.json",
 "corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"evidence": "a page artefact - no reading at all",
 "id": "bell-therapeutics-1906-0100",
 "printed": "SivEBP",
-"status": "unresolved"
+"status": "not-a-remedy"
 },
 {
 "abbrev": "Feve",
@@ -1413,11 +1413,11 @@
 {
 "abbrev": "Pl",
 "book": "jahr-materia-medica-1847-2.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Platina",
+"evidence": "owner endorsed the first list; the letters read PLATINA",
 "id": "jahr-materia-medica-1847-0153",
 "printed": "Pl Ati N A",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "Prun",

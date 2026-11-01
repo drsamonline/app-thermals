@@ -222,15 +222,21 @@ test("OCR-damaged names are corrected only where an authority confirms them", fu
   eq(vague.length, 0, "no correction is justified by a guess");
 });
 
-test("a name no authority could confirm is kept exactly as printed and says so", function () {
-  var un = ROWS.filter(function (r) { return r.name_status === "unresolved"; });
-  ok(un.length > 0, "unresolved names exist and were not guessed at");
-  un.forEach(function (r) {
-    eq(r.remedy, r.name_printed, "an unresolved row keeps its printed name");
-  });
-  var html = T.renderRemedy(T.remedyFor(REMEDIES, un[0].remedy_slug),
-                            T.rowsFor(ROWS, un[0].remedy_slug), [], "2026-11-01");
-  ok(/spelling unconfirmed/.test(html), "the page says the spelling is unconfirmed");
+test("a name no authority could confirm is kept as printed, and never shown unmarked", function () {
+  var map = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "name-map.json"), "utf8"));
+  var un = map.entries.filter(function (e) { return e.status === "unresolved"; });
+  ok(un.length > 0, "unresolved entries still exist and were not guessed at");
+  un.forEach(function (e) { eq(e.corrected, null, "an unresolved entry has no correction"); });
+  // and none of them reaches the page as a bare name: they carry no statements
+  var printed = un.map(function (e) { return e.printed; });
+  var shown = ROWS.filter(function (r) { return printed.indexOf(r.name_printed) >= 0; });
+  eq(shown.length, 0, "no unresolved name is quoted in the app");
+  // the marker itself still works, driven by a row shaped like one
+  var fake = { remedy: "N1U\u00a3A", remedy_slug: "x", name_printed: "N1U\u00a3A",
+               name_status: "unresolved", source: "s", source_short: "s", chapter: "",
+               sentence: "Chilliness, and nausea in the throat", side: "cold" };
+  var html = T.renderRows([fake]);
+  ok(/spelling unconfirmed/.test(html), "the page marks an unconfirmed spelling when one is shown");
 });
 
 test("no bundled row comes from an entry that ran two remedies together", function () {

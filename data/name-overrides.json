@@ -20,6 +20,116 @@
    "printed": "KAI4I BROMICUM",
    "corrected": "Kali bromatum",
    "note": "owner: 'look for nearest similar with minor name difference' - KAI4I is KALI, and the remedy Bell carries is Kali bromatum"
+  },
+  {
+   "printed": "ClIUMBONll M 11141118",
+   "corrected": "Chelidonium majus",
+   "note": "owner: '13 true' - the heading reads CHELIDONIUM MAJUS and the slot is between Carbolic acid and Cicuta virosa"
+  },
+  {
+   "printed": "HEX ROfSCllATA",
+   "corrected": "Nux moschata",
+   "note": "owner: '17 true' - ROfSCllATA is MOSCHATA and HEX is NUX; the slot is between Nitric acid and Paullinia"
+  },
+  {
+   "printed": "MAPUAISVH SAXn ilSi",
+   "corrected": "Magnesia carbonica",
+   "note": "owner: '23 magnesia' - the book carries one Magnesia, section 89 MAGNESIA CARBONICA"
+  },
+  {
+   "printed": "PAri.l.mA NORRILIM",
+   "corrected": "Paullinia sorbilis",
+   "note": "owner asked Paullinia vs Pulsatilla: it is Paullinia - the entry's own first line is '(Guarana.)', its synonym, and its prose names Paullinia; Pulsatilla is a separate entry in the same transcription"
+  },
+  {
+   "printed": "A8€liEPlA8 TITBJER08A",
+   "corrected": "Asclepias tuberosa",
+   "note": "owner endorsed the first list; abbreviation A8€l = ASCL and TITBJER08A = TUBEROSA"
+  },
+  {
+   "printed": "ACETIC ACin",
+   "corrected": "Acetic acid",
+   "note": "owner endorsed the first list; abbreviation ACET, and ACin = ACID"
+  },
+  {
+   "printed": "ANTimOOTUIWr TAUTARieiTM",
+   "corrected": "Antimonium tartaricum",
+   "note": "owner endorsed the first list; abbreviation ANTi, TAUTARieiTM = TARTARICUM"
+  },
+  {
+   "printed": "AUmCA MONTANA",
+   "corrected": "Arnica montana",
+   "note": "owner endorsed the first list; the letters read ARNICA MONTANA"
+  },
+  {
+   "printed": "BELl<.iDOX.\\A",
+   "corrected": "Belladonna",
+   "note": "owner endorsed the first list; abbreviation BELl"
+  },
+  {
+   "printed": "C01X7H1CUII1",
+   "corrected": "Colchicum autumnale",
+   "note": "owner endorsed the first list; abbreviation C01X = COLCH"
+  },
+  {
+   "printed": "CBOTA1.1JO HOBRID1J8",
+   "corrected": "Crotalus horridus",
+   "note": "owner endorsed the first list; abbreviation CBOT = CROT"
+  },
+  {
+   "printed": "COI^OfSTRUin",
+   "corrected": "Colostrum",
+   "note": "owner endorsed the first list; the slot is the book's section 47 COLOSTRUM"
+  },
+  {
+   "printed": "CTCI^AMEIV",
+   "corrected": "Cyclamen europaeum",
+   "note": "owner endorsed the first list; abbreviation CTCI = CYCL"
+  },
+  {
+   "printed": "Hi:]iI.£BORU8 ^ICiCK",
+   "corrected": "Helleborus niger",
+   "note": "owner endorsed the first list; the letters read HELLEBORUS NIGER"
+  },
+  {
+   "printed": "HlPPOMAK£ ]|IA]W€lN£L.IiA",
+   "corrected": "Hippomane mancinella",
+   "note": "owner endorsed the first list; abbreviation HlPP = HIPP"
+  },
+  {
+   "printed": "ICilVATIA",
+   "corrected": "Ignatia amara",
+   "note": "owner endorsed the first list; abbreviation ICil = IGNA"
+  },
+  {
+   "printed": "IRlfii TEBISlCOIiOR",
+   "corrected": "Iris versicolor",
+   "note": "owner endorsed the first list; abbreviation IRlf = IRIS"
+  },
+  {
+   "printed": "JALiAPA",
+   "corrected": "Jalapa",
+   "note": "owner endorsed the first list; the letters read JALAPA"
+  },
+  {
+   "printed": "NATHUm fSUI-FHUMCtJlWt",
+   "corrected": "Natrum sulphuricum",
+   "note": "owner endorsed the first list; NATH = NATR, fSUI-FHUM = SULPHUR"
+  },
+  {
+   "printed": "Pl Ati N A",
+   "corrected": "Platina",
+   "note": "owner endorsed the first list; the letters read PLATINA"
+  },
+  {
+   "printed": "PlirMBUM HETALlilCUJII",
+   "corrected": "Plumbum metallicum",
+   "note": "owner endorsed the first list; Plir = PLUM, HETALlilCUJII = METALLICUM"
+  },
+  {
+   "printed": "PVIiSATlliliA",
+   "corrected": "Pulsatilla nigricans",
+   "note": "owner endorsed the first list; PVIi = PULS"
   }
  ],
  "second_scan_confirmations": {
@@ -70,12 +180,37 @@
     "printed": "SABABUUt",
     "corrected": "Sabadilla officinalis",
     "evidence": "'Chilliness and sensitiveness to cold' in the 'SIBADlLLi' (Sabadilla) section."
+   },
+   {
+    "printed": "A8ARUM EIIROPEIJII",
+    "corrected": "Asarum europaeum",
+    "evidence": "the second scan's heading for its section is 'ASARUM ECROPEFU' and the entry's two statements ('In chilly, nervous individuals', 'Constantly chilly.') sit at its start; the estate's Open Materia Medica carries the same remedy, so this is the join that makes it two-source"
    }
   ],
   "not_a_remedy": [
    {
     "printed": "XlNOIB£R",
     "evidence": "all three of its 'sentences' are fragments of the book's own repertory index ('Sulph. Chilly persons, in: Asar. E.', line 10019) - a page of cross-references, not a remedy. Withheld rather than named."
+   },
+   {
+    "printed": "AROEKTUII IVITBimiir",
+    "evidence": "WITHHELD. The owner noted Aconite is a separate medicine, so the book's index attribution ('like chopped spinach: Acon.') does not make this entry Aconite; its symptom sits inside the Antimonium tartaricum section, and its position says an Argentum. Three readings that do not agree, and no fourth source to break the tie - so it is not bundled rather than guessed."
+   },
+   {
+    "printed": "CEsophagus",
+    "evidence": "a chapter heading (Oesophagus), not a remedy"
+   },
+   {
+    "printed": "Eyes and Ears",
+    "evidence": "a chapter heading, not a remedy"
+   },
+   {
+    "printed": "Mind and Mood",
+    "evidence": "a chapter heading, not a remedy"
+   },
+   {
+    "printed": "SivEBP",
+    "evidence": "a page artefact - no reading at all"
    }
   ]
  }
