@@ -26,7 +26,8 @@ words, with the source named — and where those sources do not say the same thi
 *The pipeline above keeps this screenshot of the live demo current. A curated set — desktop,
 phone, landing page — lives in [`docs/assets/`](docs/assets) and is what the landing page uses.*
 
-Offline, no accounts, no server, no network at any point. One page, no build step, no runtime
+Light and dark, toggled from the header and remembered; the system preference decides the first
+paint. Offline, no accounts, no server, no network at any point. One page, no build step, no runtime
 dependencies — the four kits it uses are vendored.
 
 ## What it does

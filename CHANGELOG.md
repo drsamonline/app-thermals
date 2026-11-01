@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.8.0 — 2026-11-01
+
+Light by default, dark one click away.
+
+- Both surfaces carry a theme toggle: the landing page's header and the app's title row. The
+  system preference still decides the first paint; the button overrides it and the choice is
+  remembered (separate `localStorage` keys, so one does not change the other).
+- The landing page was dark-only and too heavy to read; light is now its base palette.
+- The demo band, the browser frame and the phone mock were hardcoded dark and are now
+  theme-aware, so the page holds together in both modes.
+- 577 assertions, including one that neither surface forces a theme.
+
 ## 1.7.0 — 2026-11-01
 
 The pages were read, and the damage count was wrong.
