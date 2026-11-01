@@ -1,0 +1,353 @@
+{
+"agree": 18,
+"built": "2026-11-01",
+"disagree": 43,
+"disagreements": [
+{
+"confidence": 0.86,
+"current": "ACETIC ACin",
+"matched": 4,
+"printed": "ACETIC ACin",
+"second_scan": "aconitum napellus",
+"section_line": 746
+},
+{
+"confidence": null,
+"current": "Aethusa cynapium",
+"matched": 3,
+"printed": "JETIICSA CYlTAPIITJtt",
+"second_scan": "Jetiiusa CYMPItM",
+"section_line": 865
+},
+{
+"confidence": 1.0,
+"current": "AWXIMOWirH €RUI>ITM",
+"matched": 1,
+"printed": "AWXIMOWirH €RUI>ITM",
+"second_scan": "Ammonium muriaticum",
+"section_line": 1173
+},
+{
+"confidence": 0.95,
+"current": "ANTimOOTUIWr TAUTARieiTM",
+"matched": 5,
+"printed": "ANTimOOTUIWr TAUTARieiTM",
+"second_scan": "antimonium tartaricum",
+"section_line": 1322
+},
+{
+"confidence": 0.95,
+"current": "AROEKTUII IVITBimiir",
+"matched": 1,
+"printed": "AROEKTUII IVITBimiir",
+"second_scan": "antimonium tartaricum",
+"section_line": 1322
+},
+{
+"confidence": 1.0,
+"current": "AUmCA MONTANA",
+"matched": 3,
+"printed": "AUmCA MONTANA",
+"second_scan": "arnica montana",
+"section_line": 1581
+},
+{
+"confidence": null,
+"current": "Anmmcvn",
+"matched": 3,
+"printed": "Anmmcvn",
+"second_scan": "Arsenicum",
+"section_line": 1654
+},
+{
+"confidence": 0.86,
+"current": "A8ARUM EIIROPEIJII",
+"matched": 2,
+"printed": "A8ARUM EIIROPEIJII",
+"second_scan": "asarum europaeum",
+"section_line": 1831
+},
+{
+"confidence": 0.88,
+"current": "A8€liEPlA8 TITBJER08A",
+"matched": 2,
+"printed": "A8€liEPlA8 TITBJER08A",
+"second_scan": "asclepias tuberosa",
+"section_line": 1885
+},
+{
+"confidence": 1.0,
+"current": "BAPTISIA TIACTORIA",
+"matched": 2,
+"printed": "BAPTISIA TIACTORIA",
+"second_scan": "baptisia tinctoria",
+"section_line": 1925
+},
+{
+"confidence": null,
+"current": "Baryta carbonica",
+"matched": 1,
+"printed": "ItlRYTA CiRBOlVICA",
+"second_scan": "Baryta Carboyica",
+"section_line": 1985
+},
+{
+"confidence": null,
+"current": "BELl<.iDOX.\\A",
+"matched": 3,
+"printed": "BELl<.iDOX.\\A",
+"second_scan": "Baryta Carboyica",
+"section_line": 1985
+},
+{
+"confidence": 1.0,
+"current": "borax",
+"matched": 1,
+"printed": "BORAX",
+"second_scan": "bovista",
+"section_line": 2321
+},
+{
+"confidence": 1.0,
+"current": "BRO.HINE",
+"matched": 4,
+"printed": "BRO.HINE",
+"second_scan": "bovista",
+"section_line": 2321
+},
+{
+"confidence": null,
+"current": "CAHPHOH",
+"matched": 4,
+"printed": "CAHPHOH",
+"second_scan": "Camphor",
+"section_line": 2668
+},
+{
+"confidence": 0.81,
+"current": "CARBO TBGBTABIUS",
+"matched": 2,
+"printed": "CARBO TBGBTABIUS",
+"second_scan": "carbo vegetabilis",
+"section_line": 2857
+},
+{
+"confidence": null,
+"current": "ClIUMBONll M 11141118",
+"matched": 2,
+"printed": "ClIUMBONll M 11141118",
+"second_scan": "China",
+"section_line": 3156
+},
+{
+"confidence": 1.0,
+"current": "C01X7H1CUII1",
+"matched": 2,
+"printed": "C01X7H1CUII1",
+"second_scan": "colchicum autumnale",
+"section_line": 3449
+},
+{
+"confidence": 0.86,
+"current": "COI-OCYXTHIS",
+"matched": 2,
+"printed": "COI-OCYXTHIS",
+"second_scan": "colocynthis",
+"section_line": 3537
+},
+{
+"confidence": null,
+"current": "CWICM",
+"matched": 3,
+"printed": "CWICM",
+"second_scan": "Coniun",
+"section_line": 3658
+},
+{
+"confidence": 1.0,
+"current": "CBOTA1.1JO HOBRID1J8",
+"matched": 1,
+"printed": "CBOTA1.1JO HOBRID1J8",
+"second_scan": "crotalus horridus",
+"section_line": 3797
+},
+{
+"confidence": 0.85,
+"current": "CROTON TIOUIJR",
+"matched": 3,
+"printed": "CROTON TIOUIJR",
+"second_scan": "croton tiglium",
+"section_line": 3843
+},
+{
+"confidence": 1.0,
+"current": "CTCI^AMEIV",
+"matched": 3,
+"printed": "CTCI^AMEIV",
+"second_scan": "cyclamen europaeum",
+"section_line": 4020
+},
+{
+"confidence": 1.0,
+"current": "BIGITAUN",
+"matched": 1,
+"printed": "BIGITAUN",
+"second_scan": "digitalis purpurea",
+"section_line": 4075
+},
+{
+"confidence": 1.0,
+"current": "BULCAHARA",
+"matched": 1,
+"printed": "BULCAHARA",
+"second_scan": "dulcamara",
+"section_line": 4197
+},
+{
+"confidence": null,
+"current": "Ferrum metallicum",
+"matched": 3,
+"printed": "FJ.ATERIIIM",
+"second_scan": "FEBROf Metaixicum",
+"section_line": 4286
+},
+{
+"confidence": 1.0,
+"current": "GAHIBOGIA",
+"matched": 1,
+"printed": "GAHIBOGIA",
+"second_scan": "gambogia",
+"section_line": 4386
+},
+{
+"confidence": null,
+"current": "UYOSCYAIIIJS",
+"matched": 1,
+"printed": "UYOSCYAIIIJS",
+"second_scan": "Hydrophobia",
+"section_line": 4783
+},
+{
+"confidence": 1.0,
+"current": "IRlfii TEBISlCOIiOR",
+"matched": 2,
+"printed": "IRlfii TEBISlCOIiOR",
+"second_scan": "iris versicolor",
+"section_line": 5075
+},
+{
+"confidence": null,
+"current": "NATHUm fSUI-FHUMCtJlWt",
+"matched": 3,
+"printed": "NATHUm fSUI-FHUMCtJlWt",
+"second_scan": "Natrum Sulphuricum",
+"section_line": 6345
+},
+{
+"confidence": 1.0,
+"current": "phosphorus",
+"matched": 3,
+"printed": "PHO.SPHOBU8",
+"second_scan": "petroleum",
+"section_line": 6876
+},
+{
+"confidence": 0.88,
+"current": "PHOSPHORIC ACID",
+"matched": 2,
+"printed": "PHOSPHORIC ACID",
+"second_scan": "phosphoricum acidum",
+"section_line": 7062
+},
+{
+"confidence": 1.0,
+"current": "PlirMBUM HETALlilCUJII",
+"matched": 2,
+"printed": "PlirMBUM HETALlilCUJII",
+"second_scan": "podophyllum peltatum",
+"section_line": 7244
+},
+{
+"confidence": 1.0,
+"current": "PSORITTIJIII",
+"matched": 3,
+"printed": "PSORITTIJIII",
+"second_scan": "psorinum",
+"section_line": 7351
+},
+{
+"confidence": null,
+"current": "PVIiSATlliliA",
+"matched": 1,
+"printed": "PVIiSATlliliA",
+"second_scan": "PriSATIILA",
+"section_line": 7421
+},
+{
+"confidence": null,
+"current": "MAPUAISVH SAXn ilSi",
+"matched": 1,
+"printed": "MAPUAISVH SAXn ilSi",
+"second_scan": "PriSATIILA",
+"section_line": 7421
+},
+{
+"confidence": null,
+"current": "rheum",
+"matched": 3,
+"printed": "RHEUM",
+"second_scan": "PriSATIILA",
+"section_line": 7421
+},
+{
+"confidence": null,
+"current": "Sabadilla officinalis",
+"matched": 1,
+"printed": "SABABUUt",
+"second_scan": "SIBADlLLi",
+"section_line": 7747
+},
+{
+"confidence": 0.85,
+"current": "SAMBIJCIJSI KTIGER",
+"matched": 3,
+"printed": "SAMBIJCIJSI KTIGER",
+"second_scan": "sambucus nigra",
+"section_line": 7802
+},
+{
+"confidence": 0.8,
+"current": "CORNUTITM",
+"matched": 1,
+"printed": "CORNUTITM",
+"second_scan": "secale cornutum",
+"section_line": 7939
+},
+{
+"confidence": null,
+"current": "XlNOIB£R",
+"matched": 6,
+"printed": "XlNOIB£R",
+"second_scan": "Zingiber",
+"section_line": 8842
+},
+{
+"confidence": null,
+"current": "Mouth",
+"matched": 1,
+"printed": "Mouth",
+"second_scan": "Zingiber",
+"section_line": 8842
+},
+{
+"confidence": null,
+"current": "General Symptoms",
+"matched": 1,
+"printed": "General Symptoms",
+"second_scan": "Zingiber",
+"section_line": 8842
+}
+],
+"source": "https://archive.org/details/in.ernet.dli.2015.94901",
+"what": "Cross-check between the name the app shows and the name the second scan's symptom alignment points at. It CONFIRMS or FLAGS; it never renames. Applying it wholesale would introduce errors - it calls 'PHO.SPHOBU8' petroleum and 'PlirMBUM HETALlilCUJII' podophyllum, both wrong."
+}

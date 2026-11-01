@@ -233,11 +233,14 @@
         note = ' <span class="name-note">' + esc(T.NAME_NOTE[r.name_status] || "printed as") +
           " “" + esc(r.name_printed) + "”</span>";
       }
+      var damage = r.text_damage
+        ? ' <span class="name-note">OCR text — this sentence carries a swallowed page number or a broken word</span>'
+        : "";
       return '<figure class="row" data-source="' + esc(r.source_short) + '">' +
         "<blockquote>" + esc(r.sentence) + "</blockquote>" +
         '<figcaption><span class="src">' + esc(r.source) + "</span>" +
         (r.chapter ? ' <span class="chapter">· ' + esc(r.chapter) + "</span>" : "") +
-        note + "</figcaption></figure>";
+        note + damage + "</figcaption></figure>";
     }).join("");
   };
 

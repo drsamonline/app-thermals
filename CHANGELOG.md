@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.4.0 — 2026-11-01
+
+The second-scan method run over every entry, and a decision not to let it rename.
+
+- `tools/second-scan.py` indexes the second scan by line, locates each entry's own sentences,
+  reads the heading above them and repairs that heading by nearest known name. 61 entries
+  aligned, 37 headings repaired with a confidence.
+- It is a **cross-check, not a renamer**: it agrees with 18 names and flags 43, because it is
+  confidently wrong on cases like `PHO.SPHOBU8` → petroleum, `PlirMBUM` → podophyllum,
+  `BORAX` → bovista and `SULPHURIC ACID` → sulphur (stock symptom phrases, repeated across
+  remedies). Recorded in `data/name-crosscheck.json`.
+- `text_damage` now marks a quoted sentence that carries a swallowed page number, a broken
+  word or a stray mark — 31 of the 55 book rows. The quote stays verbatim; the page says so.
+- 541 assertions.
+
 ## 1.3.0 — 2026-11-01
 
 The worst names are settled from the entry's own symptoms, matched in a second scan of the

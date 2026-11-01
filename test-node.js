@@ -256,5 +256,22 @@ test("the name counts add up to what the reader is told", function () {
   ok(n.unresolved >= 0 && n.corrected >= 0, "the counts are real numbers");
 });
 
+
+test("a sentence that carries visible OCR damage says so", function () {
+  var damaged = ROWS.filter(function (r) { return r.text_damage === true; });
+  ok(damaged.length > 0, "some quoted sentences carry visible OCR damage");
+  var row = damaged[0];
+  var html = T.renderRows([row]);
+  ok(/carries a swallowed page number/.test(html), "the page marks the damaged sentence");
+  ok(html.indexOf(T.esc(row.sentence)) >= 0, "and still quotes it verbatim");
+});
+
+test("the second scan cross-checks the names without renaming them", function () {
+  var x = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "name-crosscheck.json"), "utf8"));
+  ok(x.agree > 0, "the second scan agrees with " + x.agree + " names");
+  ok(typeof x.disagree === "number", "and flags the rest rather than applying them");
+  ok(/never renames/.test(x.what), "the file states that it never renames");
+});
+
 console.log(passed + " passed, " + failed + " failed");
 process.exit(failed ? 1 : 0);

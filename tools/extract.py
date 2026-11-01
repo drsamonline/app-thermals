@@ -69,6 +69,19 @@ HEAT_RE = re.compile(
 SENT_SPLIT = re.compile(r"(?<=[.!?])\s+")
 
 
+def text_damage(s):
+    """Visible OCR damage inside a quoted sentence: a swallowed page number, a
+    stray mark, or a word broken in two. The quote is kept verbatim either way;
+    this only lets the app say so."""
+    if re.search(r"\b[A-Z]{4,}\s*,?\s*[A-Z]{1,2}\d\b", s or ""):   # 'THEIR INDICATIONS, IO3'
+        return True
+    if re.search(r"[*|~^\\<>{}]", s or ""):
+        return True
+    if re.search(r"\b[a-z]{1,2}\s+[a-z]{4,}\b", s or "") and re.search(r"\b[a-z]{1,2}\b", s or ""):
+        return True
+    return False
+
+
 def clean(s):
     return re.sub(r"\s+", " ", (s or "").replace("\u00a0", " ")).strip()
 
@@ -220,6 +233,7 @@ def extract_books(root, name_map=None):
                             "side": side(s),
                             "name_status": name_status,
                             "name_printed": printed,
+                            "text_damage": text_damage(s),
                         })
     return rows, books, names, stats
 

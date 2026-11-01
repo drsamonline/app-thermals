@@ -152,6 +152,28 @@ the line number it came from. Nine entries were settled this way, among them:
 | `BOliETUlS` | **Boletus laricis** | "Chilliness along the spine, followed by hot flashes and sweat" at line 2246 — Boletus *is* a remedy here and that is its own symptom |
 | `XlNOIB£R` | *not a remedy* | its three "sentences" are fragments of the book's own repertory index — withheld, not named |
 
+### The same logic, run over every entry (1.4.0)
+
+The method was then run over all 302 transcribed entries rather than the nine: locate each
+entry's own sentences in the second scan, read the heading above them, repair that heading
+by nearest known name. `tools/second-scan.py` does it, and `data/bell-second-scan.json` holds
+the result — 61 entries aligned, 37 headings repaired with a confidence.
+
+**It is not applied as a renamer, and that is a deliberate finding, not a shortcut.** The
+automatic pass is confidently wrong often enough to matter: it calls `PHO.SPHOBU8`
+*petroleum*, `PlirMBUM HETALlilCUJII` *podophyllum peltatum*, `BORAX` *bovista*,
+`SULPHURIC ACID` *sulphur* and `ACETIC ACin` *aconitum napellus* — five errors, each with a
+confidence of 0.86 or better, because the symptom sentences it matches are stock phrases
+these books repeat across many remedies. So the pass is used as a **cross-check**
+(`data/name-crosscheck.json`): it agrees with 18 of the names the app shows and flags the
+other 43 for a human eye. A wrong name is the exact failure this app exists to avoid, so a
+machine that is right four times in five does not get to write the answer.
+
+**The texts.** `text_damage` marks the quotes that carry visible OCR damage — a swallowed
+page number, a broken word, a stray mark. 31 of the 55 quoted book sentences carry it. They
+are still quoted verbatim (that is the promise), and the page now says so under the quote
+instead of pretending the transcription is clean.
+
 **Why this matters more than tidiness:** with the names settled, the two-source count went
 **6 → 11** — Baryta carbonica, Graphites, Lycopodium, Sabadilla and Silicea now join their
 Open Materia Medica entries, so the agreement machinery finally has data to work on.
