@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.2.0 — 2026-11-01
+
+The name matcher now reads the OCR instead of normalising it away, on the owner's
+instruction to look for the nearest similar name with a minor difference.
+
+- Matching runs over the plausible readings of the damaged letters (`8`→B or S, `1`→L or I,
+  `4`→A, `€`→E, `£`→L) and uses a partial ratio as well as a whole-string one.
+- A correction is accepted only with a clear winner: the right alphabetical slot and a
+  margin over the runner-up. Where two readings are nearly as close, the name stays as printed.
+- The archive.org index is repaired by the same rule it applies (its `Sulphuris ad` is
+  `Sulphuricum acidum`), so a damaged reference can no longer cap the result.
+- Four readings supplied by the owner are recorded in `data/name-overrides.json`:
+  `SF.PIA` = Sepia, `KAT.l CARBONICUM` = Kali carbonicum, `KAI4I BROMICUM` = Kali bromatum,
+  `Sulphuris ad` = Sulphuricum acidum.
+- 302 entries: 79 confirmed, 24 corrected, 132 kept as printed, 40 unresolved, 27 withheld
+  as merged. Two-source remedies 4 → 6 (Carbolicum acidum and Phosphorus now join).
+- 560 assertions.
+
 ## 1.1.0 — 2026-11-01
 
 Remedy names in the two transcribed books are corrected where a named authority confirms

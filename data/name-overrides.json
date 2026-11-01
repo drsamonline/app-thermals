@@ -1,0 +1,25 @@
+{
+ "what": "Readings the owner supplied directly, 2026-11-01. They outrank every algorithmic path and are applied first.",
+ "owner_confirmations": [
+  {
+   "printed": "SF.PIA",
+   "corrected": "Sepia",
+   "note": "owner: 'sf.pia is sepia' - the transcription's own letters, one substitution away"
+  },
+  {
+   "printed": "Sulphuris ad",
+   "corrected": "Sulphuricum acidum",
+   "note": "owner: 'sulphuris ad is sulphuric acid' - this one is the archive.org index's OWN OCR damage, so the reference itself is repaired by the same rule"
+  },
+  {
+   "printed": "KAT.l CARBONICUM",
+   "corrected": "Kali carbonicum",
+   "note": "owner: 'kat.i is kali carb'"
+  },
+  {
+   "printed": "KAI4I BROMICUM",
+   "corrected": "Kali bromatum",
+   "note": "owner: 'look for nearest similar with minor name difference' - KAI4I is KALI, and the remedy Bell carries is Kali bromatum"
+  }
+ ]
+}

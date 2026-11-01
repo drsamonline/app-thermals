@@ -490,15 +490,6 @@
 "sources": []
 },
 {
-"classified": true,
-"name": "Borax Yen Eta. Bovista",
-"rows": 1,
-"slug": "borax-yen-eta-bovista",
-"sources": [
-"Manual of Homoeopathic Medicine, Part I: Materia Medica"
-]
-},
-{
 "classified": false,
 "name": "bothrops lanceolatus",
 "rows": 0,
@@ -658,20 +649,12 @@
 },
 {
 "classified": true,
-"name": "CARBOIilC ACID",
-"rows": 1,
-"slug": "carboiilc-acid",
-"sources": [
-"Homoeopathic Therapeutics"
-]
-},
-{
-"classified": true,
 "name": "carbolicum acidum",
-"rows": 1,
+"rows": 2,
 "slug": "carbolicum-acidum",
 "sources": [
-"Open Materia Medica"
+"Open Materia Medica",
+"Homoeopathic Therapeutics"
 ]
 },
 {
@@ -1497,15 +1480,6 @@
 "sources": []
 },
 {
-"classified": true,
-"name": "KAI4I BROMICUM",
-"rows": 1,
-"slug": "kai4i-bromicum",
-"sources": [
-"Homoeopathic Therapeutics"
-]
-},
-{
 "classified": false,
 "name": "kali bichromicum",
 "rows": 0,
@@ -1513,11 +1487,13 @@
 "sources": []
 },
 {
-"classified": false,
+"classified": true,
 "name": "kali bromatum",
-"rows": 0,
+"rows": 1,
 "slug": "kali-bromatum",
-"sources": []
+"sources": [
+"Homoeopathic Therapeutics"
+]
 },
 {
 "classified": true,
@@ -2028,19 +2004,12 @@
 },
 {
 "classified": true,
-"name": "PETR01.£1Jli",
+"name": "petroleum",
 "rows": 2,
-"slug": "petr01-1jli",
+"slug": "petroleum",
 "sources": [
 "Homoeopathic Therapeutics"
 ]
-},
-{
-"classified": false,
-"name": "petroleum",
-"rows": 0,
-"slug": "petroleum",
-"sources": []
 },
 {
 "classified": false,
@@ -2048,15 +2017,6 @@
 "rows": 0,
 "slug": "petroselinum",
 "sources": []
-},
-{
-"classified": true,
-"name": "PHO.SPHOBU8",
-"rows": 1,
-"slug": "pho-sphobu8",
-"sources": [
-"Homoeopathic Therapeutics"
-]
 },
 {
 "classified": false,
@@ -2068,10 +2028,11 @@
 {
 "classified": true,
 "name": "phosphorus",
-"rows": 1,
+"rows": 2,
 "slug": "phosphorus",
 "sources": [
-"Open Materia Medica"
+"Open Materia Medica",
+"Homoeopathic Therapeutics"
 ]
 },
 {

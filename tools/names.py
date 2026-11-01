@@ -49,8 +49,64 @@ IA_ITEM = "manualhomopathi01jahrgoog"
 IA_URL = "https://archive.org/download/%s/%s_djvu.txt" % (IA_ITEM, IA_ITEM)
 
 
+CONFUSABLE = {
+    "\u20ac": "e", "\u00a3": "l", "\u00a5": "y", "1": "l", "|": "l", "!": "l",
+    "0": "o", "5": "s", "8": "b", "4": "a", "3": "e", "7": "t", "6": "b",
+    "2": "z", "9": "g", "@": "a", "$": "s", "<": "c", ">": "c", "\u00a7": "s",
+    "\u00ab": "", "\u00bb": "", "*": "", "^": "", "~": "", "\\": "", "/": "",
+    "}": "", "{": "", "]": "", "[": "", "(": "", ")": "", "\"": "", "'": "",
+}
+
+
 def letters(s):
     return re.sub(r"[^a-z]", "", (s or "").lower())
+
+
+AMBIGUOUS = {
+    "1": ["l", "i"], "8": ["b", "s"], "4": ["a", "h"], "0": ["o", "u"],
+    "5": ["s", "e"], "\u20ac": ["e", "c"], "\u00a3": ["l", "e"], "|": ["l", "i"],
+    "6": ["b", "g"], "9": ["g", "q"], "2": ["z", "r"], "7": ["t", "l"],
+}
+
+
+def ocr_variants(s, limit=12):
+    """The plausible readings of an OCR'd name, not just one.
+
+    A scan writes 8 for B in 'A8ARUM' and for S elsewhere, 1 for L or I, 4 for A.
+    Trying the readings and keeping the best match is what turns
+    'A8ARUM EIIROPEIJII' into 'asarum europaeum' instead of leaving it unread.
+    """
+    words = re.sub(r"[^a-z0-9\u20ac\u00a3|]+", "", (s or "").lower())
+    outs = [""]
+    for ch in words:
+        opts = AMBIGUOUS.get(ch)
+        if not opts:
+            if ch.isalpha():
+                outs = [o + ch for o in outs]
+            continue
+        nxt = []
+        for o in outs:
+            for opt in opts:
+                nxt.append(o + opt)
+        outs = nxt[:limit]
+    return outs or [""]
+
+
+def ocr_letters(s):
+    """Letters with the OCR's usual character substitutions undone.
+
+    A scan writes E as euro, L as 1, | or pound, A as 4, O as 0, S as 5, B as 8.
+    Comparing the repaired letters is what lets 'PETR01.\u00a31Jli' meet
+    'petroleum' instead of sliding past it.
+    """
+    out = []
+    for ch in (s or "").lower():
+        out.append(CONFUSABLE.get(ch, ch))
+    return re.sub(r"[^a-z]", "", "".join(out))
+
+
+def ocr_letters_i(s):
+    return ocr_letters(s).replace("l", "i")
 
 
 def tidy(s):
@@ -122,6 +178,15 @@ def build_reference(src_omm, src_json):
           % (len(ref["names"]), len(jahr), REF))
 
 
+def load_overrides(path=os.path.join(ROOT, "data", "name-overrides.json")):
+    try:
+        with open(path, encoding="utf-8") as fh:
+            data = json.load(fh)
+    except FileNotFoundError:
+        return {}
+    return {letters(o["printed"]): o for o in data.get("owner_confirmations", [])}
+
+
 def load_reference():
     with open(REF, encoding="utf-8") as fh:
         return json.load(fh)
@@ -150,6 +215,19 @@ class Corrector(object):
                 self.curated.append(n["name"])
             if "jahr-1847-index" in origins:
                 self.scanned.append(n["name"])
+        # The scanned index is OCR too ("Sulphuris ad", "Menyanthes trifo",
+        # "Silicia"), so each scanned name is repaired against the curated ones
+        # by the same nearest-name rule before it may join the pool.
+        repaired = []
+        for n in self.scanned:
+            best = None
+            for c in self.curated:
+                r = difflib.SequenceMatcher(None, letters(n), letters(c)).ratio()
+                if r >= 0.85 and (best is None or r > best[0]):
+                    best = (r, c)
+            repaired.append(best[1] if best else n)
+        self.scanned = sorted(set(repaired))
+
         self._abbrev = {}
         for n in self.curated:
             k = letters(n)
@@ -175,6 +253,17 @@ class Corrector(object):
         if len(parts) < 2:
             return None
         head = self.curated_exact(parts[0]) or self.by_key.get(letters(parts[0]))
+        if not head and looks_clean(parts[0]) and len(parts[0].split()) >= 1:
+            head = parts[0]
+        if not head:
+            best = None
+            for n in self.pool():
+                if ocr_letters(n)[:1] != ocr_letters(parts[0])[:1]:
+                    continue
+                r = self.similarity(parts[0], n)
+                if r >= 0.88 and (best is None or r > best[0]):
+                    best = (r, n)
+            head = best[1] if best else None
         if not head:
             return None
         return head, parts[1]
@@ -186,25 +275,92 @@ class Corrector(object):
         cands = [n for n in pool if letters(n)[:4] == k[:4]]
         return cands[0] if len(cands) == 1 else None
 
+    @staticmethod
+    def similarity(printed, candidate):
+        """How alike two spellings are, with the OCR's letter damage undone."""
+        cands = {ocr_letters(candidate), ocr_letters_i(candidate)}
+        cands.discard("")
+        if not cands:
+            return 0.0
+        best = 0.0
+        for a in ocr_variants(printed):
+            for b in cands:
+                r = difflib.SequenceMatcher(None, a, b).ratio()
+                if r > best:
+                    best = r
+        return best
+
+    def pool(self):
+        names = list(self.curated)
+        seen = set(letters(n) for n in names)
+        for n in self.scanned:
+            if looks_clean(n) and letters(n) not in seen:
+                names.append(n)
+                seen.add(letters(n))
+        return names
+
+    @staticmethod
+    def partial_similarity(printed, candidate):
+        """The best match of the shorter spelling inside the longer one.
+
+        An OCR adds and drops letters ("I^YCOPODICIW" for Lycopodium), so the
+        whole-string ratio under-rates a match that is obvious to a reader.
+        """
+        best = 0.0
+        cands = {ocr_letters(candidate), ocr_letters_i(candidate)}
+        cands.discard("")
+        for a in ocr_variants(printed):
+            if not a:
+                continue
+            for b in cands:
+                short, long = (a, b) if len(a) <= len(b) else (b, a)
+                if len(short) < 4:
+                    continue
+                for i in range(0, len(long) - len(short) + 1):
+                    r = difflib.SequenceMatcher(None, short, long[i:i + len(short)]).ratio()
+                    if r > best:
+                        best = r
+        return best
+
+    def score(self, printed, candidate):
+        return max(self.similarity(printed, candidate), self.partial_similarity(printed, candidate))
+
     def fuzzy_curated(self, printed, low, high):
-        k = letters(printed)
-        if len(k) < 5:
+        """The nearest curated name, when the difference is small AND it fits.
+
+        Small means: same opening letter, a length within a quarter, and either
+        85% letter similarity or 75% with the alphabetical slot agreeing. The slot
+        is what stops a near miss landing on the wrong remedy.
+        """
+        k = ocr_letters(printed)
+        if len(k) < 4:
             return None
-        best = None
-        for n in self.curated:
-            nk = letters(n)
-            if nk[:1] != k[:1]:
+        scored = []
+        for n in self.pool():
+            nk = ocr_letters(n)
+            if not nk:
                 continue
-            if abs(len(nk) - len(k)) > max(3, int(0.3 * len(k))):
+            if abs(len(nk) - len(k)) > max(3, int(0.35 * len(k))):
                 continue
-            r = difflib.SequenceMatcher(None, k, nk).ratio()
-            if r < 0.85:
+            have_slot = bool(low and high)
+            in_slot = have_slot and low.lower() <= n.lower() <= high.lower()
+            if have_slot and not in_slot:
                 continue
-            if low and high and not (low.lower() <= n.lower() <= high.lower()):
+            r = self.score(printed, n)
+            if r < (0.72 if have_slot else 0.86):
                 continue
-            if best is None or r > best[0]:
-                best = (r, n)
-        return best[1] if best else None
+            bonus = 0.02 if n in self.curated else 0.0
+            scored.append((r + bonus, n, r))
+        scored.sort(reverse=True)
+        if not scored:
+            return None
+        best_r, best_n, raw = scored[0]
+        # a clear winner only: if a second name is nearly as close, the reading is
+        # not decided by the evidence and the name stays as printed
+        margin = 0.05 if (low and high) else 0.08
+        if len(scored) > 1 and (best_r - scored[1][0]) < margin:
+            return None
+        return best_n
 
 
 def looks_clean(printed):
@@ -232,7 +388,8 @@ def looks_clean(printed):
     return True
 
 
-def correct_books(corrector, src_json):
+def correct_books(corrector, src_json, overrides=None):
+    overrides = overrides or {}
     out = []
     md = os.path.join(src_json, "materia_medica")
     for fn in sorted(os.listdir(md)):
@@ -266,6 +423,12 @@ def correct_books(corrector, src_json):
             if printed.strip().lower() in headings:
                 entry.update(corrected=None, status="not-a-remedy",
                              evidence="this name is one of the book's own chapter headings, not a remedy")
+                out.append(entry)
+                continue
+
+            ov = overrides.get(letters(printed))
+            if ov:
+                entry.update(corrected=ov["corrected"], status="owner-confirmed", evidence=ov["note"])
                 out.append(entry)
                 continue
 
@@ -307,7 +470,7 @@ def correct_books(corrector, src_json):
 
             f = corrector.fuzzy_curated(printed, low, high)
             if f:
-                entry.update(corrected=f, status="corrected",
+                entry.update(corrected=f, status="corrected" if f in corrector.curated else "corrected-scanned",
                              evidence="closest curated name at >=85% letter similarity, in the right alphabetical slot"
                                       + (" between %s and %s" % (low, high) if low and high else ""))
                 out.append(entry)
@@ -335,7 +498,7 @@ def main():
         return
     ref = load_reference()
     corr = Corrector(ref)
-    entries = correct_books(corr, "src/materia-medica-json")
+    entries = correct_books(corr, "src/materia-medica-json", load_overrides())
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump({"built": "2026-11-01", "rule": __doc__.split("THE RULE")[0].strip().splitlines()[0],
                    "entries": entries}, fh, ensure_ascii=False, indent=0, sort_keys=True)

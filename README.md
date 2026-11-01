@@ -51,12 +51,12 @@ Then:
 
 | | |
 |---|---|
-| quoted sentences (rows) | **168** |
-| remedies in the index | **380** |
-| remedies with at least one statement | **125** |
-| remedies with no statement in any source (`unclassified`) | **255** |
+| quoted sentences (rows) | **167** |
+| remedies in the index | **375** |
+| remedies with at least one statement | **122** |
+| remedies with no statement in any source (`unclassified`) | **253** |
 | sources | **3** |
-| remedies carried by two sources | **4** — Cistus canadensis, Kali carbonicum, Nux vomica, Sulphur |
+| remedies carried by two sources | **6** — Carbolicum acidum, Cistus canadensis, Kali carbonicum, Nux vomica, Phosphorus, Sulphur |
 
 Sources bundled:
 
@@ -71,7 +71,7 @@ Both books come from `drsamonline/homoeopathic-materia-medica-repertory-json`, w
 - **There is no genuine disagreement in the bundle today.** Every two-source remedy points the same way (both say the patient is cold), so `sources disagree` is real machinery with nothing to fire on yet. It fires the day a third source lands that reads the other way. Nothing was invented to make the demo look better.
 - **The books are OCR transcriptions and some of their remedy names are damaged** ("a8arum eiiropeijii", "ntjx vomica"). Those names are kept exactly as printed and do not join across sources — a name we cannot read is not a name we may correct. Book remedies enter the index only when they carry a statement.
 - **No page numbers.** The JSON books carry no `page` field on any record and the Open Materia Medica pages are not paginated, so a row names its source and its chapter and never a page. A guessed page number is a fabricated citation.
-- 255 of the 380 indexed remedies are `unclassified`. That is the honest answer for a corpus this size, not a gap to fill by inference.
+- 253 of the 375 indexed remedies are `unclassified`. That is the honest answer for a corpus this size, not a gap to fill by inference.
 
 ## Correcting the names (added 2026-11-01)
 
@@ -99,10 +99,10 @@ is kept as printed; only visible OCR damage is ever corrected.
 | outcome | entries |
 |---|---|
 | confirmed — the printed name is already a known name | **79** |
-| corrected from a named authority | **17** |
+| corrected from a named authority (incl. 3 readings the owner supplied directly) | **24** |
 | readable, kept as printed (a remedy the reference does not carry) | **132** |
-| unreadable, kept as printed and marked `spelling unconfirmed` in the app | **64** |
-| **not bundled** — the transcription ran two remedies together, so no sentence can be attributed | **10** |
+| unreadable, kept as printed and marked `spelling unconfirmed` in the app | **40** |
+| **not bundled** — the transcription ran two remedies together, so no sentence can be attributed | **27** |
 
 Every correction carries its evidence in `data/name-map.json`, and the app shows the name
 the transcription printed next to the correction, so a reader can check it rather than
@@ -110,13 +110,29 @@ take it on trust. Two rules the tests enforce: a correction may never be justifi
 guess, and an entry the transcription merged with another remedy is **withheld** rather
 than attributed to either.
 
-Two honest notes. The 64 unresolved names include 16 that carry a statement the app
-shows — they are visibly marked, and I did not guess them: for Bell's *Homoeopathic
-Therapeutics* the Internet Archive holds the diarrhoea volume under that author, not the
-general one, so no second scan of that book was available to confirm them. And the
-corrections changed the *index*, not the quotes: none of the corrected entries happened
-to carry a thermal statement, so the row count moved only because 4 sentences from
-merged entries were withheld (172 → 168).
+### Reading the OCR, not guessing it
+
+Matching is done on **the plausible readings of the damaged letters**, not on one
+normalisation: a scan writes `8` for B in "A8ARUM" and for S elsewhere, `1` for L or I,
+`4` for A, `€` for E, `£` for L. `tools/names.py` generates those readings and keeps the
+best, using both a whole-string ratio and a partial ratio (the shorter spelling matched
+inside the longer one), because an OCR adds and drops letters. A correction is accepted
+only when the winner is **clear**: it must sit in the alphabetical slot between its named
+neighbours and beat the runner-up by a margin. When two readings are nearly as close, the
+name stays as printed — that is a decision the evidence did not make.
+
+Three readings came from the owner directly and are recorded in `data/name-overrides.json`
+rather than being silently applied: `SF.PIA` is **Sepia**, `KAT.l CARBONICUM` is **Kali
+carbonicum**, `KAI4I BROMICUM` is **Kali bromatum**, and the archive.org index's own
+`Sulphuris ad` is **Sulphuricum acidum** — that last one is the reference being repaired by
+the same rule it applies to the entries.
+
+Two honest notes. The 40 names still unresolved include 12 that carry a statement the app
+shows; they are visibly marked and were not guessed. Bell's *Homoeopathic Therapeutics*
+(1906) is the reason: the Internet Archive holds that author's *diarrhoea* volume under
+that title, not the general one, so there is no second scan of that book to confirm them
+against. And most corrections change the *index* rather than the quotes — the row count
+moved from 172 to 167 mainly because 27 merged entries are now withheld.
 
 ## Run it
 

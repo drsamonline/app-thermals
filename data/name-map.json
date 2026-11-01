@@ -202,11 +202,11 @@
 {
 "abbrev": "CARB",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "carbolicum acidum",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between borax and rheum",
 "id": "bell-therapeutics-1906-0023",
 "printed": "CARBOIilC ACID",
-"status": "unresolved"
+"status": "corrected"
 },
 {
 "abbrev": "ClIU",
@@ -337,11 +337,11 @@
 {
 "abbrev": "DIOS",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "dioscorea villosa",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between borax and rheum",
 "id": "bell-therapeutics-1906-0038",
 "printed": "DIOSCOUEA TIIX05A",
-"status": "unresolved"
+"status": "corrected"
 },
 {
 "abbrev": "BULC",
@@ -463,38 +463,38 @@
 {
 "abbrev": "KAJL",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "kali bichromicum",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between borax and rheum",
 "id": "bell-therapeutics-1906-0052",
 "printed": "KAJLI Bl€HRO]III€U]|I",
-"status": "unresolved"
+"status": "corrected"
 },
 {
 "abbrev": "KAI4",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Kali bromatum",
+"evidence": "owner: 'look for nearest similar with minor name difference' - KAI4I is KALI, and the remedy Bell carries is Kali bromatum",
 "id": "bell-therapeutics-1906-0053",
 "printed": "KAI4I BROMICUM",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "KAT.",
 "book": "bell-therapeutics-1906.json",
-"corrected": "kali carbonicum",
-"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between borax and rheum",
+"corrected": "Kali carbonicum",
+"evidence": "owner: 'kat.i is kali carb'",
 "id": "bell-therapeutics-1906-0054",
 "printed": "KAT.l CARBONICUM",
-"status": "corrected"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "KALI",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "kali nitricum",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between borax and rheum",
 "id": "bell-therapeutics-1906-0055",
 "printed": "KALI ]VITRI€U]lf",
-"status": "unresolved"
+"status": "corrected"
 },
 {
 "abbrev": "KBEO",
@@ -517,20 +517,20 @@
 {
 "abbrev": "MtEZ",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "mezereum",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between borax and rheum",
 "id": "bell-therapeutics-1906-0058",
 "printed": "MtEZERDUIlf",
-"status": "unresolved"
+"status": "corrected"
 },
 {
 "abbrev": "NATR",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "natrum carbonicum",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between borax and rheum",
 "id": "bell-therapeutics-1906-0059",
 "printed": "NATRrM < ARBOXICUHr",
-"status": "unresolved"
+"status": "corrected"
 },
 {
 "abbrev": "NATH",
@@ -571,20 +571,20 @@
 {
 "abbrev": "PETR",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "petroleum",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between borax and rheum",
 "id": "bell-therapeutics-1906-0064",
 "printed": "PETR01.£1Jli",
-"status": "unresolved"
+"status": "corrected"
 },
 {
 "abbrev": "PHO.",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "phosphorus",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between borax and rheum",
 "id": "bell-therapeutics-1906-0065",
 "printed": "PHO.SPHOBU8",
-"status": "unresolved"
+"status": "corrected"
 },
 {
 "abbrev": "PHOS",
@@ -661,11 +661,11 @@
 {
 "abbrev": "RIJM",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "rumex crispus",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between rheum and sulphur",
 "id": "bell-therapeutics-1906-0074",
 "printed": "RIJMF.X C RISPUN",
-"status": "unresolved"
+"status": "corrected"
 },
 {
 "abbrev": "SABA",
@@ -697,11 +697,11 @@
 {
 "abbrev": "SF.P",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Sepia",
+"evidence": "owner: 'sf.pia is sepia' - the transcription's own letters, one substitution away",
 "id": "bell-therapeutics-1906-0078",
 "printed": "SF.PIA",
-"status": "unresolved"
+"status": "owner-confirmed"
 },
 {
 "abbrev": "N1U€",
@@ -984,12 +984,13 @@
 },
 {
 "abbrev": "Kali",
+"also": "Kali Hydriodicum",
 "book": "jahr-materia-medica-1847-2.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Kali Chloricum",
+"evidence": "two names run together in the transcription: Kali Chloricum + Kali Hydriodicum",
 "id": "jahr-materia-medica-1847-0106",
 "printed": "Kali Chloricum. Kali Hydriodicum",
-"status": "unresolved"
+"status": "merged"
 },
 {
 "abbrev": "Kali",
@@ -1173,12 +1174,13 @@
 },
 {
 "abbrev": "Yol.",
+"also": "I",
 "book": "jahr-materia-medica-1847-2.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Yol",
+"evidence": "two names run together in the transcription: Yol + I",
 "id": "jahr-materia-medica-1847-0127",
 "printed": "Yol. I",
-"status": "unresolved"
+"status": "merged"
 },
 {
 "abbrev": "Mill",
@@ -1209,12 +1211,13 @@
 },
 {
 "abbrev": "Muri",
+"also": "Natrum Carbonicum",
 "book": "jahr-materia-medica-1847-2.json",
-"corrected": "muriaticum acidum",
-"evidence": "the entry's own abbreviation 'Muri' names one curated remedy",
+"corrected": "Muriatis Acidum",
+"evidence": "two names run together in the transcription: Muriatis Acidum + Natrum Carbonicum",
 "id": "jahr-materia-medica-1847-0131",
 "printed": "Muriatis Acidum. Natrum Carbonicum",
-"status": "corrected"
+"status": "merged"
 },
 {
 "abbrev": "Natr",
@@ -1399,12 +1402,13 @@
 },
 {
 "abbrev": "Phos",
+"also": "Pinus",
 "book": "jahr-materia-medica-1847-2.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Phosphori Acidum",
+"evidence": "two names run together in the transcription: Phosphori Acidum + Pinus",
 "id": "jahr-materia-medica-1847-0152",
 "printed": "Phosphori Acidum. Pinus. Platina",
-"status": "unresolved"
+"status": "merged"
 },
 {
 "abbrev": "Pl",
@@ -1564,11 +1568,11 @@
 {
 "abbrev": "Si",
 "book": "jahr-materia-medica-1847-2.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Silicia",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between secale cornutum and spongia tosta",
 "id": "jahr-materia-medica-1847-0170",
 "printed": "Si Lice A",
-"status": "unresolved"
+"status": "corrected-scanned"
 },
 {
 "abbrev": "Spig",
@@ -1716,12 +1720,13 @@
 },
 {
 "abbrev": "Vale",
+"also": "Veratrum Album",
 "book": "jahr-materia-medica-1847-2.json",
-"corrected": "valeriana",
-"evidence": "the entry's own abbreviation 'Vale' names one curated remedy",
+"corrected": "Valeriana Officinalis",
+"evidence": "two names run together in the transcription: Valeriana Officinalis + Veratrum Album",
 "id": "jahr-materia-medica-1847-0187",
 "printed": "Valeriana Officinalis. Veratrum Album",
-"status": "corrected"
+"status": "merged"
 },
 {
 "abbrev": "Vera",
@@ -1771,12 +1776,13 @@
 },
 {
 "abbrev": "Mane",
+"also": "Arcticus",
 "book": "jahr-materia-medica-1847-2.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Manetis Poli Ambo",
+"evidence": "two names run together in the transcription: Manetis Poli Ambo + Arcticus",
 "id": "jahr-materia-medica-1847-0193",
 "printed": "Manetis Poli Ambo. Arcticus",
-"status": "unresolved"
+"status": "merged"
 },
 {
 "abbrev": "Magn",
@@ -1998,12 +2004,13 @@
 },
 {
 "abbrev": "Arni",
+"also": "Arsenicum Album",
 "book": "jahr-materia-medica-1847.json",
-"corrected": "arnica montana",
-"evidence": "the entry's own abbreviation 'Arni' names one curated remedy",
+"corrected": "Arnica Mont",
+"evidence": "two names run together in the transcription: Arnica Mont + Arsenicum Album",
 "id": "jahr-materia-medica-1847-0019",
 "printed": "Arnica Mont. Arsenicum Album",
-"status": "corrected"
+"status": "merged"
 },
 {
 "abbrev": "Arse",
@@ -2016,21 +2023,23 @@
 },
 {
 "abbrev": "Arum",
+"also": "Ass A Fcetida",
 "book": "jahr-materia-medica-1847.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Arum",
+"evidence": "two names run together in the transcription: Arum + Ass A Fcetida",
 "id": "jahr-materia-medica-1847-0021",
 "printed": "Arum. Ass A Fcetida",
-"status": "unresolved"
+"status": "merged"
 },
 {
 "abbrev": "Assa",
+"also": "Asarum Europ-Eum",
 "book": "jahr-materia-medica-1847.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Assa Fcetida",
+"evidence": "two names run together in the transcription: Assa Fcetida + Asarum Europ-Eum",
 "id": "jahr-materia-medica-1847-0022",
 "printed": "Assa Fcetida. Asarum Europ-Eum",
-"status": "unresolved"
+"status": "merged"
 },
 {
 "abbrev": "As",
@@ -2144,12 +2153,13 @@
 },
 {
 "abbrev": "Bora",
+"also": "Bovista",
 "book": "jahr-materia-medica-1847.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Borax Yen Eta",
+"evidence": "two names run together in the transcription: Borax Yen Eta + Bovista",
 "id": "jahr-materia-medica-1847-0035",
 "printed": "Borax Yen Eta. Bovista",
-"status": "unresolved"
+"status": "merged"
 },
 {
 "abbrev": "Bovi",
@@ -2190,12 +2200,13 @@
 },
 {
 "abbrev": "Cala",
+"also": "Seg",
 "book": "jahr-materia-medica-1847.json",
-"corrected": "caladium seguinum",
-"evidence": "the entry's own abbreviation 'Cala' names one curated remedy",
+"corrected": "Calad",
+"evidence": "two names run together in the transcription: Calad + Seg",
 "id": "jahr-materia-medica-1847-0040",
 "printed": "Calad. Seg. Calcarea Carbonica",
-"status": "corrected"
+"status": "merged"
 },
 {
 "abbrev": "Calc",
@@ -2290,11 +2301,11 @@
 {
 "abbrev": "Garb",
 "book": "jahr-materia-medica-1847.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "carbo vegetabilis",
+"evidence": "closest curated name at >=85% letter similarity, in the right alphabetical slot between carbo vegetabilis and chamomilla vulgaris",
 "id": "jahr-materia-medica-1847-0051",
 "printed": "Garbo Vegeta Bi Lis",
-"status": "unresolved"
+"status": "corrected"
 },
 {
 "abbrev": "Cham",
@@ -2388,12 +2399,13 @@
 },
 {
 "abbrev": "Coff",
+"also": "Colchicum Autumnale",
 "book": "jahr-materia-medica-1847.json",
-"corrected": "coffea cruda",
-"evidence": "the entry's own abbreviation 'Coff' names one curated remedy",
+"corrected": "Coffey Cruda",
+"evidence": "two names run together in the transcription: Coffey Cruda + Colchicum Autumnale",
 "id": "jahr-materia-medica-1847-0062",
 "printed": "Coffey Cruda. Colchicum Autumnale",
-"status": "corrected"
+"status": "merged"
 },
 {
 "abbrev": "Colc",
@@ -2451,12 +2463,13 @@
 },
 {
 "abbrev": "Cora",
+"also": "Crocus Sativus",
 "book": "jahr-materia-medica-1847.json",
-"corrected": "corallium rubrum",
-"evidence": "the entry's own abbreviation 'Cora' names one curated remedy",
+"corrected": "Corallia Rubra",
+"evidence": "two names run together in the transcription: Corallia Rubra + Crocus Sativus",
 "id": "jahr-materia-medica-1847-0069",
 "printed": "Corallia Rubra. Crocus Sativus",
-"status": "corrected"
+"status": "merged"
 },
 {
 "abbrev": "Croc",
@@ -2523,21 +2536,23 @@
 },
 {
 "abbrev": "Daph",
+"also": "Diadema Aranea",
 "book": "jahr-materia-medica-1847.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Daphne Indica",
+"evidence": "two names run together in the transcription: Daphne Indica + Diadema Aranea",
 "id": "jahr-materia-medica-1847-0077",
 "printed": "Daphne Indica. Diadema Aranea",
-"status": "unresolved"
+"status": "merged"
 },
 {
 "abbrev": "Diad",
+"also": "Digitalis Purpurea",
 "book": "jahr-materia-medica-1847.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Diadema Aranea",
+"evidence": "two names run together in the transcription: Diadema Aranea + Digitalis Purpurea",
 "id": "jahr-materia-medica-1847-0078",
 "printed": "Diadema Aranea. Digitalis Purpurea",
-"status": "unresolved"
+"status": "merged"
 },
 {
 "abbrev": "Digi",
@@ -2604,12 +2619,13 @@
 },
 {
 "abbrev": "Ferr",
+"also": "Ferrum Muriaticum",
 "book": "jahr-materia-medica-1847.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Ferrum Magneticum",
+"evidence": "two names run together in the transcription: Ferrum Magneticum + Ferrum Muriaticum",
 "id": "jahr-materia-medica-1847-0086",
 "printed": "Ferrum Magneticum. Ferrum Muriaticum",
-"status": "unresolved"
+"status": "merged"
 },
 {
 "abbrev": "Gent",
@@ -2686,12 +2702,13 @@
 },
 {
 "abbrev": "Hydr",
+"also": "Hyoscyamus Niger",
 "book": "jahr-materia-medica-1847.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Hydrociani Acidum",
+"evidence": "two names run together in the transcription: Hydrociani Acidum + Hyoscyamus Niger",
 "id": "jahr-materia-medica-1847-0095",
 "printed": "Hydrociani Acidum. Hyoscyamus Niger",
-"status": "unresolved"
+"status": "merged"
 },
 {
 "abbrev": "Hyos",

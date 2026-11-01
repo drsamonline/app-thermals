@@ -43,7 +43,9 @@ def main():
         "two_source": sum(1 for r in remedies if len(r.get("sources") or []) > 1),
         "rule": RULE,
         "names": {
-            "corrected": sum(1 for e in name_map["entries"] if e["status"] == "corrected"),
+            "corrected": sum(1 for e in name_map["entries"]
+                             if e["status"] in ("corrected", "corrected-scanned", "owner-confirmed")),
+            "owner_confirmed": sum(1 for e in name_map["entries"] if e["status"] == "owner-confirmed"),
             "merged_not_bundled": sum(1 for e in name_map["entries"] if e["status"] == "merged"),
             "as_printed": sum(1 for e in name_map["entries"] if e["status"] == "ok-as-printed"),
             "unresolved": sum(1 for e in name_map["entries"] if e["status"] == "unresolved"),
