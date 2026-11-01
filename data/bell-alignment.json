@@ -1,0 +1,538 @@
+{
+"built": "2026-11-01",
+"entries": [
+{
+"agreement": 0.71,
+"heading": "ACONITE.",
+"id": "bell-therapeutics-1906-0001",
+"printed": "ACETIC ACin",
+"section": 2,
+"symptoms_matched": 15,
+"symptoms_total": 74
+},
+{
+"agreement": 0.67,
+"heading": "ALOE.",
+"id": "bell-therapeutics-1906-0003",
+"printed": "AliOE",
+"section": 5,
+"symptoms_matched": 24,
+"symptoms_total": 103
+},
+{
+"agreement": 0.86,
+"heading": "AMMONIUM MURIATICUM.",
+"id": "bell-therapeutics-1906-0004",
+"printed": "AllfllOErillM ]»1UR1AT1€U]II",
+"section": 6,
+"symptoms_matched": 6,
+"symptoms_total": 26
+},
+{
+"agreement": 0.6,
+"heading": "AMMONIUM MURIATICUM.",
+"id": "bell-therapeutics-1906-0005",
+"printed": "AIVOUSTURA",
+"section": 6,
+"symptoms_matched": 3,
+"symptoms_total": 16
+},
+{
+"agreement": 0.8,
+"heading": "AMMONIUM MURIATICUM.",
+"id": "bell-therapeutics-1906-0006",
+"printed": "AWXIMOWirH €RUI>ITM",
+"section": 6,
+"symptoms_matched": 4,
+"symptoms_total": 30
+},
+{
+"agreement": 0.73,
+"heading": "ANTmONIUM TARTARICUR.",
+"id": "bell-therapeutics-1906-0007",
+"printed": "ANTimOOTUIWr TAUTARieiTM",
+"section": 7,
+"symptoms_matched": 16,
+"symptoms_total": 89
+},
+{
+"agreement": 0.71,
+"heading": "ANTmONIUM TARTARICUR.",
+"id": "bell-therapeutics-1906-0008",
+"printed": "AROEKTUII IVITBimiir",
+"section": 7,
+"symptoms_matched": 10,
+"symptoms_total": 53
+},
+{
+"agreement": 0.75,
+"heading": "ARNICA MONTANA.",
+"id": "bell-therapeutics-1906-0009",
+"printed": "AUmCA MONTANA",
+"section": 8,
+"symptoms_matched": 9,
+"symptoms_total": 43
+},
+{
+"agreement": 0.75,
+"heading": "ASARUM ECROPEFU.",
+"id": "bell-therapeutics-1906-0011",
+"printed": "A8ARUM EIIROPEIJII",
+"section": 11,
+"symptoms_matched": 6,
+"symptoms_total": 23
+},
+{
+"agreement": 1.0,
+"heading": "ASCLEPIAS TVBEBOSA.",
+"id": "bell-therapeutics-1906-0012",
+"printed": "A8€liEPlA8 TITBJER08A",
+"section": 12,
+"symptoms_matched": 6,
+"symptoms_total": 25
+},
+{
+"agreement": 0.56,
+"heading": "BAPTISIA TINCTORIA.",
+"id": "bell-therapeutics-1906-0013",
+"printed": "BAPTISIA TIACTORIA",
+"section": 13,
+"symptoms_matched": 5,
+"symptoms_total": 33
+},
+{
+"agreement": 0.5,
+"heading": "BARYTA CARBOYICA.",
+"id": "bell-therapeutics-1906-0014",
+"printed": "ItlRYTA CiRBOlVICA",
+"section": 14,
+"symptoms_matched": 4,
+"symptoms_total": 19
+},
+{
+"agreement": 0.75,
+"heading": "BARYTA CARBOYICA.",
+"id": "bell-therapeutics-1906-0015",
+"printed": "BELl<.iDOX.\\A",
+"section": 14,
+"symptoms_matched": 12,
+"symptoms_total": 49
+},
+{
+"agreement": 0.57,
+"heading": "BENZOIC ACID.",
+"id": "bell-therapeutics-1906-0016",
+"printed": "BENZOIC ACID",
+"section": 15,
+"symptoms_matched": 4,
+"symptoms_total": 24
+},
+{
+"agreement": 0.82,
+"heading": "BOLETUS L A RI CIS.",
+"id": "bell-therapeutics-1906-0017",
+"printed": "BOliETUlS",
+"section": 17,
+"symptoms_matched": 9,
+"symptoms_total": 23
+},
+{
+"agreement": 0.67,
+"heading": "CAPSICUM.",
+"id": "bell-therapeutics-1906-0021",
+"printed": "CAPSICUm",
+"section": 25,
+"symptoms_matched": 6,
+"symptoms_total": 29
+},
+{
+"agreement": 0.5,
+"heading": "CAHBO TEGETABILIN.",
+"id": "bell-therapeutics-1906-0022",
+"printed": "CARBO TBGBTABIUS",
+"section": 26,
+"symptoms_matched": 5,
+"symptoms_total": 34
+},
+{
+"agreement": 0.5,
+"heading": "CHELIDOKIim MAJUS.",
+"id": "bell-therapeutics-1906-0027",
+"printed": "COFFEA",
+"section": 29,
+"symptoms_matched": 1,
+"symptoms_total": 15
+},
+{
+"agreement": 0.81,
+"heading": "COLCHICUM.",
+"id": "bell-therapeutics-1906-0028",
+"printed": "C01X7H1CUII1",
+"section": 36,
+"symptoms_matched": 13,
+"symptoms_total": 47
+},
+{
+"agreement": 0.71,
+"heading": "COLOCTWHIS.",
+"id": "bell-therapeutics-1906-0029",
+"printed": "COI-OCYXTHIS",
+"section": 37,
+"symptoms_matched": 10,
+"symptoms_total": 49
+},
+{
+"agreement": 0.89,
+"heading": "CONIUN.",
+"id": "bell-therapeutics-1906-0031",
+"printed": "CWICM",
+"section": 40,
+"symptoms_matched": 8,
+"symptoms_total": 19
+},
+{
+"agreement": 0.83,
+"heading": "Vomiting",
+"id": "bell-therapeutics-1906-0033",
+"printed": "CORNUA CIRCINATA",
+"section": 42,
+"symptoms_matched": 5,
+"symptoms_total": 23
+},
+{
+"agreement": 1.0,
+"heading": "CROTALUS HORRIDUS.",
+"id": "bell-therapeutics-1906-0034",
+"printed": "CBOTA1.1JO HOBRID1J8",
+"section": 44,
+"symptoms_matched": 6,
+"symptoms_total": 16
+},
+{
+"agreement": 0.6,
+"heading": "CROTON TIGLIOK.",
+"id": "bell-therapeutics-1906-0035",
+"printed": "CROTON TIOUIJR",
+"section": 45,
+"symptoms_matched": 12,
+"symptoms_total": 85
+},
+{
+"agreement": 0.67,
+"heading": "CYCLAMEN.",
+"id": "bell-therapeutics-1906-0036",
+"printed": "CTCI^AMEIV",
+"section": 47,
+"symptoms_matched": 4,
+"symptoms_total": 20
+},
+{
+"agreement": 0.86,
+"heading": "DIGITALIS.",
+"id": "bell-therapeutics-1906-0037",
+"printed": "BIGITAUN",
+"section": 48,
+"symptoms_matched": 6,
+"symptoms_total": 19
+},
+{
+"agreement": 0.67,
+"heading": "DIOSCOREA VIIXOSA.",
+"id": "bell-therapeutics-1906-0038",
+"printed": "DIOSCOUEA TIIX05A",
+"section": 49,
+"symptoms_matched": 6,
+"symptoms_total": 25
+},
+{
+"agreement": 0.6,
+"heading": "DULCAMARA.",
+"id": "bell-therapeutics-1906-0039",
+"printed": "BULCAHARA",
+"section": 50,
+"symptoms_matched": 3,
+"symptoms_total": 47
+},
+{
+"agreement": 0.5,
+"heading": "FEBROf METAIXICUM.",
+"id": "bell-therapeutics-1906-0040",
+"printed": "FJ.ATERIIIM",
+"section": 52,
+"symptoms_matched": 4,
+"symptoms_total": 44
+},
+{
+"agreement": 0.9,
+"heading": "FLUORIC ACID.",
+"id": "bell-therapeutics-1906-0041",
+"printed": "FLUORIC ACID",
+"section": 53,
+"symptoms_matched": 9,
+"symptoms_total": 28
+},
+{
+"agreement": 0.84,
+"heading": "GAMBOGIA.",
+"id": "bell-therapeutics-1906-0042",
+"printed": "GAHIBOGIA",
+"section": 54,
+"symptoms_matched": 16,
+"symptoms_total": 56
+},
+{
+"agreement": 0.56,
+"heading": "Chlorosis",
+"id": "bell-therapeutics-1906-0043",
+"printed": "GifTAPHITEN",
+"section": 56,
+"symptoms_matched": 9,
+"symptoms_total": 42
+},
+{
+"agreement": 0.67,
+"heading": "Profuse",
+"id": "bell-therapeutics-1906-0046",
+"printed": "UYOSCYAIIIJS",
+"section": 62,
+"symptoms_matched": 2,
+"symptoms_total": 16
+},
+{
+"agreement": 0.78,
+"heading": "IRIS VERSICOLOR.",
+"id": "bell-therapeutics-1906-0048",
+"printed": "IRlfii TEBISlCOIiOR",
+"section": 65,
+"symptoms_matched": 7,
+"symptoms_total": 34
+},
+{
+"agreement": 0.67,
+"heading": "JABORANDI.",
+"id": "bell-therapeutics-1906-0049",
+"printed": "JABOBANDI",
+"section": 66,
+"symptoms_matched": 2,
+"symptoms_total": 8
+},
+{
+"agreement": 0.5,
+"heading": "JAliAPA.",
+"id": "bell-therapeutics-1906-0050",
+"printed": "JALiAPA",
+"section": 67,
+"symptoms_matched": 1,
+"symptoms_total": 7
+},
+{
+"agreement": 0.5,
+"heading": "JATROPHA CIJRCAS.",
+"id": "bell-therapeutics-1906-0051",
+"printed": "JATROPHA CUHCAS",
+"section": 68,
+"symptoms_matched": 1,
+"symptoms_total": 4
+},
+{
+"agreement": 0.56,
+"heading": "KALI BICHROMICUM.",
+"id": "bell-therapeutics-1906-0052",
+"printed": "KAJLI Bl€HRO]III€U]|I",
+"section": 69,
+"symptoms_matched": 5,
+"symptoms_total": 26
+},
+{
+"agreement": 1.0,
+"heading": "Painless",
+"id": "bell-therapeutics-1906-0053",
+"printed": "KAI4I BROMICUM",
+"section": 71,
+"symptoms_matched": 2,
+"symptoms_total": 9
+},
+{
+"agreement": 0.5,
+"heading": "KALI CARBONICUM.",
+"id": "bell-therapeutics-1906-0054",
+"printed": "KAT.l CARBONICUM",
+"section": 72,
+"symptoms_matched": 1,
+"symptoms_total": 22
+},
+{
+"agreement": 0.75,
+"heading": "Nausea",
+"id": "bell-therapeutics-1906-0055",
+"printed": "KALI ]VITRI€U]lf",
+"section": 73,
+"symptoms_matched": 3,
+"symptoms_total": 15
+},
+{
+"agreement": 0.5,
+"heading": "NATRUM SULPHURICUM.",
+"id": "bell-therapeutics-1906-0060",
+"printed": "NATHUm fSUI-FHUMCtJlWt",
+"section": 89,
+"symptoms_matched": 8,
+"symptoms_total": 45
+},
+{
+"agreement": 0.5,
+"heading": "PAULLINIA SORBILIS.",
+"id": "bell-therapeutics-1906-0063",
+"printed": "PAri.l.mA NORRILIM",
+"section": 97,
+"symptoms_matched": 1,
+"symptoms_total": 7
+},
+{
+"agreement": 0.86,
+"heading": "PETROLEUM.",
+"id": "bell-therapeutics-1906-0064",
+"printed": "PETR01.£1Jli",
+"section": 100,
+"symptoms_matched": 6,
+"symptoms_total": 32
+},
+{
+"agreement": 0.64,
+"heading": "PETROLEUM.",
+"id": "bell-therapeutics-1906-0065",
+"printed": "PHO.SPHOBU8",
+"section": 100,
+"symptoms_matched": 9,
+"symptoms_total": 57
+},
+{
+"agreement": 0.5,
+"heading": "PHOSPHORIC ACID.",
+"id": "bell-therapeutics-1906-0066",
+"printed": "PHOSPHORIC ACID",
+"section": 101,
+"symptoms_matched": 3,
+"symptoms_total": 21
+},
+{
+"agreement": 0.86,
+"heading": "PSORINUM.",
+"id": "bell-therapeutics-1906-0069",
+"printed": "PSORITTIJIII",
+"section": 107,
+"symptoms_matched": 6,
+"symptoms_total": 21
+},
+{
+"agreement": 0.7,
+"heading": "PriSATIILA.",
+"id": "bell-therapeutics-1906-0070",
+"printed": "PVIiSATlliliA",
+"section": 108,
+"symptoms_matched": 7,
+"symptoms_total": 39
+},
+{
+"agreement": 0.8,
+"heading": "PriSATIILA.",
+"id": "bell-therapeutics-1906-0071",
+"printed": "MAPUAISVH SAXn ilSi",
+"section": 108,
+"symptoms_matched": 4,
+"symptoms_total": 9
+},
+{
+"agreement": 0.88,
+"heading": "PriSATIILA.",
+"id": "bell-therapeutics-1906-0072",
+"printed": "RHEUM",
+"section": 108,
+"symptoms_matched": 7,
+"symptoms_total": 29
+},
+{
+"agreement": 0.62,
+"heading": "RHUS TOXICODENDRON.",
+"id": "bell-therapeutics-1906-0073",
+"printed": "RHODODENDBON",
+"section": 111,
+"symptoms_matched": 13,
+"symptoms_total": 57
+},
+{
+"agreement": 1.0,
+"heading": "RUMEX CRISPUS.",
+"id": "bell-therapeutics-1906-0074",
+"printed": "RIJMF.X C RISPUN",
+"section": 113,
+"symptoms_matched": 4,
+"symptoms_total": 16
+},
+{
+"agreement": 0.71,
+"heading": "SIBADlLLi.",
+"id": "bell-therapeutics-1906-0075",
+"printed": "SABABUUt",
+"section": 114,
+"symptoms_matched": 5,
+"symptoms_total": 16
+},
+{
+"agreement": 0.5,
+"heading": "Coldness",
+"id": "bell-therapeutics-1906-0077",
+"printed": "CORNUTITM",
+"section": 122,
+"symptoms_matched": 3,
+"symptoms_total": 31
+},
+{
+"agreement": 0.67,
+"heading": "SEPIA.",
+"id": "bell-therapeutics-1906-0078",
+"printed": "SF.PIA",
+"section": 123,
+"symptoms_matched": 2,
+"symptoms_total": 27
+},
+{
+"agreement": 0.8,
+"heading": "STRAMONIUM.",
+"id": "bell-therapeutics-1906-0080",
+"printed": "STRAMOMIlJir",
+"section": 127,
+"symptoms_matched": 4,
+"symptoms_total": 15
+},
+{
+"agreement": 0.89,
+"heading": "SULPHUR.",
+"id": "bell-therapeutics-1906-0081",
+"printed": "SULPHUR",
+"section": 128,
+"symptoms_matched": 16,
+"symptoms_total": 77
+},
+{
+"agreement": 0.75,
+"heading": "SULPHURIC ACID.",
+"id": "bell-therapeutics-1906-0082",
+"printed": "SULPHURIC ACID",
+"section": 129,
+"symptoms_matched": 3,
+"symptoms_total": 20
+},
+{
+"agreement": 1.0,
+"heading": "TABAC m.",
+"id": "bell-therapeutics-1906-0083",
+"printed": "TABACUM",
+"section": 131,
+"symptoms_matched": 2,
+"symptoms_total": 9
+}
+],
+"method": "each entry's own symptom sentences are located in a second scan of the same book; the numbered remedy heading above them is the entry's remedy",
+"source": "https://archive.org/details/in.ernet.dli.2015.94901"
+}

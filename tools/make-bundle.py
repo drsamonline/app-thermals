@@ -47,6 +47,8 @@ def main():
                              if e["status"] in ("corrected", "corrected-scanned", "owner-confirmed")),
             "owner_confirmed": sum(1 for e in name_map["entries"] if e["status"] == "owner-confirmed"),
             "merged_not_bundled": sum(1 for e in name_map["entries"] if e["status"] == "merged"),
+            "second_scan": sum(1 for e in name_map["entries"] if e["status"] == "second-scan"),
+            "not_a_remedy": sum(1 for e in name_map["entries"] if e["status"] == "not-a-remedy"),
             "as_printed": sum(1 for e in name_map["entries"] if e["status"] == "ok-as-printed"),
             "unresolved": sum(1 for e in name_map["entries"] if e["status"] == "unresolved"),
             "confirmed": sum(1 for e in name_map["entries"] if e["status"] == "ok"),

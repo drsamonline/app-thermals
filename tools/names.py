@@ -184,7 +184,14 @@ def load_overrides(path=os.path.join(ROOT, "data", "name-overrides.json")):
             data = json.load(fh)
     except FileNotFoundError:
         return {}
-    return {letters(o["printed"]): o for o in data.get("owner_confirmations", [])}
+    out = {}
+    for o in data.get("second_scan_confirmations", {}).get("readings", []):
+        out[letters(o["printed"])] = {"corrected": o["corrected"], "note": o["evidence"], "status": "second-scan"}
+    for o in data.get("second_scan_confirmations", {}).get("not_a_remedy", []):
+        out[letters(o["printed"])] = {"corrected": None, "note": o["evidence"], "status": "not-a-remedy"}
+    for o in data.get("owner_confirmations", []):
+        out[letters(o["printed"])] = {"corrected": o["corrected"], "note": o["note"], "status": "owner-confirmed"}
+    return out
 
 
 def load_reference():
@@ -428,7 +435,8 @@ def correct_books(corrector, src_json, overrides=None):
 
             ov = overrides.get(letters(printed))
             if ov:
-                entry.update(corrected=ov["corrected"], status="owner-confirmed", evidence=ov["note"])
+                entry.update(corrected=ov["corrected"], status=ov.get("status", "owner-confirmed"),
+                             evidence=ov["note"])
                 out.append(entry)
                 continue
 

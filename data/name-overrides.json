@@ -21,5 +21,62 @@
    "corrected": "Kali bromatum",
    "note": "owner: 'look for nearest similar with minor name difference' - KAI4I is KALI, and the remedy Bell carries is Kali bromatum"
   }
- ]
+ ],
+ "second_scan_confirmations": {
+  "what": "Readings settled by finding each entry's own symptom sentences in a SECOND SCAN of the same book (Internet Archive item in.ernet.dli.2015.94901, Bell, Homoeopathic Therapeutics, 7th ed. 1906). The remedy heading above the matched sentences is the entry's remedy; the line number is the evidence.",
+  "source": "https://archive.org/details/in.ernet.dli.2015.94901",
+  "readings": [
+   {
+    "printed": "JETIICSA CYlTAPIITJtt",
+    "corrected": "Aethusa cynapium",
+    "evidence": "'Drowsiness with chilliness' sits at line 910, inside section 4 'JETIIUSA CYMPItM' (between ACONITE and AGARICUS). Not Jatropha and not Justicia."
+   },
+   {
+    "printed": "AliOE",
+    "corrected": "Aloe socotrina",
+    "evidence": "'Chilliness when leaving the fire' at line 1070, inside '6. ALOE'."
+   },
+   {
+    "printed": "BOliETUlS",
+    "corrected": "Boletus laricis",
+    "evidence": "'Chilliness along the spine, followed by hot flashes and sweat' at line 2246, inside '24. BOLETUS LARICIS'. Yes - Boletus is a remedy in this book and the symptom is its own."
+   },
+   {
+    "printed": "FJ.ATERIIIM",
+    "corrected": "Ferrum metallicum",
+    "evidence": "matched to section 'FEBROf METAIXICUM' (Fe. met.) - 'FJ.A' is the abbreviation Fe. M."
+   },
+   {
+    "printed": "GifTAPHITEN",
+    "corrected": "Graphites",
+    "evidence": "'It is especially adapted to fat, flabby persons' at line 4566, inside '64. GRAPHITES' (the 'Chlorosis.' at 4560 is a subheading inside it)."
+   },
+   {
+    "printed": "I^YCOPODICIW",
+    "corrected": "Lycopodium clavatum",
+    "evidence": "'Chilliness in the rectum' at line 5786, inside '88. LYCOPODIUM'."
+   },
+   {
+    "printed": "ItlRYTA CiRBOlVICA",
+    "corrected": "Baryta carbonica",
+    "evidence": "'Chilliness over the head and legs' at line 1995, inside '20. BARYTA CARBOYICA'."
+   },
+   {
+    "printed": "N1U€£A",
+    "corrected": "Silicea terra",
+    "evidence": "'Want of animal heat, always chilly, even when exercising' at line 8132, inside the Silicea section between SEPIA and STANNUM (the scan prints 'Silic.' and 'Silicea.' there)."
+   },
+   {
+    "printed": "SABABUUt",
+    "corrected": "Sabadilla officinalis",
+    "evidence": "'Chilliness and sensitiveness to cold' in the 'SIBADlLLi' (Sabadilla) section."
+   }
+  ],
+  "not_a_remedy": [
+   {
+    "printed": "XlNOIB£R",
+    "evidence": "all three of its 'sentences' are fragments of the book's own repertory index ('Sulph. Chilly persons, in: Asar. E.', line 10019) - a page of cross-references, not a remedy. Withheld rather than named."
+   }
+  ]
+ }
 }

@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.3.0 — 2026-11-01
+
+The worst names are settled from the entry's own symptoms, matched in a second scan of the
+same book.
+
+- Corrected my own 1.2.0 claim: the JSON book transcribed here *is* Bell's diarrhoea volume,
+  so the Internet Archive's `in.ernet.dli.2015.94901` is a second scan of the same book, not
+  a different one. `tools/align-bell.py` indexes it and aligns each entry by its symptom text.
+- Nine entries settled this way, each recorded with its archive.org line number:
+  `JETIICSA CYlTAPIITJtt` = Aethusa cynapium, `FJ.ATERIIIM` = Ferrum metallicum,
+  `N1U€£A` = Silicea terra, `BOliETUlS` = Boletus laricis, `AliOE` = Aloe socotrina,
+  `GifTAPHITEN` = Graphites, `I^YCOPODICIW` = Lycopodium clavatum,
+  `ItlRYTA CiRBOlVICA` = Baryta carbonica, `SABABUUt` = Sabadilla officinalis.
+- `XlNOIB£R` withdrawn: it is a fragment of the book's own repertory index, not a remedy.
+- Two-source remedies 6 → 11; rows 167 → 164; unresolved names 40 → 30.
+- 535 assertions.
+
 ## 1.2.0 — 2026-11-01
 
 The name matcher now reads the OCR instead of normalising it away, on the owner's

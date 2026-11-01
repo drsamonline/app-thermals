@@ -51,12 +51,12 @@ Then:
 
 | | |
 |---|---|
-| quoted sentences (rows) | **167** |
-| remedies in the index | **375** |
-| remedies with at least one statement | **122** |
-| remedies with no statement in any source (`unclassified`) | **253** |
+| quoted sentences (rows) | **164** |
+| remedies in the index | **366** |
+| remedies with at least one statement | **116** |
+| remedies with no statement in any source (`unclassified`) | **250** |
 | sources | **3** |
-| remedies carried by two sources | **6** — Carbolicum acidum, Cistus canadensis, Kali carbonicum, Nux vomica, Phosphorus, Sulphur |
+| remedies carried by two sources | **11** — Baryta carbonica, Carbolicum acidum, Cistus canadensis, Graphites, Kali carbonicum, Lycopodium clavatum, Nux vomica, Phosphorus, Sabadilla officinalis, Silicea terra, Sulphur |
 
 Sources bundled:
 
@@ -71,7 +71,7 @@ Both books come from `drsamonline/homoeopathic-materia-medica-repertory-json`, w
 - **There is no genuine disagreement in the bundle today.** Every two-source remedy points the same way (both say the patient is cold), so `sources disagree` is real machinery with nothing to fire on yet. It fires the day a third source lands that reads the other way. Nothing was invented to make the demo look better.
 - **The books are OCR transcriptions and some of their remedy names are damaged** ("a8arum eiiropeijii", "ntjx vomica"). Those names are kept exactly as printed and do not join across sources — a name we cannot read is not a name we may correct. Book remedies enter the index only when they carry a statement.
 - **No page numbers.** The JSON books carry no `page` field on any record and the Open Materia Medica pages are not paginated, so a row names its source and its chapter and never a page. A guessed page number is a fabricated citation.
-- 253 of the 375 indexed remedies are `unclassified`. That is the honest answer for a corpus this size, not a gap to fill by inference.
+- 250 of the 366 indexed remedies are `unclassified`. That is the honest answer for a corpus this size, not a gap to fill by inference.
 
 ## Correcting the names (added 2026-11-01)
 
@@ -100,9 +100,11 @@ is kept as printed; only visible OCR damage is ever corrected.
 |---|---|
 | confirmed — the printed name is already a known name | **79** |
 | corrected from a named authority (incl. 3 readings the owner supplied directly) | **24** |
+| settled by a second scan of the same book, from the entry's own symptoms | **9** |
 | readable, kept as printed (a remedy the reference does not carry) | **132** |
-| unreadable, kept as printed and marked `spelling unconfirmed` in the app | **40** |
-| **not bundled** — the transcription ran two remedies together, so no sentence can be attributed | **27** |
+| unreadable, kept as printed and marked `spelling unconfirmed` in the app | **30** |
+| **not bundled** — the transcription ran two remedies together | **27** |
+| **not bundled** — not a remedy at all (a fragment of the book's own index) | **1** |
 
 Every correction carries its evidence in `data/name-map.json`, and the app shows the name
 the transcription printed next to the correction, so a reader can check it rather than
@@ -127,12 +129,32 @@ carbonicum**, `KAI4I BROMICUM` is **Kali bromatum**, and the archive.org index's
 `Sulphuris ad` is **Sulphuricum acidum** — that last one is the reference being repaired by
 the same rule it applies to the entries.
 
-Two honest notes. The 40 names still unresolved include 12 that carry a statement the app
-shows; they are visibly marked and were not guessed. Bell's *Homoeopathic Therapeutics*
-(1906) is the reason: the Internet Archive holds that author's *diarrhoea* volume under
-that title, not the general one, so there is no second scan of that book to confirm them
-against. And most corrections change the *index* rather than the quotes — the row count
-moved from 172 to 167 mainly because 27 merged entries are now withheld.
+### The second scan, and a correction I owe the reader
+
+I wrote in 1.2.0 that no second scan of Bell existed, because the Internet Archive item
+under that title and author is *Bell's therapeutics of diarrhoea*. **That was my mistake,
+and it was backwards**: the JSON book transcribed here *is* the diarrhoea volume — its
+chapters are "Before Stool", "During Stool", "After Stool", "Accompaniments". So the second
+scan was on the shelf the whole time, at
+[in.ernet.dli.2015.94901](https://archive.org/details/in.ernet.dli.2015.94901).
+
+That changes the method for the worst names, and the method is now the strong one: the
+heading does not have to be guessed, because **the entry's own symptom sentences can be
+found in the second scan**, and the numbered remedy heading above them is the answer.
+`tools/align-bell.py` does that, and `data/name-overrides.json` records each result with
+the line number it came from. Nine entries were settled this way, among them:
+
+| printed | settled as | why |
+|---|---|---|
+| `JETIICSA CYlTAPIITJtt` | **Aethusa cynapium** | "Drowsiness with chilliness" at line 910, inside section 4 `JETIIUSA CYMPItM` — not Jatropha, not Justicia |
+| `FJ.ATERIIIM` | **Ferrum metallicum** | matched to section `FEBROf METAIXICUM` — `FJ.A` is the abbreviation *Fe. M.* |
+| `N1U€£A` | **Silicea terra** | "Want of animal heat, always chilly, even when exercising" at line 8132, in the Silicea section between Sepia and Stannum |
+| `BOliETUlS` | **Boletus laricis** | "Chilliness along the spine, followed by hot flashes and sweat" at line 2246 — Boletus *is* a remedy here and that is its own symptom |
+| `XlNOIB£R` | *not a remedy* | its three "sentences" are fragments of the book's own repertory index — withheld, not named |
+
+**Why this matters more than tidiness:** with the names settled, the two-source count went
+**6 → 11** — Baryta carbonica, Graphites, Lycopodium, Sabadilla and Silicea now join their
+Open Materia Medica entries, so the agreement machinery finally has data to work on.
 
 ## Run it
 

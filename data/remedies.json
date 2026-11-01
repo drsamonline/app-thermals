@@ -106,11 +106,13 @@
 "sources": []
 },
 {
-"classified": false,
+"classified": true,
 "name": "aethusa cynapium",
-"rows": 0,
+"rows": 1,
 "slug": "aethusa-cynapium",
-"sources": []
+"sources": [
+"Homoeopathic Therapeutics"
+]
 },
 {
 "classified": true,
@@ -143,15 +145,6 @@
 "sources": []
 },
 {
-"classified": true,
-"name": "AliOE",
-"rows": 1,
-"slug": "alioe",
-"sources": [
-"Homoeopathic Therapeutics"
-]
-},
-{
 "classified": false,
 "name": "allium cepa",
 "rows": 0,
@@ -166,11 +159,13 @@
 "sources": []
 },
 {
-"classified": false,
+"classified": true,
 "name": "aloe socotrina",
-"rows": 0,
+"rows": 1,
 "slug": "aloe-socotrina",
-"sources": []
+"sources": [
+"Homoeopathic Therapeutics"
+]
 },
 {
 "classified": true,
@@ -405,9 +400,10 @@
 {
 "classified": true,
 "name": "baryta carbonica",
-"rows": 1,
+"rows": 2,
 "slug": "baryta-carbonica",
 "sources": [
+"Homoeopathic Therapeutics",
 "Manual of Homoeopathic Medicine, Part I: Materia Medica"
 ]
 },
@@ -475,9 +471,9 @@
 },
 {
 "classified": true,
-"name": "BOliETUlS",
+"name": "Boletus laricis",
 "rows": 1,
-"slug": "bolietuls",
+"slug": "boletus-laricis",
 "sources": [
 "Homoeopathic Therapeutics"
 ]
@@ -1119,11 +1115,13 @@
 "sources": []
 },
 {
-"classified": false,
+"classified": true,
 "name": "ferrum metallicum",
-"rows": 0,
+"rows": 1,
 "slug": "ferrum-metallicum",
-"sources": []
+"sources": [
+"Homoeopathic Therapeutics"
+]
 },
 {
 "classified": false,
@@ -1144,15 +1142,6 @@
 "name": "Fever",
 "rows": 2,
 "slug": "fever",
-"sources": [
-"Homoeopathic Therapeutics"
-]
-},
-{
-"classified": true,
-"name": "FJ.ATERIIIM",
-"rows": 1,
-"slug": "fj-ateriiim",
 "sources": [
 "Homoeopathic Therapeutics"
 ]
@@ -1204,15 +1193,6 @@
 ]
 },
 {
-"classified": true,
-"name": "GifTAPHITEN",
-"rows": 3,
-"slug": "giftaphiten",
-"sources": [
-"Homoeopathic Therapeutics"
-]
-},
-{
 "classified": false,
 "name": "ginseng",
 "rows": 0,
@@ -1236,10 +1216,11 @@
 {
 "classified": true,
 "name": "graphites",
-"rows": 4,
+"rows": 7,
 "slug": "graphites",
 "sources": [
-"Open Materia Medica"
+"Open Materia Medica",
+"Homoeopathic Therapeutics"
 ]
 },
 {
@@ -1386,15 +1367,6 @@
 "sources": []
 },
 {
-"classified": true,
-"name": "I^YCOPODICIW",
-"rows": 2,
-"slug": "i-ycopodiciw",
-"sources": [
-"Homoeopathic Therapeutics"
-]
-},
-{
 "classified": false,
 "name": "iberis amara",
 "rows": 0,
@@ -1434,15 +1406,6 @@
 "sources": []
 },
 {
-"classified": true,
-"name": "ItlRYTA CiRBOlVICA",
-"rows": 1,
-"slug": "itlryta-cirbolvica",
-"sources": [
-"Homoeopathic Therapeutics"
-]
-},
-{
 "classified": false,
 "name": "jaborandi",
 "rows": 0,
@@ -1455,15 +1418,6 @@
 "rows": 0,
 "slug": "jacaranda-caroba",
 "sources": []
-},
-{
-"classified": true,
-"name": "JETIICSA CYlTAPIITJtt",
-"rows": 1,
-"slug": "jetiicsa-cyltapiitjtt",
-"sources": [
-"Homoeopathic Therapeutics"
-]
 },
 {
 "classified": false,
@@ -1662,10 +1616,11 @@
 {
 "classified": true,
 "name": "lycopodium clavatum",
-"rows": 1,
+"rows": 3,
 "slug": "lycopodium-clavatum",
 "sources": [
-"Open Materia Medica"
+"Open Materia Medica",
+"Homoeopathic Therapeutics"
 ]
 },
 {
@@ -1854,15 +1809,6 @@
 "slug": "muriaticum-acidum",
 "sources": [
 "Open Materia Medica"
-]
-},
-{
-"classified": true,
-"name": "N1U€£A",
-"rows": 2,
-"slug": "n1u-a",
-"sources": [
-"Homoeopathic Therapeutics"
 ]
 },
 {
@@ -2293,20 +2239,12 @@
 },
 {
 "classified": true,
-"name": "SABABUUt",
-"rows": 1,
-"slug": "sababuut",
-"sources": [
-"Homoeopathic Therapeutics"
-]
-},
-{
-"classified": true,
 "name": "sabadilla officinalis",
-"rows": 1,
+"rows": 2,
 "slug": "sabadilla-officinalis",
 "sources": [
-"Open Materia Medica"
+"Open Materia Medica",
+"Homoeopathic Therapeutics"
 ]
 },
 {
@@ -2455,10 +2393,11 @@
 {
 "classified": true,
 "name": "silicea terra",
-"rows": 2,
+"rows": 4,
 "slug": "silicea-terra",
 "sources": [
-"Open Materia Medica"
+"Open Materia Medica",
+"Homoeopathic Therapeutics"
 ]
 },
 {
@@ -2841,15 +2780,6 @@
 "rows": 0,
 "slug": "xerophyllum-tenax",
 "sources": []
-},
-{
-"classified": true,
-"name": "XlNOIB£R",
-"rows": 3,
-"slug": "xlnoib-r",
-"sources": [
-"Homoeopathic Therapeutics"
-]
 },
 {
 "classified": false,

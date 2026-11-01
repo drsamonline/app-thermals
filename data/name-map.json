@@ -13,20 +13,20 @@
 {
 "abbrev": "JETI",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Aethusa cynapium",
+"evidence": "'Drowsiness with chilliness' sits at line 910, inside section 4 'JETIIUSA CYMPItM' (between ACONITE and AGARICUS). Not Jatropha and not Justicia.",
 "id": "bell-therapeutics-1906-0002",
 "printed": "JETIICSA CYlTAPIITJtt",
-"status": "unresolved"
+"status": "second-scan"
 },
 {
 "abbrev": "AliO",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Aloe socotrina",
+"evidence": "'Chilliness when leaving the fire' at line 1070, inside '6. ALOE'.",
 "id": "bell-therapeutics-1906-0003",
 "printed": "AliOE",
-"status": "unresolved"
+"status": "second-scan"
 },
 {
 "abbrev": "Allf",
@@ -121,11 +121,11 @@
 {
 "abbrev": "ItlR",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Baryta carbonica",
+"evidence": "'Chilliness over the head and legs' at line 1995, inside '20. BARYTA CARBOYICA'.",
 "id": "bell-therapeutics-1906-0014",
 "printed": "ItlRYTA CiRBOlVICA",
-"status": "unresolved"
+"status": "second-scan"
 },
 {
 "abbrev": "BELl",
@@ -148,11 +148,11 @@
 {
 "abbrev": "BOli",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Boletus laricis",
+"evidence": "'Chilliness along the spine, followed by hot flashes and sweat' at line 2246, inside '24. BOLETUS LARICIS'. Yes - Boletus is a remedy in this book and the symptom is its own.",
 "id": "bell-therapeutics-1906-0017",
 "printed": "BOliETUlS",
-"status": "unresolved"
+"status": "second-scan"
 },
 {
 "abbrev": "BORA",
@@ -355,11 +355,11 @@
 {
 "abbrev": "FJ.A",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Ferrum metallicum",
+"evidence": "matched to section 'FEBROf METAIXICUM' (Fe. met.) - 'FJ.A' is the abbreviation Fe. M.",
 "id": "bell-therapeutics-1906-0040",
 "printed": "FJ.ATERIIIM",
-"status": "unresolved"
+"status": "second-scan"
 },
 {
 "abbrev": "FLUO",
@@ -382,11 +382,11 @@
 {
 "abbrev": "GifT",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Graphites",
+"evidence": "'It is especially adapted to fat, flabby persons' at line 4566, inside '64. GRAPHITES' (the 'Chlorosis.' at 4560 is a subheading inside it).",
 "id": "bell-therapeutics-1906-0043",
 "printed": "GifTAPHITEN",
-"status": "unresolved"
+"status": "second-scan"
 },
 {
 "abbrev": "Hi:]",
@@ -508,11 +508,11 @@
 {
 "abbrev": "I^YC",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Lycopodium clavatum",
+"evidence": "'Chilliness in the rectum' at line 5786, inside '88. LYCOPODIUM'.",
 "id": "bell-therapeutics-1906-0057",
 "printed": "I^YCOPODICIW",
-"status": "unresolved"
+"status": "second-scan"
 },
 {
 "abbrev": "MtEZ",
@@ -670,11 +670,11 @@
 {
 "abbrev": "SABA",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Sabadilla officinalis",
+"evidence": "'Chilliness and sensitiveness to cold' in the 'SIBADlLLi' (Sabadilla) section.",
 "id": "bell-therapeutics-1906-0075",
 "printed": "SABABUUt",
-"status": "unresolved"
+"status": "second-scan"
 },
 {
 "abbrev": "SAMB",
@@ -706,11 +706,11 @@
 {
 "abbrev": "N1U€",
 "book": "bell-therapeutics-1906.json",
-"corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"corrected": "Silicea terra",
+"evidence": "'Want of animal heat, always chilly, even when exercising' at line 8132, inside the Silicea section between SEPIA and STANNUM (the scan prints 'Silic.' and 'Silicea.' there).",
 "id": "bell-therapeutics-1906-0079",
 "printed": "N1U€£A",
-"status": "unresolved"
+"status": "second-scan"
 },
 {
 "abbrev": "STRA",
@@ -770,10 +770,10 @@
 "abbrev": "XlNO",
 "book": "bell-therapeutics-1906.json",
 "corrected": null,
-"evidence": "no clean authority confirms a reading; kept exactly as printed",
+"evidence": "all three of its 'sentences' are fragments of the book's own repertory index ('Sulph. Chilly persons, in: Asar. E.', line 10019) - a page of cross-references, not a remedy. Withheld rather than named.",
 "id": "bell-therapeutics-1906-0086",
 "printed": "XlNOIB£R",
-"status": "unresolved"
+"status": "not-a-remedy"
 },
 {
 "abbrev": "Mind",

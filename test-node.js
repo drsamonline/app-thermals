@@ -250,7 +250,8 @@ test("no remedy appears twice under two spellings", function () {
 
 test("the name counts add up to what the reader is told", function () {
   var n = META.names;
-  eq(n.confirmed + n.corrected + n.as_printed + n.unresolved + n.merged_not_bundled, 302,
+  eq(n.confirmed + n.corrected + n.as_printed + n.unresolved + n.merged_not_bundled +
+     (n.second_scan || 0) + (n.not_a_remedy || 0), 302,
      "every entry in the two transcribed books is accounted for");
   ok(n.unresolved >= 0 && n.corrected >= 0, "the counts are real numbers");
 });
