@@ -151,6 +151,7 @@
     </ul>
   </div>
   <p id="counts"></p>
+  <p id="build" class="msg"></p>
   <p id="names"></p>
   <p>Offline. No accounts, no server, no network at any point. Text quoted from
   <em>Open Materia Medica</em> (© Dr. Sohil Momin, BHMS) and from the public-domain
@@ -161,6 +162,7 @@
 <script src="vendor/search-kit.js"></script>
 <script src="vendor/case-kit.js"></script>
 <script src="vendor/export-kit.js"></script>
+<script>window.THERMALS_BUILD = "1.8.1";</script>
 <script src="data/bundle.js"></script>
 <script src="thermals.js"></script>
 <script>
@@ -180,6 +182,8 @@
   var elRemedy = document.getElementById("remedy");
   var elBrowse = document.getElementById("browse-list");
   var elGrid = document.getElementById("grid");
+
+  document.getElementById("build").textContent = "Build " + (window.THERMALS_BUILD || "dev");
 
   document.getElementById("counts").textContent =
     DATA.meta.rows + " quoted sentences · " + DATA.meta.remedies + " remedies (" +
@@ -327,7 +331,10 @@
   }
 
   if ("serviceWorker" in navigator && location.protocol !== "file:") {
-    navigator.serviceWorker.register("sw.js").catch(function () {});
+    navigator.serviceWorker.register("sw.js").then(function (reg) {
+      // a new worker should take over now, not on some later visit
+      if (reg && reg.update) reg.update();
+    }).catch(function () {});
   }
 })();
 </script>

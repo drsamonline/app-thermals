@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.8.1 — 2026-11-01
+
+**A cache-first service worker was hiding every release.** The app shipped 1.8.0 with the theme
+toggle, the deploy went green — and a returning reader still got the old page, because the worker
+answered the HTML from its cache and the cache name had not changed. The reader had no way to know.
+
+- The HTML is now **network-first** (cache is the offline fallback); assets stay cache-first with a
+  background refresh. Offline behaviour is unchanged.
+- `CACHE` bumped to `thermals-v3`, so the old cache is deleted on activate.
+- The page asks the registration to `update()` on load, so a new worker takes over immediately.
+- A **build stamp** is printed in the footer ("Build 1.8.1"), so "am I on the new one?" is a
+  question the page answers itself.
+
 ## 1.8.0 — 2026-11-01
 
 Light by default, dark one click away.
