@@ -7,16 +7,33 @@
 <meta name="description" content="Homoeopathic remedies by thermal reaction: what each classical source actually says, quoted with the source named, and where the sources do not say the same thing. Offline, no accounts.">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="manifest" href="manifest.webmanifest">
+<script>
+  /* The theme is a choice, not a guess: the system preference is the default and the
+     button overrides it. Set before first paint so the page never flashes. */
+  (function () {
+    try {
+      var t = localStorage.getItem("thermals:theme");
+      if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+    } catch (e) {}
+  })();
+</script>
 <meta name="theme-color" content="#12100e">
 <style>
   :root{
     --paper:#faf6ef; --ink:#1d1a16; --muted:#6b6257; --line:#e0d7c8;
     --cold:#2f6f8f; --heat:#b5432c; --card:#fffdf8; --shadow:0 1px 2px rgba(29,26,22,.06),0 8px 24px rgba(29,26,22,.06);
   }
+  :root[data-theme="dark"]{
+    --paper:#12100e; --ink:#efe8dc; --muted:#a29584; --line:#2c2721;
+    --cold:#7fb6d3; --heat:#e2785c; --card:#191613;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+  }
   @media (prefers-color-scheme: dark){
-    :root{ --paper:#12100e; --ink:#efe8dc; --muted:#a29584; --line:#2c2721;
-           --cold:#7fb6d3; --heat:#e2785c; --card:#191613;
-           --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35); }
+    :root:not([data-theme="light"]):not([data-theme="dark"]){
+      --paper:#12100e; --ink:#efe8dc; --muted:#a29584; --line:#2c2721;
+      --cold:#7fb6d3; --heat:#e2785c; --card:#191613;
+      --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+    }
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--paper);color:var(--ink);
@@ -28,6 +45,9 @@
   .tag{margin:.5rem 0 0;color:var(--muted);font-size:1rem;max-width:40rem}
   .meter{display:inline-block;width:10px;height:10px;border-radius:50%;
          background:linear-gradient(180deg,var(--heat),var(--cold));vertical-align:middle}
+  .themebtn{margin-left:auto;font-size:.82rem;padding:.3rem .6rem;border-radius:999px;
+            border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer}
+  .themebtn:hover{color:var(--ink);border-color:var(--muted)}
   main{max-width:52rem;margin:0 auto;padding:0 1.2rem 4rem}
   .searchbox{position:sticky;top:0;z-index:5;background:var(--paper);padding:.8rem 0 1rem;
              border-bottom:1px solid var(--line)}
@@ -85,7 +105,9 @@
 </head>
 <body>
 <header>
-  <div class="brand"><span class="meter" aria-hidden="true"></span><h1>Thermals</h1></div>
+  <div class="brand"><span class="meter" aria-hidden="true"></span><h1>Thermals</h1>
+    <button id="theme" class="themebtn" type="button" aria-pressed="false" title="Switch between light and dark">◐ <span>Theme</span></button>
+  </div>
   <p class="tag">What each classical source actually says about a remedy's thermal reaction —
   quoted in its own words, with the source named, and shown where the sources do not say the
   same thing. The app never assigns a state.</p>
@@ -282,6 +304,27 @@
       runSearch();
     });
   });
+
+  var themeBtn = document.getElementById("theme");
+  function currentTheme() {
+    var set = document.documentElement.getAttribute("data-theme");
+    if (set) return set;
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+  function paintThemeBtn() {
+    var t = currentTheme();
+    themeBtn.setAttribute("aria-pressed", t === "dark" ? "true" : "false");
+    themeBtn.querySelector("span").textContent = t === "dark" ? "Dark" : "Light";
+  }
+  if (themeBtn) {
+    paintThemeBtn();
+    themeBtn.addEventListener("click", function () {
+      var next = currentTheme() === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      try { localStorage.setItem("thermals:theme", next); } catch (e) {}
+      paintThemeBtn();
+    });
+  }
 
   if ("serviceWorker" in navigator && location.protocol !== "file:") {
     navigator.serviceWorker.register("sw.js").catch(function () {});

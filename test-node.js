@@ -300,5 +300,21 @@ test("a quote repaired from the page keeps both versions and says where it came 
   ok(html.indexOf(T.esc(fixed[0].sentence)) >= 0, "and quotes the repaired text");
 });
 
+
+test("both surfaces offer a light/dark toggle and never force one", function () {
+  var app = fs.readFileSync(path.join(__dirname, "docs", "play", "index.html"), "utf8");
+  var land = fs.readFileSync(path.join(__dirname, "docs", "index.html"), "utf8");
+  [["app", app], ["landing page", land]].forEach(function (pair) {
+    var name = pair[0], html = pair[1];
+    ok(/id="theme"/.test(html), name + " has a theme toggle");
+    ok(/data-theme/.test(html), name + " switches on a data-theme attribute");
+    ok(/prefers-color-scheme/.test(html), name + " follows the system preference by default");
+    ok(/localStorage/.test(html), name + " remembers the choice");
+  });
+  // light is the default: the dark palette is opt-in, not the base
+  ok(/:root\{[^}]*--paper:#faf6ef/.test(app), "the app's base palette is the light one");
+  ok(/:root\{\s*--void:#f7f3ea/.test(land), "the landing page's base palette is the light one");
+});
+
 console.log(passed + " passed, " + failed + " failed");
 process.exit(failed ? 1 : 0);
