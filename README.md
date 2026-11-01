@@ -213,12 +213,27 @@ sentence, and repairs only what the page witnesses:
 | an apostrophe inside a word | `always` | `alw'ays` → `always` |
 | a page number swallowed into the prose | the words, not the number | the number goes |
 
-**4 quotes are repaired this way and 27 are not**, and the difference is deliberate: a
-repair is applied only when the page prints the word, so nothing is added, dropped or
-reordered. Each repaired quote keeps the transcription's own words beside it
-(`sentence_printed`) and shows the page number under the quote — "repaired from p.191 of the
-scan". The 27 that remain flagged need the page read line by line by a person, which is the
-next honest step rather than another automatic pass.
+**6 quotes are repaired from the page**, each keeping the transcription's own words beside it
+and showing its page number under the quote — "repaired from p.191 of the scan". Three of them
+were read off the page image itself, because the automatic pass cannot witness them:
+
+| page | printed | as it reads on the page |
+|---|---|---|
+| 73 | `with in ternal warmth` | **with internal warmth** — one word split by the line break |
+| 106 | `Chilliness, with continued THEIR INDICATIONS, IO3 yawning.` | **Chilliness, with continued yawning.** — the running head and the page number had been swallowed into the sentence |
+| 184 | `Chilliness and sen sitiveness to cold.` | **Chilliness and sensitiveness to cold.** |
+
+**And the damage count itself was wrong.** The first detector flagged 31 sentences, but it
+counted an ordinary "by" or "of" as a broken word. Tightened to three things only — a stray
+mark, a page number swallowed into the prose, and a split word whose fragment is not a word at
+all — the count fell to **1**, and that one is now repaired. **Zero quotes carry a damage flag**,
+and the ones that were never damaged no longer say they were.
+
+**One name changed because of this.** `FJ.ATERIIIM` was read as *Ferrum metallicum* from a fuzzy
+match on its damaged heading. Its sentence, "Chilliness, with continued yawning", sits at the
+foot of page 106 inside section **59 ELATERIUM**, and section 60 *Ferrum metallicum* opens on
+the next page. It is **Elaterium**, and the reading is corrected. The owner's doubt about that
+class of match was justified.
 
 **Why this matters more than tidiness:** with the names settled, the two-source count went
 **6 → 11** — Baryta carbonica, Graphites, Lycopodium, Sabadilla and Silicea now join their

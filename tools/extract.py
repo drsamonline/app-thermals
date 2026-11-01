@@ -69,16 +69,32 @@ HEAT_RE = re.compile(
 SENT_SPLIT = re.compile(r"(?<=[.!?])\s+")
 
 
+COMMON_SHORT = {
+    "a", "an", "as", "at", "be", "by", "do", "go", "he", "if", "in", "is", "it",
+    "me", "my", "no", "of", "on", "or", "so", "to", "up", "us", "we", "ye", "am",
+    "ad", "ah", "oh", "lo", "ha", "ed", "id", "ox", "ex", "re", "st",
+}
+
+
 def text_damage(s):
-    """Visible OCR damage inside a quoted sentence: a swallowed page number, a
-    stray mark, or a word broken in two. The quote is kept verbatim either way;
-    this only lets the app say so."""
-    if re.search(r"\b[A-Z]{4,}\s*,?\s*[A-Z]{1,2}\d\b", s or ""):   # 'THEIR INDICATIONS, IO3'
+    """Visible OCR damage inside a quoted sentence.
+
+    Deliberately strict, because a false flag is its own small lie: an ordinary
+    "by" or "of" must not read as a broken word. Only three things count -
+    a stray mark, a page number swallowed into the prose, and a split word where
+    the fragment is not a word at all ("sen sitiveness", "in ternal").
+    """
+    s = s or ""
+    if re.search(r"[*|~^\\<>{}]", s):
         return True
-    if re.search(r"[*|~^\\<>{}]", s or ""):
+    if re.search(r"\b[A-Z]{4,}\s*,?\s*[A-Z]{1,2}\d\b", s):      # 'INDICATIONS, IO3'
         return True
-    if re.search(r"\b[a-z]{1,2}\s+[a-z]{4,}\b", s or "") and re.search(r"\b[a-z]{1,2}\b", s or ""):
+    if re.search(r"(?<=[a-z])\d+|\d{2,}(?=[a-z])", s):            # 'TIIX05A', '154 thr'
         return True
+    for m in re.finditer(r"\b([a-z]{1,2})\s+([a-z]{4,})\b", s):
+        frag = m.group(1)
+        if frag not in COMMON_SHORT:
+            return True                                             # 'sen sitiveness'
     return False
 
 

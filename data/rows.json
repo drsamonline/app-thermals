@@ -1191,7 +1191,7 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": 72
 },
 {
@@ -1200,14 +1200,14 @@
 "name_status": "ok-as-printed",
 "remedy": "CAHPHOH",
 "remedy_slug": "cahphoh",
-"sentence": "Violent chilliness as though water were poured over one, with in ternal warmth",
-"sentence_printed": null,
+"sentence": "Violent chilliness as though water were poured over one, with internal warmth",
+"sentence_printed": "Violent chilliness as though water were poured over one, with in ternal warmth",
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
-"text_page": null
+"text_damage": false,
+"text_page": 73
 },
 {
 "chapter": "Accompaniments",
@@ -1221,7 +1221,7 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1236,7 +1236,7 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1251,23 +1251,23 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
 "chapter": "Accompaniments",
 "name_printed": "FJ.ATERIIIM",
 "name_status": "second-scan",
-"remedy": "Ferrum metallicum",
-"remedy_slug": "ferrum-metallicum",
-"sentence": "Chilliness, with continued THEIR INDICATIONS, IO3 yawning.",
-"sentence_printed": null,
+"remedy": "Elaterium",
+"remedy_slug": "elaterium",
+"sentence": "Chilliness, with continued yawning.",
+"sentence_printed": "Chilliness, with continued THEIR INDICATIONS, IO3 yawning.",
 "side": "cold",
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
-"text_page": null
+"text_damage": false,
+"text_page": 106
 },
 {
 "chapter": "Accompaniments",
@@ -1296,7 +1296,7 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1311,7 +1311,7 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1371,7 +1371,7 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": 142
 },
 {
@@ -1416,7 +1416,7 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1431,7 +1431,7 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1446,7 +1446,7 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": 184
 },
 {
@@ -1461,7 +1461,7 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1506,7 +1506,7 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": 191
 },
 {
@@ -1521,7 +1521,7 @@
 "source": "Homoeopathic Therapeutics — James B. Bell, 1906",
 "source_kind": "book",
 "source_short": "Homoeopathic Therapeutics",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1596,7 +1596,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1611,7 +1611,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1626,7 +1626,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1656,7 +1656,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1671,7 +1671,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1686,7 +1686,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1716,7 +1716,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1731,7 +1731,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1746,7 +1746,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1776,7 +1776,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1806,7 +1806,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1821,7 +1821,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1851,7 +1851,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1881,7 +1881,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1896,7 +1896,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 },
 {
@@ -1911,7 +1911,7 @@
 "source": "Manual of Homoeopathic Medicine, Part I: Materia Medica — Gottlieb Heinrich Georg Jahr (trans. P. F. Curie), 1847",
 "source_kind": "book",
 "source_short": "Manual of Homoeopathic Medicine, Part I: Materia Medica",
-"text_damage": true,
+"text_damage": false,
 "text_page": null
 }
 ]

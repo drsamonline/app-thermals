@@ -36,6 +36,24 @@
 "page_label": null,
 "similarity": 0.99,
 "to": "Want of animal heat, always chilly, even when exercising."
+},
+{
+"damage_after": 0.0,
+"damage_before": 7.0,
+"from": "Chilliness, with continued THEIR INDICATIONS, IO3 yawning.",
+"note": "read off the page image: the running head 'THEIR INDICATIONS' and the page number '103' had been swallowed into the sentence; the sentence continues 'yawning. Great prostration.' at the top of the next page",
+"page": 106,
+"similarity": 1.0,
+"to": "Chilliness, with continued yawning."
+},
+{
+"damage_after": 0.0,
+"damage_before": 0.3,
+"from": "Violent chilliness as though water were poured over one, with in ternal warmth",
+"note": "read off the page image: 'with in-ternal warmth' - one word split by the line break",
+"page": 73,
+"similarity": 1.0,
+"to": "Violent chilliness as though water were poured over one, with internal warmth"
 }
 ],
 "source": "https://archive.org/details/in.ernet.dli.2015.94901",

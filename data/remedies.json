@@ -1058,6 +1058,15 @@
 "sources": []
 },
 {
+"classified": true,
+"name": "Elaterium",
+"rows": 1,
+"slug": "elaterium",
+"sources": [
+"Homoeopathic Therapeutics"
+]
+},
+{
 "classified": false,
 "name": "electricitas",
 "rows": 0,
@@ -1107,13 +1116,11 @@
 "sources": []
 },
 {
-"classified": true,
+"classified": false,
 "name": "ferrum metallicum",
-"rows": 1,
+"rows": 0,
 "slug": "ferrum-metallicum",
-"sources": [
-"Homoeopathic Therapeutics"
-]
+"sources": []
 },
 {
 "classified": false,

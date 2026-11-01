@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.7.0 — 2026-11-01
+
+The pages were read, and the damage count was wrong.
+
+- Three quotes read off the page images and repaired: "with internal warmth" (p.73),
+  "Chilliness, with continued yawning." (p.106 — a running head and a page number had been
+  swallowed into the sentence), "Chilliness and sensitiveness to cold." (p.184).
+- The damage detector was over-eager: it counted an ordinary "by" or "of" as a broken word,
+  so 31 sentences were flagged. Tightened to stray marks, swallowed page numbers and split
+  words whose fragment is not a word, the count is **1 — now repaired. Zero quotes are flagged.**
+- `FJ.ATERIIIM` corrected from *Ferrum metallicum* to **Elaterium**: its sentence sits inside
+  section 59, with section 60 Ferrum metallicum opening on the next page.
+- 567 assertions.
+
 ## 1.6.0 — 2026-11-01
 
 Damaged quotes repaired from the page that carries them.
