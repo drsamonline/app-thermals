@@ -4,268 +4,257 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Thermals — what each source says, in its own words</title>
-<meta name="description" content="Homoeopathic remedies by thermal reaction: what each classical source actually says, quoted with the source named, and where the sources do not say the same thing. Offline, no accounts.">
-<link rel="icon" href="icon.svg" type="image/svg+xml">
-<link rel="manifest" href="manifest.webmanifest">
+<meta name="description" content="Homoeopathic remedies by thermal reaction: what each classical source actually says, quoted in its own words with the source named — and where the sources do not say the same thing. Offline, no accounts.">
+<meta property="og:title" content="Thermals — what each source says, in its own words">
+<meta property="og:description" content="Quoted sentences from three sources, a summary computed from the quotes, and nothing inferred. Offline, no accounts.">
+<meta property="og:image" content="assets/app-desktop.png">
 <meta name="theme-color" content="#12100e">
+<link rel="icon" href="play/icon.svg" type="image/svg+xml">
 <style>
   :root{
-    --paper:#faf6ef; --ink:#1d1a16; --muted:#6b6257; --line:#e0d7c8;
-    --cold:#2f6f8f; --heat:#b5432c; --card:#fffdf8; --shadow:0 1px 2px rgba(29,26,22,.06),0 8px 24px rgba(29,26,22,.06);
-  }
-  @media (prefers-color-scheme: dark){
-    :root{ --paper:#12100e; --ink:#efe8dc; --muted:#a29584; --line:#2c2721;
-           --cold:#7fb6d3; --heat:#e2785c; --card:#191613;
-           --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35); }
+    --ink:#14110e; --paper:#f7f2e9; --paper-2:#fffdf8; --muted:#6b6157;
+    --line:#e2d8c8; --cold:#2f6f8f; --warm:#b5432c; --deep:#0f1417;
+    --shadow:0 1px 2px rgba(20,17,14,.06), 0 18px 40px rgba(20,17,14,.10);
+    --serif:ui-serif,Georgia,"Iowan Old Style","Times New Roman",serif;
+    --sans:ui-sans-serif,-apple-system,"Segoe UI",Inter,Roboto,system-ui,sans-serif;
   }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--paper);color:var(--ink);
-       font:16px/1.6 ui-serif,Georgia,"Times New Roman",serif}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:17px;line-height:1.65;
+       -webkit-font-smoothing:antialiased}
   a{color:inherit}
-  header{padding:2.2rem 1.2rem 1.2rem;max-width:52rem;margin:0 auto}
-  .brand{display:flex;align-items:baseline;gap:.7rem;flex-wrap:wrap}
-  h1{margin:0;font-size:2rem;letter-spacing:-.01em}
-  .tag{margin:.5rem 0 0;color:var(--muted);font-size:1rem;max-width:40rem}
-  .meter{display:inline-block;width:10px;height:10px;border-radius:50%;
-         background:linear-gradient(180deg,var(--heat),var(--cold));vertical-align:middle}
-  main{max-width:52rem;margin:0 auto;padding:0 1.2rem 4rem}
-  .searchbox{position:sticky;top:0;z-index:5;background:var(--paper);padding:.8rem 0 1rem;
-             border-bottom:1px solid var(--line)}
-  input[type=search],input[type=text],input[type=date]{width:100%;padding:.75rem .9rem;font:inherit;
-    color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:.6rem}
-  input[type=search]:focus,input[type=text]:focus{outline:2px solid var(--cold);outline-offset:1px}
-  .row2{display:flex;gap:.6rem;margin-top:.6rem;flex-wrap:wrap}
-  .row2 > *{flex:1 1 12rem}
-  button{font:inherit;padding:.6rem .9rem;border-radius:.6rem;border:1px solid var(--line);
-         background:var(--card);color:var(--ink);cursor:pointer}
-  button:hover{border-color:var(--muted)}
-  button.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-  .msg{color:var(--muted);font-size:.95rem}
-  .msg--warn{color:var(--heat)}
-  .hit{display:block;text-decoration:none;padding:.9rem 0;border-bottom:1px solid var(--line)}
-  .hit:hover{background:var(--card)}
-  blockquote{margin:0;font-size:1.02rem}
-  .hit-src,.src{color:var(--muted);font-size:.85rem}
-  .hit-src{display:block;margin-top:.35rem;font-style:italic}
-  .summary{border-left:3px solid var(--muted);padding:.5rem .9rem;margin:1rem 0;
-           background:var(--card);border-radius:0 .5rem .5rem 0}
-  .summary--agree{border-left-color:var(--cold)}
-  .summary--disagree{border-left-color:var(--heat)}
-  .summary--unclassified{border-left-color:var(--line)}
-  .r-name{margin:1.4rem 0 .2rem;font-size:1.6rem}
-  .sources{display:flex;gap:.4rem;flex-wrap:wrap;margin:.4rem 0 1rem}
-  .chip{font-size:.78rem;letter-spacing:.02em;text-transform:uppercase;color:var(--muted);
-        border:1px solid var(--line);border-radius:999px;padding:.15rem .6rem}
-  .row{margin:1rem 0;padding:0}
-  .row figcaption{color:var(--muted);font-size:.84rem;margin-top:.35rem}
-  .chapter{font-style:italic}
-  .name-note{display:block;margin-top:.2rem;font-size:.8rem;color:var(--muted)}
-  .none{color:var(--muted);font-style:italic}
-  .notes{list-style:none;padding:0;margin:.4rem 0 1rem}
-  .notes li{padding:.4rem .7rem;border-radius:.4rem;background:var(--card);margin:.3rem 0;font-size:.95rem}
-  .notes--expired li{opacity:.6;text-decoration:line-through}
-  .when{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.82rem;margin-right:.4rem}
-  .notes-h{font-size:.9rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
-  footer{max-width:52rem;margin:0 auto;padding:2rem 1.2rem 4rem;border-top:1px solid var(--line);
-         color:var(--muted);font-size:.88rem}
-  .rule{background:var(--card);border:1px solid var(--line);border-radius:.7rem;padding:1rem 1.1rem;
-        margin:1.2rem 0;font-size:.92rem}
-  .rule h3{margin:.1rem 0 .5rem;font-size:.95rem;text-transform:uppercase;letter-spacing:.06em}
-  .rule ul{margin:.4rem 0 0;padding-left:1.1rem}
-  .grid{display:grid;gap:.5rem;grid-template-columns:repeat(auto-fill,minmax(13rem,1fr))}
-  .grid a{display:block;padding:.5rem .7rem;border:1px solid var(--line);border-radius:.5rem;
-          text-decoration:none;background:var(--card);font-size:.95rem}
-  .grid a span{display:block;color:var(--muted);font-size:.8rem}
-  .hidden{display:none}
-  @media (max-width:520px){ h1{font-size:1.6rem} }
+  .wrap{max-width:64rem;margin:0 auto;padding:0 1.4rem}
+
+  /* the thermal band: the one strong idea on this page */
+  .band{height:6px;background:linear-gradient(90deg,var(--cold) 0%,#7fb6d3 22%,#e8dcc7 48%,#e2a07f 72%,var(--warm) 100%)}
+
+  header.hero{position:relative;overflow:hidden;background:
+      radial-gradient(120% 90% at 12% 0%, rgba(47,111,143,.16), transparent 60%),
+      radial-gradient(110% 80% at 92% 10%, rgba(181,67,44,.16), transparent 62%),
+      var(--paper)}
+  .hero .wrap{padding:3.6rem 1.4rem 2.4rem}
+  .eyebrow{font-family:var(--sans);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 1rem}
+  h1{font-size:clamp(2.6rem,6vw,4.2rem);line-height:1.02;letter-spacing:-.025em;margin:0 0 1rem;font-weight:600}
+  h1 .thin{font-weight:400;font-style:italic;color:var(--muted)}
+  .lede{font-size:clamp(1.05rem,2.1vw,1.3rem);color:#2c2620;max-width:38rem;margin:0 0 1.6rem}
+  .cta{display:flex;gap:.7rem;flex-wrap:wrap;align-items:center;margin-bottom:1.4rem}
+  .btn{font-family:var(--sans);font-size:.98rem;text-decoration:none;padding:.75rem 1.15rem;border-radius:.6rem;
+       border:1px solid var(--line);background:var(--paper-2);box-shadow:var(--shadow);transition:transform .12s ease}
+  .btn:hover{transform:translateY(-1px)}
+  .btn.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .btn.ghost{background:transparent;box-shadow:none}
+  .badges{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}
+  .badges img{height:20px;display:block}
+
+  figure.shot{margin:2.2rem 0 0;border-radius:.9rem;overflow:hidden;border:1px solid var(--line);
+              background:var(--paper-2);box-shadow:var(--shadow)}
+  figure.shot img{display:block;width:100%;height:auto}
+  figure.shot figcaption{font-family:var(--sans);font-size:.82rem;color:var(--muted);padding:.6rem .9rem;border-top:1px solid var(--line)}
+
+  section{padding:3.2rem 0}
+  section + section{border-top:1px solid var(--line)}
+  h2{font-size:clamp(1.5rem,3vw,2rem);letter-spacing:-.015em;margin:0 0 .6rem;font-weight:600}
+  .sub{color:var(--muted);margin:0 0 2rem;max-width:40rem}
+
+  .cards{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr))}
+  .card{background:var(--paper-2);border:1px solid var(--line);border-radius:.8rem;padding:1.15rem 1.2rem;box-shadow:var(--shadow)}
+  .card h3{margin:.1rem 0 .45rem;font-size:1.05rem;font-family:var(--sans);letter-spacing:-.005em}
+  .card p{margin:0;font-size:.96rem;color:#2f2a24}
+  .card .n{font-family:var(--sans);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+
+  .stats{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));margin-top:1.4rem}
+  .stat{background:var(--deep);color:#f4efe6;border-radius:.8rem;padding:1.1rem 1.2rem}
+  .stat b{display:block;font-size:1.9rem;line-height:1.1;letter-spacing:-.02em}
+  .stat span{font-family:var(--sans);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:#b9b0a3}
+
+  .refuse{background:var(--paper-2);border:1px solid var(--line);border-left:4px solid var(--warm);
+          border-radius:.5rem .8rem .8rem .5rem;padding:1.2rem 1.3rem}
+  .refuse ul{margin:.5rem 0 0;padding-left:1.1rem}
+  .refuse li{margin:.35rem 0}
+
+  .split{display:grid;gap:2rem;grid-template-columns:1.15fr .85fr;align-items:start}
+  @media (max-width:760px){ .split{grid-template-columns:1fr} }
+  .phone{max-width:300px;margin:0 auto;border-radius:1.4rem;overflow:hidden;border:1px solid var(--line);
+         box-shadow:var(--shadow);background:var(--paper-2)}
+  .phone img{display:block;width:100%}
+
+  table{width:100%;border-collapse:collapse;font-size:.95rem}
+  th,td{text-align:left;padding:.6rem .5rem;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-family:var(--sans);font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88em;background:#efe7da;
+       padding:.08em .34em;border-radius:.3rem}
+
+  details{background:var(--paper-2);border:1px solid var(--line);border-radius:.7rem;padding:1rem 1.2rem}
+  details summary{cursor:pointer;font-family:var(--sans);font-weight:600}
+  details p,details ul{font-size:.95rem}
+
+  footer{padding:2.4rem 0 4rem;color:var(--muted);font-size:.9rem}
+  footer a{text-underline-offset:2px}
 </style>
 </head>
 <body>
-<header>
-  <div class="brand"><span class="meter" aria-hidden="true"></span><h1>Thermals</h1></div>
-  <p class="tag">What each classical source actually says about a remedy's thermal reaction —
-  quoted in its own words, with the source named, and shown where the sources do not say the
-  same thing. The app never assigns a state.</p>
+<div class="band" role="presentation"></div>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">An offline-first Forge app</p>
+    <h1>Thermals<br><span class="thin">what the source said, not what we decided</span></h1>
+    <p class="lede">Homoeopathic remedies by thermal reaction — every statement quoted in the
+    source's own words, with the source named, and a summary computed from those quotes.
+    One row is one remedy, one source, one sentence. Nothing is inferred.</p>
+
+    <div class="cta">
+      <a class="btn primary" href="play/">Open the app →</a>
+      <a class="btn" href="https://github.com/drsamonline/app-thermals">Read the source</a>
+      <a class="btn ghost" href="#how">How it decides</a>
+    </div>
+
+    <div class="badges">
+      <a href="play/"><img alt="live: online" src="assets/badge-live.svg"></a>
+      <a href="https://github.com/drsamonline/app-thermals/actions/workflows/test.yml"><img alt="tests: 567 passing" src="assets/badge-tests.svg"></a>
+      <a href="https://github.com/drsamonline/app-thermals/actions/workflows/build-apps.yml"><img alt="build: green" src="assets/badge-build.svg"></a>
+      <a href="https://github.com/drsamonline/app-thermals/blob/main/LICENSE"><img alt="licence: PolyForm NC 1.0.0" src="assets/badge-licence.svg"></a>
+      <img alt="offline: no network" src="assets/badge-offline.svg">
+      <img alt="deps: 0 runtime" src="assets/badge-deps.svg">
+    </div>
+
+    <figure class="shot">
+      <img src="assets/app-desktop.png" alt="The Thermals app showing the full remedy list, a search box and the example queries">
+      <figcaption>The app itself — no server, no account, no network. It opens on the whole
+      remedy list and every entry says which sources speak for it.</figcaption>
+    </figure>
+  </div>
 </header>
 
 <main>
-  <div class="searchbox">
-    <input id="q" type="search" placeholder="Search the quoted sentences — try “chilly”" aria-label="Search the quoted sentences" autocomplete="off">
-    <div class="row2">
-      <button id="browse" type="button">Browse remedies</button>
-      <button id="export" type="button">Export everything</button>
+<section id="what">
+  <div class="wrap">
+    <h2>What it does</h2>
+    <p class="sub">Look up a remedy and read what each bundled source says about its thermal
+    reaction. Above the quotes sits a summary that is computed from them — never written by us.</p>
+    <div class="cards">
+      <div class="card">
+        <p class="n">01 · the quote</p>
+        <h3>Every statement carries its source</h3>
+        <p>A row is one remedy, one source, one verbatim sentence, with the book, author and year —
+        or the collection and page — named against it. A quote can never appear without its source.</p>
+      </div>
+      <div class="card">
+        <p class="n">02 · the summary</p>
+        <h3>Computed from the sentences</h3>
+        <p><code>sources agree (n)</code>, <code>sources disagree</code>, or
+        <code>one source only</code>. The last is the common case and is never rendered as
+        agreement — one voice is not a consensus.</p>
+      </div>
+      <div class="card">
+        <p class="n">03 · the note</p>
+        <h3>A dated shift, with an end date</h3>
+        <p>An acute fever, a pregnancy, a proving: a temporary shift expires on its date and stays
+        visible as expired. It never rewrites the constitutional statement.</p>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><b>164</b><span>quoted sentences</span></div>
+      <div class="stat"><b>366</b><span>remedies indexed</span></div>
+      <div class="stat"><b>12</b><span>carried by two sources</span></div>
+      <div class="stat"><b>0</b><span>names unresolved</span></div>
     </div>
   </div>
+</section>
 
-  <section id="results" aria-live="polite"></section>
-  <section id="remedy" class="hidden" aria-live="polite"></section>
+<section id="how">
+  <div class="wrap split">
+    <div>
+      <h2>What it refuses to do</h2>
+      <p class="sub">The restraint is the product. An app that guessed would be worse than no app.</p>
+      <div class="refuse">
+        <ul>
+          <li>It never assigns, derives, averages or infers a thermal state — it quotes and compares.</li>
+          <li>It never derives a classification from rubric counts or grades.</li>
+          <li>It never selects or prescribes a remedy, and never decides a patient's thermal state.</li>
+          <li>A remedy no source speaks about is <strong>unclassified</strong>: no quote, no summary.</li>
+          <li><em>Ambithermal</em> is not a state it looks for — no bundled source uses the word.</li>
+        </ul>
+      </div>
+      <details style="margin-top:1rem">
+        <summary>The extraction rule (it ships with the data)</summary>
+        <p>A thermal statement is a sentence in a source's own words containing one of:
+        <code>chilly</code>, <code>chilliness</code>, <code>always cold</code>, <code>feels cold</code>,
+        <code>feels hot</code>, <code>cold feeling</code>, <code>cold-blooded</code>,
+        <code>warm-blooded</code>, <code>always warm</code>, <code>cold/hot/warm constitution</code>,
+        <code>cold/hot patient</code>. Modality lines and modality sections are excluded, as are
+        fragments under 12 characters. The sentence is kept verbatim.</p>
+        <p>The set is narrow on purpose: in this corpus a bare <em>cold</em> is usually water, a room,
+        a modality or a fever — quoting it as a thermal reaction would be putting a meaning into the
+        source's mouth.</p>
+      </details>
+    </div>
+    <div>
+      <div class="phone">
+        <img src="assets/app-mobile.png" alt="The same app at phone width: the remedy grid in a single column">
+      </div>
+      <p class="sub" style="text-align:center;margin-top:.9rem">The same page at phone width.
+      Works from <code>file://</code> with no server at all.</p>
+    </div>
+  </div>
+</section>
 
-  <section id="browse-list" class="hidden">
-    <h2 class="r-name">Every remedy in the bundle</h2>
-    <p class="msg" id="browse-count"></p>
-    <div class="grid" id="grid"></div>
-  </section>
+<section id="sources">
+  <div class="wrap">
+    <h2>The three sources</h2>
+    <p class="sub">Public domain wherever it can be, named exactly, and never silently corrected —
+    a reading is changed only where an authority confirms it, and the page shows the name the
+    transcription printed beside the correction.</p>
+    <table>
+      <thead><tr><th>Source</th><th>What it gives</th><th>Notes</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Open Materia Medica</strong><br><span class="sub">© Dr. Sohil Momin, BHMS, 2026</span></td>
+          <td>109 quoted sentences across 82 remedy pages</td>
+          <td>The estate's own plain-language materia medica; quoted with the copyright holder's permission.</td>
+        </tr>
+        <tr>
+          <td><strong>Manual of Homoeopathic Medicine</strong><br><span class="sub">G. H. G. Jahr, trans. P. F. Curie, 1847</span></td>
+          <td>Materia medica text, public domain</td>
+          <td>Transcribed in <code>homoeopathic-materia-medica-repertory-json</code>; names repaired where a second scan confirms the reading.</td>
+        </tr>
+        <tr>
+          <td><strong>Homoeopathic Therapeutics of Diarrhoea</strong><br><span class="sub">James B. Bell, 7th ed., 1906</span></td>
+          <td>Materia medica text, public domain</td>
+          <td>Checked against a <a href="https://archive.org/details/in.ernet.dli.2015.94901">second scan of the same edition</a>; six quotes transcribed from the page images themselves.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="install">
+  <div class="wrap">
+    <h2>Run it, or check it</h2>
+    <p class="sub">No build step, no dependencies, no install. The whole app is one page and four
+    vendored kit files.</p>
+    <table>
+      <tbody>
+        <tr><td><code>node test-node.js</code></td><td>567 assertions over the data, the summary rules and the rendered output</td></tr>
+        <tr><td><code>python3 -m http.server -d docs</code></td><td>serve the landing page and the app locally</td></tr>
+        <tr><td><code>python3 tools/names.py</code></td><td>re-apply the name corrections, each with its evidence</td></tr>
+        <tr><td><code>python3 tools/text-repair.py</code></td><td>repair damaged quotes from the scan's own page text</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
 </main>
 
 <footer>
-  <div class="rule">
-    <h3>The rule this app ships</h3>
-    <p id="rule-line"></p>
-    <ul>
-      <li>One row is one remedy, one source, one verbatim sentence. The app quotes; it never labels.</li>
-      <li>The summary is computed from the sentences: <strong>sources agree (n)</strong>,
-        <strong>sources disagree</strong>, or <strong>one source only</strong>. One source is never agreement.</li>
-      <li>A remedy no source speaks about is <strong>unclassified</strong> — it carries no quote and no summary.</li>
-      <li>A dated note is a temporary shift with an end date. It never rewrites the constitutional statement.</li>
-    </ul>
+  <div class="wrap">
+    <p><strong>Thermals</strong> — part of the <a href="https://drsamonline.github.io/">drsamonline</a>
+    estate. Built with <code>web-kit</code>, <code>search-kit</code>, <code>case-kit</code> and
+    <code>export-kit</code>. PolyForm Noncommercial 1.0.0; the public-domain materia medica inside
+    stays public domain.</p>
+    <p><a href="play/">Open the app</a> · <a href="https://github.com/drsamonline/app-thermals">Source</a> ·
+    <a href="https://github.com/drsamonline/app-thermals/blob/main/README.md">README</a></p>
   </div>
-  <p id="counts"></p>
-  <p id="names"></p>
-  <p>Offline. No accounts, no server, no network at any point. Text quoted from
-  <em>Open Materia Medica</em> (© Dr. Sohil Momin, BHMS) and from the public-domain
-  materia medicas in <em>homoeopathic-materia-medica-repertory-json</em>.</p>
 </footer>
-
-<script src="vendor/web-kit.js"></script>
-<script src="vendor/search-kit.js"></script>
-<script src="vendor/case-kit.js"></script>
-<script src="vendor/export-kit.js"></script>
-<script src="data/bundle.js"></script>
-<script src="thermals.js"></script>
-<script>
-(function () {
-  "use strict";
-  var DATA = window.THERMALS_BUNDLE || { rows: [], remedies: [], meta: {} };
-  var T = window.Thermals.attach({
-    Search: window.Search, Case: window.Case, Export: window.Export, Loom: window.Loom
-  });
-
-  var idx = T.buildIndex(DATA.rows);
-  var notes = T.loadNotes();
-  var today = T.todayISO();
-
-  var elQ = document.getElementById("q");
-  var elResults = document.getElementById("results");
-  var elRemedy = document.getElementById("remedy");
-  var elBrowse = document.getElementById("browse-list");
-  var elGrid = document.getElementById("grid");
-
-  document.getElementById("counts").textContent =
-    DATA.meta.rows + " quoted sentences · " + DATA.meta.remedies + " remedies (" +
-    DATA.meta.classified + " with a statement, " + DATA.meta.unclassified +
-    " unclassified) · " + DATA.meta.sources + " sources";
-
-  document.getElementById("rule-line").textContent = DATA.meta.rule;
-
-  if (DATA.meta.names) {
-    var n = DATA.meta.names;
-    document.getElementById("names").textContent =
-      "Remedy names: " + n.confirmed + " confirmed against a named authority, " + n.corrected +
-      " corrected from one (each shows the name the transcription printed), " + n.as_printed +
-      " readable and kept as printed, " + n.unresolved + " unreadable and still kept as printed, and " +
-      n.merged_not_bundled + " entries not bundled because the transcription ran two remedies together.";
-  }
-
-  function showRemedy(slug) {
-    var r = T.remedyFor(DATA.remedies, slug);
-    if (!r) return;
-    var rows = T.rowsFor(DATA.rows, slug);
-    elRemedy.innerHTML = T.renderRemedy(r, rows, notes, today) + noteForm(slug);
-    elRemedy.classList.remove("hidden");
-    elResults.classList.add("hidden");
-    elBrowse.classList.add("hidden");
-    window.scrollTo(0, 0);
-  }
-
-  function noteForm(slug) {
-    return '<h3 class="notes-h">Add a dated note</h3>' +
-      '<div class="row2"><input type="text" id="note-text" placeholder="e.g. chilly through the fever — this week only">' +
-      '<input type="date" id="note-until" aria-label="Ends on"></div>' +
-      '<div class="row2"><button type="button" class="primary" id="note-save">Save note</button>' +
-      '<span class="msg" id="note-msg"></span></div>';
-  }
-
-  function bindNote(slug) {
-    var btn = document.getElementById("note-save");
-    if (!btn) return;
-    var until = document.getElementById("note-until");
-    until.value = today;
-    btn.addEventListener("click", function () {
-      var text = document.getElementById("note-text").value;
-      if (!text.trim()) {
-        document.getElementById("note-msg").textContent = "A note needs some text.";
-        return;
-      }
-      var n = T.makeNote({ slug: slug, text: text, until: until.value || today });
-      var next = notes.concat([n]);
-      var res = T.saveNotes(next);
-      document.getElementById("note-msg").textContent = res.ok
-        ? "Saved. It ends on " + n.until + "."
-        : res.message;
-      if (res.ok) {
-        notes = next;
-        var r = T.remedyFor(DATA.remedies, slug);
-        elRemedy.innerHTML = T.renderRemedy(r, T.rowsFor(DATA.rows, slug), notes, today) + noteForm(slug);
-        bindNote(slug);
-      }
-    });
-  }
-
-  function runSearch() {
-    var res = T.search(idx, elQ.value);
-    elResults.innerHTML = T.renderSearchHits(res);
-    elResults.classList.remove("hidden");
-    elRemedy.classList.add("hidden");
-    elBrowse.classList.add("hidden");
-  }
-
-  elQ.addEventListener("input", function () {
-    if (elQ.value.trim().length >= 2) runSearch();
-    else if (!elQ.value.trim()) {
-      elResults.classList.add("hidden");
-      elRemedy.classList.add("hidden");
-    }
-  });
-
-  document.getElementById("browse").addEventListener("click", function () {
-    elGrid.innerHTML = DATA.remedies.map(function (r) {
-      return '<a href="#/remedy/' + T.esc(r.slug) + '">' + T.esc(r.name) +
-        "<span>" + (r.classified ? r.sources.join(" · ") : "unclassified") + "</span></a>";
-    }).join("");
-    document.getElementById("browse-count").textContent =
-      DATA.remedies.length + " remedies; " + DATA.meta.unclassified +
-      " of them carry no thermal statement in any bundled source.";
-    elBrowse.classList.remove("hidden");
-    elResults.classList.add("hidden");
-    elRemedy.classList.add("hidden");
-  });
-
-  document.getElementById("export").addEventListener("click", function () {
-    var payload = T.exportPayload(DATA.rows, notes, DATA.meta);
-    if (window.Export) window.Export.json("thermals-export.json", payload);
-  });
-
-  document.addEventListener("click", function (e) {
-    var a = e.target.closest ? e.target.closest('a[href^="#/remedy/"]') : null;
-    if (!a) return;
-    e.preventDefault();
-    var slug = a.getAttribute("href").split("/remedy/")[1];
-    location.hash = "#/remedy/" + slug;
-    showRemedy(slug);
-    bindNote(slug);
-  });
-
-  function route() {
-    var m = /^#\/remedy\/(.+)$/.exec(location.hash || "");
-    if (m) { showRemedy(decodeURIComponent(m[1])); bindNote(decodeURIComponent(m[1])); }
-  }
-  window.addEventListener("hashchange", route);
-  route();
-
-  if ("serviceWorker" in navigator && location.protocol !== "file:") {
-    navigator.serviceWorker.register("sw.js").catch(function () {});
-  }
-})();
-</script>
 </body>
 </html>

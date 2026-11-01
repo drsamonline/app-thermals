@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thermals — what each source says, in its own words</title>
+<meta name="description" content="Homoeopathic remedies by thermal reaction: what each classical source actually says, quoted with the source named, and where the sources do not say the same thing. Offline, no accounts.">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#12100e">
+<style>
+  :root{
+    --paper:#faf6ef; --ink:#1d1a16; --muted:#6b6257; --line:#e0d7c8;
+    --cold:#2f6f8f; --heat:#b5432c; --card:#fffdf8; --shadow:0 1px 2px rgba(29,26,22,.06),0 8px 24px rgba(29,26,22,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --paper:#12100e; --ink:#efe8dc; --muted:#a29584; --line:#2c2721;
+           --cold:#7fb6d3; --heat:#e2785c; --card:#191613;
+           --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35); }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+       font:16px/1.6 ui-serif,Georgia,"Times New Roman",serif}
+  a{color:inherit}
+  header{padding:2.2rem 1.2rem 1.2rem;max-width:52rem;margin:0 auto}
+  .brand{display:flex;align-items:baseline;gap:.7rem;flex-wrap:wrap}
+  h1{margin:0;font-size:2rem;letter-spacing:-.01em}
+  .tag{margin:.5rem 0 0;color:var(--muted);font-size:1rem;max-width:40rem}
+  .meter{display:inline-block;width:10px;height:10px;border-radius:50%;
+         background:linear-gradient(180deg,var(--heat),var(--cold));vertical-align:middle}
+  main{max-width:52rem;margin:0 auto;padding:0 1.2rem 4rem}
+  .searchbox{position:sticky;top:0;z-index:5;background:var(--paper);padding:.8rem 0 1rem;
+             border-bottom:1px solid var(--line)}
+  input[type=search],input[type=text],input[type=date]{width:100%;padding:.75rem .9rem;font:inherit;
+    color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:.6rem}
+  input[type=search]:focus,input[type=text]:focus{outline:2px solid var(--cold);outline-offset:1px}
+  .row2{display:flex;gap:.6rem;margin-top:.6rem;flex-wrap:wrap}
+  .row2 > *{flex:1 1 12rem}
+  button{font:inherit;padding:.6rem .9rem;border-radius:.6rem;border:1px solid var(--line);
+         background:var(--card);color:var(--ink);cursor:pointer}
+  button:hover{border-color:var(--muted)}
+  button.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .msg{color:var(--muted);font-size:.95rem}
+  .msg--warn{color:var(--heat)}
+  .hit{display:block;text-decoration:none;padding:.9rem 0;border-bottom:1px solid var(--line)}
+  .hit:hover{background:var(--card)}
+  blockquote{margin:0;font-size:1.02rem}
+  .hit-src,.src{color:var(--muted);font-size:.85rem}
+  .hit-src{display:block;margin-top:.35rem;font-style:italic}
+  .summary{border-left:3px solid var(--muted);padding:.5rem .9rem;margin:1rem 0;
+           background:var(--card);border-radius:0 .5rem .5rem 0}
+  .summary--agree{border-left-color:var(--cold)}
+  .summary--disagree{border-left-color:var(--heat)}
+  .summary--unclassified{border-left-color:var(--line)}
+  .r-name{margin:1.4rem 0 .2rem;font-size:1.6rem}
+  .sources{display:flex;gap:.4rem;flex-wrap:wrap;margin:.4rem 0 1rem}
+  .chip{font-size:.78rem;letter-spacing:.02em;text-transform:uppercase;color:var(--muted);
+        border:1px solid var(--line);border-radius:999px;padding:.15rem .6rem}
+  .row{margin:1rem 0;padding:0}
+  .row figcaption{color:var(--muted);font-size:.84rem;margin-top:.35rem}
+  .chapter{font-style:italic}
+  .name-note{display:block;margin-top:.2rem;font-size:.8rem;color:var(--muted)}
+  .none{color:var(--muted);font-style:italic}
+  .notes{list-style:none;padding:0;margin:.4rem 0 1rem}
+  .notes li{padding:.4rem .7rem;border-radius:.4rem;background:var(--card);margin:.3rem 0;font-size:.95rem}
+  .notes--expired li{opacity:.6;text-decoration:line-through}
+  .when{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.82rem;margin-right:.4rem}
+  .notes-h{font-size:.9rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+  footer{max-width:52rem;margin:0 auto;padding:2rem 1.2rem 4rem;border-top:1px solid var(--line);
+         color:var(--muted);font-size:.88rem}
+  .rule{background:var(--card);border:1px solid var(--line);border-radius:.7rem;padding:1rem 1.1rem;
+        margin:1.2rem 0;font-size:.92rem}
+  .rule h3{margin:.1rem 0 .5rem;font-size:.95rem;text-transform:uppercase;letter-spacing:.06em}
+  .rule ul{margin:.4rem 0 0;padding-left:1.1rem}
+  .grid{display:grid;gap:.5rem;grid-template-columns:repeat(auto-fill,minmax(13rem,1fr))}
+  .grid a{display:block;padding:.5rem .7rem;border:1px solid var(--line);border-radius:.5rem;
+          text-decoration:none;background:var(--card);font-size:.95rem}
+  .grid a span{display:block;color:var(--muted);font-size:.8rem}
+  .hidden{display:none}
+  .chipbtn{font:inherit;font-size:.9rem;padding:.15rem .55rem;margin:0 .15rem;border-radius:999px;
+           border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+  #try a{color:var(--cold);text-underline-offset:2px}
+  @media (max-width:520px){ h1{font-size:1.6rem} }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><span class="meter" aria-hidden="true"></span><h1>Thermals</h1></div>
+  <p class="tag">What each classical source actually says about a remedy's thermal reaction —
+  quoted in its own words, with the source named, and shown where the sources do not say the
+  same thing. The app never assigns a state.</p>
+</header>
+
+<main>
+  <div class="searchbox">
+    <input id="q" type="search" placeholder="Search the quoted sentences — try “chilly”" aria-label="Search the quoted sentences" autocomplete="off">
+    <div class="row2">
+      <button id="browse" type="button">Browse all remedies</button>
+      <button id="export" type="button">Export everything</button>
+    </div>
+    <p class="msg" id="try">Try
+      <button class="chipbtn" type="button" data-q="chilly">chilly</button>
+      <button class="chipbtn" type="button" data-q="cold feeling">cold feeling</button>
+      <button class="chipbtn" type="button" data-q="warm-blooded">warm-blooded</button>
+      or open
+      <a href="#/remedy/cistus-canadensis">Cistus canadensis</a> — two sources, both cold.</p>
+  </div>
+
+  <section id="results" aria-live="polite"></section>
+  <section id="remedy" class="hidden" aria-live="polite"></section>
+
+  <section id="browse-list" class="hidden">
+    <h2 class="r-name">Every remedy in the bundle</h2>
+    <p class="msg" id="browse-count"></p>
+    <div class="grid" id="grid"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="rule">
+    <h3>The rule this app ships</h3>
+    <p id="rule-line"></p>
+    <ul>
+      <li>One row is one remedy, one source, one verbatim sentence. The app quotes; it never labels.</li>
+      <li>The summary is computed from the sentences: <strong>sources agree (n)</strong>,
+        <strong>sources disagree</strong>, or <strong>one source only</strong>. One source is never agreement.</li>
+      <li>A remedy no source speaks about is <strong>unclassified</strong> — it carries no quote and no summary.</li>
+      <li>A dated note is a temporary shift with an end date. It never rewrites the constitutional statement.</li>
+    </ul>
+  </div>
+  <p id="counts"></p>
+  <p id="names"></p>
+  <p>Offline. No accounts, no server, no network at any point. Text quoted from
+  <em>Open Materia Medica</em> (© Dr. Sohil Momin, BHMS) and from the public-domain
+  materia medicas in <em>homoeopathic-materia-medica-repertory-json</em>.</p>
+</footer>
+
+<script src="vendor/web-kit.js"></script>
+<script src="vendor/search-kit.js"></script>
+<script src="vendor/case-kit.js"></script>
+<script src="vendor/export-kit.js"></script>
+<script src="data/bundle.js"></script>
+<script src="thermals.js"></script>
+<script>
+(function () {
+  "use strict";
+  var DATA = window.THERMALS_BUNDLE || { rows: [], remedies: [], meta: {} };
+  var T = window.Thermals.attach({
+    Search: window.Search, Case: window.Case, Export: window.Export, Loom: window.Loom
+  });
+
+  var idx = T.buildIndex(DATA.rows);
+  var notes = T.loadNotes();
+  var today = T.todayISO();
+
+  var elQ = document.getElementById("q");
+  var elResults = document.getElementById("results");
+  var elRemedy = document.getElementById("remedy");
+  var elBrowse = document.getElementById("browse-list");
+  var elGrid = document.getElementById("grid");
+
+  document.getElementById("counts").textContent =
+    DATA.meta.rows + " quoted sentences · " + DATA.meta.remedies + " remedies (" +
+    DATA.meta.classified + " with a statement, " + DATA.meta.unclassified +
+    " unclassified) · " + DATA.meta.sources + " sources";
+
+  document.getElementById("rule-line").textContent = DATA.meta.rule;
+
+  if (DATA.meta.names) {
+    var n = DATA.meta.names;
+    document.getElementById("names").textContent =
+      "Remedy names: " + n.confirmed + " confirmed against a named authority, " + n.corrected +
+      " corrected from one (each shows the name the transcription printed), " + n.as_printed +
+      " readable and kept as printed, " + n.unresolved + " unreadable and still kept as printed, and " +
+      n.merged_not_bundled + " entries not bundled because the transcription ran two remedies together.";
+  }
+
+  function showRemedy(slug) {
+    var r = T.remedyFor(DATA.remedies, slug);
+    if (!r) return;
+    var rows = T.rowsFor(DATA.rows, slug);
+    elRemedy.innerHTML = T.renderRemedy(r, rows, notes, today) + noteForm(slug);
+    elRemedy.classList.remove("hidden");
+    elResults.classList.add("hidden");
+    elBrowse.classList.add("hidden");
+    window.scrollTo(0, 0);
+  }
+
+  function noteForm(slug) {
+    return '<h3 class="notes-h">Add a dated note</h3>' +
+      '<div class="row2"><input type="text" id="note-text" placeholder="e.g. chilly through the fever — this week only">' +
+      '<input type="date" id="note-until" aria-label="Ends on"></div>' +
+      '<div class="row2"><button type="button" class="primary" id="note-save">Save note</button>' +
+      '<span class="msg" id="note-msg"></span></div>';
+  }
+
+  function bindNote(slug) {
+    var btn = document.getElementById("note-save");
+    if (!btn) return;
+    var until = document.getElementById("note-until");
+    until.value = today;
+    btn.addEventListener("click", function () {
+      var text = document.getElementById("note-text").value;
+      if (!text.trim()) {
+        document.getElementById("note-msg").textContent = "A note needs some text.";
+        return;
+      }
+      var n = T.makeNote({ slug: slug, text: text, until: until.value || today });
+      var next = notes.concat([n]);
+      var res = T.saveNotes(next);
+      document.getElementById("note-msg").textContent = res.ok
+        ? "Saved. It ends on " + n.until + "."
+        : res.message;
+      if (res.ok) {
+        notes = next;
+        var r = T.remedyFor(DATA.remedies, slug);
+        elRemedy.innerHTML = T.renderRemedy(r, T.rowsFor(DATA.rows, slug), notes, today) + noteForm(slug);
+        bindNote(slug);
+      }
+    });
+  }
+
+  function runSearch() {
+    var res = T.search(idx, elQ.value);
+    elResults.innerHTML = T.renderSearchHits(res);
+    elResults.classList.remove("hidden");
+    elRemedy.classList.add("hidden");
+    elBrowse.classList.add("hidden");
+  }
+
+  elQ.addEventListener("input", function () {
+    if (elQ.value.trim().length >= 2) runSearch();
+    else if (!elQ.value.trim()) {
+      elResults.classList.add("hidden");
+      elRemedy.classList.add("hidden");
+    }
+  });
+
+  document.getElementById("browse").addEventListener("click", function () {
+    elGrid.innerHTML = DATA.remedies.map(function (r) {
+      return '<a href="#/remedy/' + T.esc(r.slug) + '">' + T.esc(r.name) +
+        "<span>" + (r.classified ? r.sources.join(" · ") : "unclassified") + "</span></a>";
+    }).join("");
+    document.getElementById("browse-count").textContent =
+      DATA.remedies.length + " remedies; " + DATA.meta.unclassified +
+      " of them carry no thermal statement in any bundled source.";
+    elBrowse.classList.remove("hidden");
+    elResults.classList.add("hidden");
+    elRemedy.classList.add("hidden");
+  });
+
+  document.getElementById("export").addEventListener("click", function () {
+    var payload = T.exportPayload(DATA.rows, notes, DATA.meta);
+    if (window.Export) window.Export.json("thermals-export.json", payload);
+  });
+
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest('a[href^="#/remedy/"]') : null;
+    if (!a) return;
+    e.preventDefault();
+    var slug = a.getAttribute("href").split("/remedy/")[1];
+    location.hash = "#/remedy/" + slug;
+    showRemedy(slug);
+    bindNote(slug);
+  });
+
+  function route() {
+    var m = /^#\/remedy\/(.+)$/.exec(location.hash || "");
+    if (m) { showRemedy(decodeURIComponent(m[1])); bindNote(decodeURIComponent(m[1])); }
+  }
+  window.addEventListener("hashchange", route);
+  route();
+
+  // first load: show the whole remedy list rather than an empty page
+  if (!location.hash) {
+    document.getElementById("browse").click();
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll(".chipbtn"), function (b) {
+    b.addEventListener("click", function () {
+      elQ.value = b.getAttribute("data-q");
+      runSearch();
+    });
+  });
+
+  if ("serviceWorker" in navigator && location.protocol !== "file:") {
+    navigator.serviceWorker.register("sw.js").catch(function () {});
+  }
+})();
+</script>
+</body>
+</html>

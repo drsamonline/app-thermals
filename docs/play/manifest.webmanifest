@@ -1,0 +1,13 @@
+{
+  "name": "Thermals — what each source says",
+  "short_name": "Thermals",
+  "description": "Homoeopathic remedies by thermal reaction: each source's own words, quoted with the source named, offline.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf6ef",
+  "theme_color": "#12100e",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

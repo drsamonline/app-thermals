@@ -27,7 +27,7 @@ function test(name, fn) { current = name; fn(); }
 /* ---- the bundle, exactly as the page receives it ------------------------- */
 var sandbox = { window: {} };
 vm.createContext(sandbox);
-vm.runInContext(fs.readFileSync(path.join(__dirname, "docs", "data", "bundle.js"), "utf8"), sandbox);
+vm.runInContext(fs.readFileSync(path.join(__dirname, "docs", "play", "data", "bundle.js"), "utf8"), sandbox);
 var BUNDLE = sandbox.window.THERMALS_BUNDLE;
 var ROWS = BUNDLE.rows, REMEDIES = BUNDLE.remedies, META = BUNDLE.meta;
 
@@ -177,7 +177,7 @@ test("the bundle states its own size instead of implying the corpus is complete"
 });
 
 test("the page loads the module and the data it is tested against", function () {
-  var html = fs.readFileSync(path.join(__dirname, "docs", "index.html"), "utf8");
+  var html = fs.readFileSync(path.join(__dirname, "docs", "play", "index.html"), "utf8");
   ["vendor/web-kit.js", "vendor/search-kit.js", "vendor/case-kit.js", "vendor/export-kit.js",
    "data/bundle.js", "thermals.js"].forEach(function (src) {
     ok(html.indexOf(src) >= 0, "the page loads " + src);
@@ -188,10 +188,10 @@ test("the page loads the module and the data it is tested against", function () 
   ok(html.indexOf("manifest.webmanifest") >= 0, "the page links its manifest");
   // the page's copy of the module and the tested copy must be the same bytes
   var rootJs = fs.readFileSync(path.join(__dirname, "thermals.js"), "utf8");
-  var pageJs = fs.readFileSync(path.join(__dirname, "docs", "thermals.js"), "utf8");
+  var pageJs = fs.readFileSync(path.join(__dirname, "docs", "play", "thermals.js"), "utf8");
   ok(rootJs === pageJs, "docs/thermals.js is byte-identical to the tested thermals.js");
-  ["docs/vendor/web-kit.js", "docs/vendor/search-kit.js", "docs/vendor/case-kit.js",
-   "docs/vendor/export-kit.js", "docs/data/bundle.js", "docs/sw.js", "docs/manifest.webmanifest"]
+  ["docs/play/vendor/web-kit.js", "docs/play/vendor/search-kit.js", "docs/play/vendor/case-kit.js",
+   "docs/play/vendor/export-kit.js", "docs/play/data/bundle.js", "docs/play/sw.js", "docs/play/manifest.webmanifest"]
     .forEach(function (f) {
       ok(fs.existsSync(path.join(__dirname, f)), f + " exists");
     });
