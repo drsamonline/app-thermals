@@ -1,0 +1,209 @@
+#!/usr/bin/env node
+/* Thermals — the test suite. Every claim in the README is checked here.
+ *
+ *   node test-node.js
+ *
+ * The tests drive the SAME module the page loads (thermals.js) and the SAME
+ * bundled data (docs/data/bundle.js), so a green suite is evidence about what a
+ * reader will actually see, not about a copy kept for the tests.
+ */
+"use strict";
+
+var fs = require("fs");
+var path = require("path");
+var vm = require("vm");
+
+var Search = require("./vendor/search-kit.js");
+var T = require("./thermals.js");
+
+var passed = 0, failed = 0, current = "";
+function ok(cond, msg) {
+  if (cond) { passed++; }
+  else { failed++; console.log("  FAIL [" + current + "] " + msg); }
+}
+function eq(a, b, msg) { ok(a === b, msg + " (got " + JSON.stringify(a) + ", want " + JSON.stringify(b) + ")"); }
+function test(name, fn) { current = name; fn(); }
+
+/* ---- the bundle, exactly as the page receives it ------------------------- */
+var sandbox = { window: {} };
+vm.createContext(sandbox);
+vm.runInContext(fs.readFileSync(path.join(__dirname, "docs", "data", "bundle.js"), "utf8"), sandbox);
+var BUNDLE = sandbox.window.THERMALS_BUNDLE;
+var ROWS = BUNDLE.rows, REMEDIES = BUNDLE.remedies, META = BUNDLE.meta;
+
+/* a storage that behaves like web-kit's, including the full-quota answer */
+function memStorage(full) {
+  var box = {};
+  return {
+    get: function (k, d) { return Object.prototype.hasOwnProperty.call(box, k) ? box[k] : d; },
+    set: function (k, v) { if (full) return false; box[k] = v; return true; }
+  };
+}
+T.attach({ Search: Search, Loom: { storage: memStorage(false) } });
+var IDX = T.buildIndex(ROWS);
+
+/* ======================================================================= */
+test("the bundle is the extracted data, not a hand-kept copy", function () {
+  var onDisk = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "rows.json"), "utf8"));
+  eq(ROWS.length, onDisk.length, "bundle row count equals data/rows.json");
+  var remediesOnDisk = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "remedies.json"), "utf8"));
+  eq(REMEDIES.length, remediesOnDisk.length, "bundle remedy count equals data/remedies.json");
+  eq(META.rows, ROWS.length, "meta.rows matches the bundle");
+});
+
+test("every row is verbatim, sourced and attributable", function () {
+  var bad = ROWS.filter(function (r) {
+    return !r.sentence || r.sentence.length < 12 || !r.source || !r.source_short ||
+           !r.remedy || !r.remedy_slug || (r.side !== "cold" && r.side !== "heat");
+  });
+  eq(bad.length, 0, "no row is missing its sentence, source, remedy or side");
+  var noChapter = ROWS.filter(function (r) { return typeof r.chapter !== "string"; });
+  eq(noChapter.length, 0, "every row carries a chapter field (may be empty)");
+  // a quote is the source's, never the app's: no row may carry a label the
+  // sources never wrote
+  var labelled = ROWS.filter(function (r) { return /ambithermal/i.test(r.sentence); });
+  eq(labelled.length, 0, "no row quotes 'ambithermal' — no bundled source uses the word");
+});
+
+test("Cistus canadensis — two sources, both cold, quoted separately", function () {
+  var rows = T.rowsFor(ROWS, "cistus-canadensis");
+  var s = T.summarise(rows);
+  eq(s.kind, "agree", "summary kind is agree");
+  eq(s.label, "sources agree (2)", "summary label reads sources agree (2)");
+  eq(s.sources.length, 2, "exactly two source names");
+  ok(s.sources.indexOf("Open Materia Medica") >= 0, "Open Materia Medica is named");
+  ok(s.sources.indexOf("Manual of Homoeopathic Medicine, Part I: Materia Medica") >= 0,
+     "Jahr 1847 is named");
+  var sides = {};
+  rows.forEach(function (r) { sides[r.side] = true; });
+  eq(Object.keys(sides).join(","), "cold", "both sources point to the cold side");
+
+  var html = T.renderRemedy(T.remedyFor(REMEDIES, "cistus-canadensis"), rows, [], "2026-11-01");
+  ok(html.indexOf("sources agree (2)") >= 0, "the page renders sources agree (2)");
+  ok(/Chilly disposition\./.test(html), "Jahr's own sentence is on the page");
+  ok(/always cold/i.test(html), "Open Materia Medica's own sentence is on the page");
+  // one row per source, each with its own citation
+  eq((html.match(/<blockquote>/g) || []).length, rows.length, "one blockquote per row");
+  eq((html.match(/class="src"/g) || []).length, rows.length, "every quote carries its source");
+  ok(html.indexOf('<span class="src"></span>') < 0, "no quote is rendered without its source name");
+});
+
+test("a one-source remedy never reads as agreement", function () {
+  var single = null;
+  for (var i = 0; i < REMEDIES.length && !single; i++) {
+    var r = REMEDIES[i];
+    var rows = T.rowsFor(ROWS, r.slug);
+    if (rows.length && T.summarise(rows).kind === "one-source") single = r;
+  }
+  ok(!!single, "the bundle contains at least one one-source remedy");
+  var rows = T.rowsFor(ROWS, single.slug);
+  var s = T.summarise(rows);
+  eq(s.label, "one source only", "label is 'one source only'");
+  var html = T.renderRemedy(single, rows, [], "2026-11-01");
+  ok(html.indexOf("one source only") >= 0, "the page says one source only");
+  ok(html.indexOf("sources agree") < 0, "the page never says sources agree here");
+  ok(/not agreement/i.test(s.detail), "the explanation says it is not agreement");
+});
+
+test("a remedy no source speaks about is unclassified, with no quote and no summary", function () {
+  var un = REMEDIES.filter(function (r) { return !r.classified; });
+  ok(un.length > 0, "the bundle contains unclassified remedies");
+  var target = un[0];
+  var rows = T.rowsFor(ROWS, target.slug);
+  eq(rows.length, 0, "an unclassified remedy has no rows");
+  var s = T.summarise(rows);
+  eq(s.kind, "unclassified", "summary kind is unclassified");
+  eq(s.label, "unclassified", "summary label is unclassified");
+  var html = T.renderRemedy(target, rows, [], "2026-11-01");
+  eq((html.match(/<blockquote>/g) || []).length, 0, "no quoted sentence is rendered");
+  eq((html.match(/class="summary/g) || []).length, 0, "no summary is rendered");
+  ok(/Nothing has been assigned/.test(html), "the page says nothing was assigned");
+});
+
+test("searching 'chilly' returns quoted sentences, each with its source", function () {
+  var res = T.search(IDX, "chilly");
+  ok(res.ok, "the search ran");
+  ok(res.rows.length > 0, "at least one quoted sentence carries 'chilly'");
+  var sourceless = res.rows.filter(function (r) { return !r.source || !r.source_short; });
+  eq(sourceless.length, 0, "every returned row carries a non-empty source");
+  var html = T.renderSearchHits(res);
+  ok((html.match(/hit-src/g) || []).length === res.rows.length, "every hit shows its source");
+  ok(/chilly/i.test(html), "the matched word is on the page");
+});
+
+test("a too-short term says the term was too short, not 'no matches'", function () {
+  var res = T.search(IDX, "c");
+  eq(res.ok, false, "the search is refused");
+  eq(res.error, "too-short", "the reason is too-short");
+  ok(/too short/i.test(res.message), "the message says the term was too short");
+  var html = T.renderSearchHits(res);
+  ok(/too short/i.test(html), "the page says so too");
+  ok(!/No quoted sentence/.test(html), "it does not claim there were no matches");
+});
+
+test("a dated note expires and never rewrites the statement", function () {
+  var n = T.makeNote({ slug: "cistus-canadensis", text: "chilly through the fever",
+                       from: "2026-11-01", until: "2026-11-08" });
+  var notes = [n];
+  var on = T.notesFor(notes, "cistus-canadensis", "2026-11-03");
+  eq(on.active.length, 1, "the note is active inside its window");
+  eq(on.expired.length, 0, "and is not expired there");
+  var after = T.notesFor(notes, "cistus-canadensis", "2026-11-09");
+  eq(after.active.length, 0, "the note is no longer active after its end date");
+  eq(after.expired.length, 1, "the expired note is still shown, marked expired");
+  var html = T.renderRemedy(T.remedyFor(REMEDIES, "cistus-canadensis"),
+                            T.rowsFor(ROWS, "cistus-canadensis"), notes, "2026-11-09");
+  ok(/expired 2026-11-08/.test(html), "the page marks it expired");
+  ok(html.indexOf("sources agree (2)") >= 0,
+     "the constitutional summary is unchanged by the note");
+});
+
+test("a full or unavailable store is reported, and the bundle still reads", function () {
+  T.attach({ Search: Search, Loom: { storage: memStorage(true) } });
+  var res = T.saveNotes([T.makeNote({ slug: "sulphur", text: "x", until: "2026-12-01" })]);
+  eq(res.ok, false, "the save is reported as not landed");
+  ok(/not saved/i.test(res.message), "the message says the note was not saved");
+  ok(/bundled rows/i.test(res.message), "and that the bundled rows still read");
+  var html = T.renderRemedy(T.remedyFor(REMEDIES, "sulphur"), T.rowsFor(ROWS, "sulphur"), [], "2026-11-01");
+  ok(html.length > 0 && html.indexOf("sulphur") >= 0, "the remedy still renders");
+  T.attach({ Search: Search, Loom: { storage: memStorage(false) } });
+});
+
+test("the bundle states its own size instead of implying the corpus is complete", function () {
+  eq(META.rows, ROWS.length, "the stated row count is the real one");
+  eq(META.classified + META.unclassified, META.remedies, "classified + unclassified = remedies");
+  ok(/rule/i.test(META.rule) || META.rule.length > 40, "the extraction rule ships in the bundle");
+  ok(META.sources >= 2, "at least two sources are bundled");
+});
+
+test("the page loads the module and the data it is tested against", function () {
+  var html = fs.readFileSync(path.join(__dirname, "docs", "index.html"), "utf8");
+  ["vendor/web-kit.js", "vendor/search-kit.js", "vendor/case-kit.js", "vendor/export-kit.js",
+   "data/bundle.js", "thermals.js"].forEach(function (src) {
+    ok(html.indexOf(src) >= 0, "the page loads " + src);
+  });
+  ["q", "results", "remedy", "browse-list", "export", "counts"].forEach(function (id) {
+    ok(html.indexOf('id="' + id + '"') >= 0, "the page has #" + id);
+  });
+  ok(html.indexOf("manifest.webmanifest") >= 0, "the page links its manifest");
+  // the page's copy of the module and the tested copy must be the same bytes
+  var rootJs = fs.readFileSync(path.join(__dirname, "thermals.js"), "utf8");
+  var pageJs = fs.readFileSync(path.join(__dirname, "docs", "thermals.js"), "utf8");
+  ok(rootJs === pageJs, "docs/thermals.js is byte-identical to the tested thermals.js");
+  ["docs/vendor/web-kit.js", "docs/vendor/search-kit.js", "docs/vendor/case-kit.js",
+   "docs/vendor/export-kit.js", "docs/data/bundle.js", "docs/sw.js", "docs/manifest.webmanifest"]
+    .forEach(function (f) {
+      ok(fs.existsSync(path.join(__dirname, f)), f + " exists");
+    });
+});
+
+test("export carries the rows, the notes and the rule", function () {
+  var p = T.exportPayload(ROWS, [T.makeNote({ slug: "sulphur", text: "n", until: "2026-12-01" })], META);
+  eq(p.format, "thermals/export", "the export names its format");
+  eq(p.rows.length, ROWS.length, "every row is in the export");
+  eq(p.notes.length, 1, "the notes are in the export");
+  ok(p.rule && p.rule.length > 40, "the rule travels with the data");
+});
+
+console.log(passed + " passed, " + failed + " failed");
+process.exit(failed ? 1 : 0);

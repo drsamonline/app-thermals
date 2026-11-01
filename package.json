@@ -1,0 +1,11 @@
+{
+  "name": "app-thermals",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Homoeopathic remedies by thermal reaction: each source's own words, quoted with the source named, offline.",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "test": "node test-node.js",
+    "build": "python3 tools/make-bundle.py"
+  }
+}

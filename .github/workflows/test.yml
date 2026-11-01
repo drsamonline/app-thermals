@@ -1,0 +1,31 @@
+name: Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: No dependencies to install
+        run: test ! -f package-lock.json
+      - name: Thermals suite
+        run: node test-node.js
+      - name: The committed bundle is the build of data/
+        run: |
+          python3 tools/make-bundle.py > /dev/null
+          if ! git diff --quiet -- docs/data/bundle.js; then
+            echo "::error::docs/data/bundle.js is stale - run python3 tools/make-bundle.py and commit the result"
+            git --no-pager diff --stat -- docs/data/bundle.js
+            exit 1
+          fi
