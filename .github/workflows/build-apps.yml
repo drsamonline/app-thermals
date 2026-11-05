@@ -26,7 +26,7 @@ concurrency:
 
 jobs:
   app:
-    uses: drsamonline/app-builder/.github/workflows/build.yml@main
+    uses: drsamonline/app-builder/.github/workflows/build.yml@97cd6e6566f0b722e854740ef5d360416ec0da01
     with:
       app_name: app-thermals
       app_src: docs/play
