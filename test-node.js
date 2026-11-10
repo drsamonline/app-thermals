@@ -316,5 +316,18 @@ test("both surfaces offer a light/dark toggle and never force one", function () 
   ok(/:root\{\s*--void:#f7f3ea/.test(land), "the landing page's base palette is the light one");
 });
 
+
+/* ---- the dated override uses the clinician's day, not UTC's ----
+ * Run with TZ=Asia/Kolkata (test.yml sets it) or this passes against the old
+ * code: at 04:00 in India, toISOString() is still yesterday. */
+test("todayISO is the local day", function () {
+  var early = new Date(2026, 10, 10, 4, 0, 0);       // local 04:00, 10 Nov 2026
+  eq(T.todayISO(early.getTime()), "2026-11-10", "04:00 local is that day");
+  var late = new Date(2026, 10, 10, 23, 30, 0);
+  eq(T.todayISO(late.getTime()), "2026-11-10", "23:30 local is that day");
+  var n = T.makeNote({ slug: "s", text: "acute", from: T.todayISO(early.getTime()), until: "2026-11-12" });
+  eq(T.activeNotes([n], "2026-11-10").active.length, 1, "a note written at 04:00 is active that day");
+});
+
 console.log(passed + " passed, " + failed + " failed");
 process.exit(failed ? 1 : 0);

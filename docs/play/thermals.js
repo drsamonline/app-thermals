@@ -125,9 +125,14 @@
   // A dated override: a temporary shift (an acute fever, a pregnancy, a proving)
   // that expires. It never rewrites the constitutional statement, and an expired
   // one stays visible as expired rather than disappearing.
+  // The clinician's calendar day, not UTC's. toISOString() is timezone-free, so a
+  // note written at 04:00 in India was dated the previous day — and since
+  // activeNotes() compares "until" against this same string, the override expired
+  // a day early too.
   T.todayISO = function (now) {
     var d = now == null ? new Date() : new Date(now);
-    return d.toISOString().slice(0, 10);
+    var p = function (n) { return (n < 10 ? "0" : "") + n; };
+    return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
   };
 
   T.makeNote = function (o) {

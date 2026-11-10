@@ -20,6 +20,10 @@ jobs:
       - name: No dependencies to install
         run: test ! -f package-lock.json
       - name: Thermals suite
+        # In the timezone the app's users are in: the calendar-day assertions are
+        # a no-op under UTC, which is where the bug hid.
+        env:
+          TZ: Asia/Kolkata
         run: node test-node.js
       - name: The committed bundle is the build of data/
         run: |
